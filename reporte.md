@@ -9,7 +9,7 @@ Mayo x, 2026
 
 Supervisor: Paúl Aguilar
 
-# INTRODUCCIÓN
+# Introducción
 
 En la presente era digital, tener un dispositivo movil se ha vuelto indispensable. Nos han facilitado varios aspectos de 
 nuestra vida, como la comunicación, traslado, banca, entretenimiento, entre más cosas. Por consecuencia, nuestros dispositivos
@@ -18,7 +18,7 @@ más sensibles como la ubicación y salud. El presente reporte tiene como objeti
 cadenas de explotación (_exploit chains_), cómo se utilizan para vulnerar nuestra privacidad y qué acciones podemos tomar 
 a partir de los hallazgos.
 
-# CADENAS DE ATAQUES
+# Cadenas de Ataque
 
 Para que un software espía, ahora _spyware_, logre tomar el control total de un teléfono de manera remota, no basta con solo una falla den la seguridad.
 Los atacantes deben de encadenar varios fallos, ahora _exploits_, para evadir las defensas del sistema. Una cadena de explotación
@@ -40,11 +40,11 @@ permanente y persistente.
 ## Impacto en la Ciudadanía
 Este fenómeno no es ajeno a países donde la vigilancia y censura es mayor. En México se han documentado el uso de cadenas contra
 científicos que promovían impuestos a bebidas azucaradas [1](https://citizenlab.ca/research/bittersweet-nso-mexico-spyware/),
-defensres de derechos humanos que investigan desapariciones y periodistas que denuncian la corrupción [2](https://ejercitoespia.r3d.mx/ejercito-espia/)
+defensores de derechos humanos que investigan desapariciones y periodistas que denuncian la corrupción [2](https://ejercitoespia.r3d.mx/ejercito-espia/)
 Mientras que inicialmente estas cadenas requerían la interacción mínima con el usuario, como dar clic en un enlace, las cadenas
 han evolucionado para que ocurran de manera silenciosa, sin que la víctima se de cuenta de dónde pudo ser infectado. (_0-click_)
 
-# EJEMPLO DE CADENAS DE ATAQUE
+# Ejemplo de Cadena de Ataque
 
 Se conceptualizó una cadena de ataque de tipo “1 clic”, es decir, que sí requiere interacción con la víctima, pero es mínima. 
 La cadena empieza con la víctima recibiendo un enlace a través de diversos medios de comunicación, esta incluye los 
