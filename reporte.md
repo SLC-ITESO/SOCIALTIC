@@ -426,122 +426,15 @@ Por último, se comprobó la creación de todos los archivos esperados:
 Al hacer la comparación y que estén igual, se pone en marcha la cadena.
 
 ![crash.png](imgs/crash.png)
+
 *Crash de CVE-2023-4863*
 
 Una vez finalizado, se repite el mismo proceso para realizar la extracción ahora del emulador atacado.
 
 ![result.png](result.png)
+
 *Ambas extracciones, empezando con a09 es el limpio, 63f es el post explotación*
 
-
-```bash
-        MVT - Mobile Verification Toolkit
-                https://mvt.re
-                Version: 2.7.0
-                You have not yet downloaded any indicators, check the `download-iocs` command!
-
-22:22:30 INFO     [mvt.android.cmd_check_androidqf] Loaded a total of 0 unique indicators                                          
-INFO     [mvt] Checking AndroidQF acquisition at path: a09516af-6a66-4df3-a2ca-2ee9f789b903                               
-INFO     [mvt.android.modules.androidqf.aqf_packages] Running module AQFPackages...                                       
-INFO     [mvt.android.modules.androidqf.aqf_packages] Found 163 packages in packages.json                                 
-INFO     [mvt.android.modules.androidqf.aqf_processes] Running module AQFProcesses...                                     
-INFO     [mvt.android.modules.androidqf.aqf_getprop] Running module AQFGetProp...                                         
-INFO     [mvt.android.modules.androidqf.aqf_getprop] Extracted a total of 415 properties                                  
-INFO     [mvt.android.modules.androidqf.aqf_getprop] gsm.sim.operator.alpha: T-Mobile                                     
-INFO     [mvt.android.modules.androidqf.aqf_getprop] gsm.sim.operator.iso-country: us                                     
-INFO     [mvt.android.modules.androidqf.aqf_getprop] persist.sys.timezone: GMT                                            
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.boot.serialno: EMULATOR36X4X9X0                                   
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.build.version.sdk: 30                                             
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.build.version.security_patch: 2021-08-05                          
-WARNING  [mvt.android.modules.androidqf.aqf_getprop] This phone has not received security updates for more than six months
-(last update: 2021-08-05)                                                                                        
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.cpu.abi: x86_64                                           
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.locale: en-US                                             
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.vendor.manufacturer: unknown                              
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.vendor.model: Android SDK built for x86_64                
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.vendor.name: sdk_phone_x86_64                             
-INFO     [mvt.android.modules.androidqf.aqf_settings] Running module AQFSettings...                                       
-INFO     [mvt.android.modules.androidqf.aqf_settings] Identified 208 settings                                             
-WARNING  [mvt.android.modules.androidqf.aqf_settings] Found suspicious "global" setting "verifier_verify_adb_installs = 0"
-(disabled Google Play Services apps verification)                                                                
-INFO     [mvt.android.modules.androidqf.aqf_files] Running module AQFFiles...                                             
-22:22:32 INFO     [mvt.android.modules.androidqf.aqf_files] Found a total of 83567 files                                           
-22:22:34 INFO     [mvt.android.modules.androidqf.sms] Running module SMS...                                                        
-INFO     [mvt.android.modules.androidqf.sms] No backup data found                                                         
-INFO     [mvt.android.modules.androidqf.root_binaries] Running module RootBinaries...                                     
-INFO     [mvt.android.modules.androidqf.root_binaries] Found 1 root binaries                                              
-WARNING  [mvt.android.modules.androidqf.root_binaries] Found root binary "su" at path "/system/xbin/su"                   
-WARNING  [mvt.android.modules.androidqf.root_binaries] Device shows signs of rooting with 1 root binaries found           
-INFO     [mvt.android.modules.androidqf.mounts] Running module Mounts...                                                  
-INFO     [mvt.android.modules.androidqf.mounts] Found mount information file:                                             
-a09516af-6a66-4df3-a2ca-2ee9f789b903/mounts.json                                                                 
-INFO     [mvt.android.modules.androidqf.mounts] Extracted a total of 99 mount entries                                     
-INFO     [mvt.android.modules.androidqf.mounts] Data partition: /data mounted as ext4 with options:                       
-rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic                                                        
-INFO     [mvt.android.modules.androidqf.mounts] Parsed 99 mount entries                                                   
-INFO     [mvt.android.modules.bugreport.dumpsys_accessibility] Running module DumpsysAccessibility...                     
-INFO     [mvt.android.modules.bugreport.dumpsys_accessibility] Identified a total of 0 accessibility services             
-INFO     [mvt.android.modules.bugreport.dumpsys_activities] Running module DumpsysActivities...                           
-INFO     [mvt.android.modules.bugreport.dumpsys_activities] Extracted 525 package activities                              
-INFO     [mvt.android.modules.bugreport.dumpsys_appops] Running module DumpsysAppops...                                   
-22:22:35 INFO     [mvt.android.modules.bugreport.dumpsys_appops] Identified a total of 20 packages in App-Ops Manager              
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_daily] Running module DumpsysBatteryDaily...                      
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_daily] Extracted a total of 0 battery daily stats                 
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_history] Running module DumpsysBatteryHistory...                  
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_history] Extracted a total of 35 battery history records          
-INFO     [mvt.android.modules.bugreport.dumpsys_dbinfo] Running module DumpsysDBInfo...                                   
-INFO     [mvt.android.modules.bugreport.dumpsys_dbinfo] Extracted a total of 300 database connection pool records         
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] Running module DumpsysGetProp...                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] Extracted 696 Android system properties                          
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] gsm.sim.operator.alpha: T-Mobile                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] gsm.sim.operator.iso-country: us                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] persist.sys.timezone: GMT                                        
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.boot.serialno: EMULATOR36X4X9X0                               
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.build.version.sdk: 30                                         
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.build.version.security_patch: 2021-08-05                      
-WARNING  [mvt.android.modules.bugreport.dumpsys_getprop] This phone has not received security updates for more than six   
-months (last update: 2021-08-05)                                                                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.cpu.abi: x86_64                                       
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.locale: en-US                                         
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.vendor.manufacturer: unknown                          
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.vendor.model: Android SDK built for x86_64            
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.vendor.name: sdk_phone_x86_64                         
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Running module DumpsysPackages...                               
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Found package "android" requested 20 potentially dangerous      
-permissions                                                                                                      
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Found package "com.android.dialer" requested 10 potentially     
-dangerous permissions                                                                                            
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Extracted details on 164 packages                               
-INFO     [mvt.android.modules.bugreport.dumpsys_platform_compat] Running module DumpsysPlatformCompat...                  
-INFO     [mvt.android.modules.bugreport.dumpsys_platform_compat] Found 0 uninstalled apps                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Running module DumpsysReceivers...                             
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Extracted receivers for 137 intents                            
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Found a receiver to intercept incoming SMS messages:           
-"com.android.messaging/.receiver.AbortSmsReceiver"                                                               
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Found a receiver to intercept incoming SMS messages:           
-"com.android.messaging/.receiver.SmsReceiver"                                                                    
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Found a receiver monitoring outgoing calls:                    
-"com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"                                                  
-INFO     [mvt.android.modules.bugreport.dumpsys_adb_state] Running module DumpsysADBState...                              
-INFO     [mvt.android.modules.bugreport.dumpsys_adb_state] Identified a total of 6 trusted ADB keys                       
-INFO     [mvt.android.modules.bugreport.fs_timestamps] Running module BugReportTimestamps...                              
-INFO     [mvt.android.modules.bugreport.fs_timestamps] Extracted a total of 141 filesystem timestamps from bugreport.     
-INFO     [mvt.android.modules.bugreport.fs_timestamps] The BugReportTimestamps module does not support checking for       
-indicators                                                                                                       
-INFO     [mvt.android.modules.bugreport.tombstones] Running module Tombstones...                                          
-ERROR    [mvt.android.modules.bugreport.tombstones] Unable to find any tombstone files. Did you provide a valid bugreport
-archive?                                                                                                         
-WARNING  [mvt.android.cmd_check_androidqf] Skipping backup modules as no backup.ab found in AndroidQF data.               
-22:22:36 INFO     [mvt.android.cmd_check_androidqf] Please disable Developer Options and ADB (Android Debug Bridge) on the device  
-once finished with the acquisition. ADB is a powerful tool which can allow unauthorized access to the device.    
-WARNING   NOTE: Detected indicators of compromise. Only expert review can confirm if the detected indicators are signs of
-an attack.
-
-                  Please seek reputable expert help if you have serious concerns about a possible spyware attack. Such support is  
-                  available to human rights defenders and civil society through Amnesty International's Security Lab at            
-                  https://securitylab.amnesty.org/get-help/?c=mvt                                                                  
-         WARNING  [mvt] The analysis of the AndroidQF acquisition produced 1 detections!
-```
 # Recomendaciones
 
 # Conclusiones
