@@ -268,7 +268,7 @@ Y al revisar logcat, se encuentra lo siguiente el crash con la señal SIGSEGV c�
 confirmación de que el proceso del sandbox de Chrome murió
 
 ![img.png](imgs/img_4.png)
-![img.png](img_5.png)
+![img.png](imgs/img_5.png)
 
 Al mostrar que el sandbox process murió, se confirma el correcto funcionamiento parcial del PoC de CVE-2023-4863.
 
@@ -397,7 +397,7 @@ SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior ../../src/gpu/ganesh/ops
 Primero, se volvió a crear un entorno en blanco para lograr observar los efectos, esto se hace debido a que el anterior
 dispositivo fue parte del desarrollo del PoC y, por lo tanto, tuvo varios errores que pueden afectar un análisis de la
 prueba final.
-![img_1.png](img_1.png)
+![img_1.png](imgs/sigsys31.png)
 
 Después, se instaló el apk del Chrome vulnerable. Se obtuvo del sitio APKmirror, la versión exacta fue 116.0.5845.114.
 Una vez con el apk, se le instaló directamente al dispositivo con
@@ -426,124 +426,283 @@ Por último, se comprobó la creación de todos los archivos esperados:
 Al hacer la comparación y que estén igual, se pone en marcha la cadena.
 
 ![crash.png](imgs/crash.png)
+
 *Crash de CVE-2023-4863*
 
 Una vez finalizado, se repite el mismo proceso para realizar la extracción ahora del emulador atacado.
 
-![result.png](result.png)
+![result.png](imgs/result.png)
+
 *Ambas extracciones, empezando con a09 es el limpio, 63f es el post explotación*
 
+Una vez se cuentan con ambas extracciones ya es posible hacer un análisis. Sin embargo, para más claridad sobre los IOCs,
+se utilizó la herramienta de MVT. 
+
+## Command.log
+
+Command.log es un archivo que se genera después de que mvt termine de analizar los archivos en manera de resumen. Lo 
+siguiente fue lo más interesante que se encontró dentro del archivo *command.log*
 
 ```bash
-        MVT - Mobile Verification Toolkit
-                https://mvt.re
-                Version: 2.7.0
-                You have not yet downloaded any indicators, check the `download-iocs` command!
-
-22:22:30 INFO     [mvt.android.cmd_check_androidqf] Loaded a total of 0 unique indicators                                          
-INFO     [mvt] Checking AndroidQF acquisition at path: a09516af-6a66-4df3-a2ca-2ee9f789b903                               
-INFO     [mvt.android.modules.androidqf.aqf_packages] Running module AQFPackages...                                       
-INFO     [mvt.android.modules.androidqf.aqf_packages] Found 163 packages in packages.json                                 
-INFO     [mvt.android.modules.androidqf.aqf_processes] Running module AQFProcesses...                                     
-INFO     [mvt.android.modules.androidqf.aqf_getprop] Running module AQFGetProp...                                         
-INFO     [mvt.android.modules.androidqf.aqf_getprop] Extracted a total of 415 properties                                  
-INFO     [mvt.android.modules.androidqf.aqf_getprop] gsm.sim.operator.alpha: T-Mobile                                     
-INFO     [mvt.android.modules.androidqf.aqf_getprop] gsm.sim.operator.iso-country: us                                     
-INFO     [mvt.android.modules.androidqf.aqf_getprop] persist.sys.timezone: GMT                                            
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.boot.serialno: EMULATOR36X4X9X0                                   
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.build.version.sdk: 30                                             
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.build.version.security_patch: 2021-08-05                          
-WARNING  [mvt.android.modules.androidqf.aqf_getprop] This phone has not received security updates for more than six months
-(last update: 2021-08-05)                                                                                        
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.cpu.abi: x86_64                                           
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.locale: en-US                                             
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.vendor.manufacturer: unknown                              
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.vendor.model: Android SDK built for x86_64                
-INFO     [mvt.android.modules.androidqf.aqf_getprop] ro.product.vendor.name: sdk_phone_x86_64                             
-INFO     [mvt.android.modules.androidqf.aqf_settings] Running module AQFSettings...                                       
-INFO     [mvt.android.modules.androidqf.aqf_settings] Identified 208 settings                                             
-WARNING  [mvt.android.modules.androidqf.aqf_settings] Found suspicious "global" setting "verifier_verify_adb_installs = 0"
-(disabled Google Play Services apps verification)                                                                
-INFO     [mvt.android.modules.androidqf.aqf_files] Running module AQFFiles...                                             
-22:22:32 INFO     [mvt.android.modules.androidqf.aqf_files] Found a total of 83567 files                                           
-22:22:34 INFO     [mvt.android.modules.androidqf.sms] Running module SMS...                                                        
-INFO     [mvt.android.modules.androidqf.sms] No backup data found                                                         
-INFO     [mvt.android.modules.androidqf.root_binaries] Running module RootBinaries...                                     
-INFO     [mvt.android.modules.androidqf.root_binaries] Found 1 root binaries                                              
-WARNING  [mvt.android.modules.androidqf.root_binaries] Found root binary "su" at path "/system/xbin/su"                   
-WARNING  [mvt.android.modules.androidqf.root_binaries] Device shows signs of rooting with 1 root binaries found           
-INFO     [mvt.android.modules.androidqf.mounts] Running module Mounts...                                                  
-INFO     [mvt.android.modules.androidqf.mounts] Found mount information file:                                             
-a09516af-6a66-4df3-a2ca-2ee9f789b903/mounts.json                                                                 
-INFO     [mvt.android.modules.androidqf.mounts] Extracted a total of 99 mount entries                                     
-INFO     [mvt.android.modules.androidqf.mounts] Data partition: /data mounted as ext4 with options:                       
-rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic                                                        
-INFO     [mvt.android.modules.androidqf.mounts] Parsed 99 mount entries                                                   
-INFO     [mvt.android.modules.bugreport.dumpsys_accessibility] Running module DumpsysAccessibility...                     
-INFO     [mvt.android.modules.bugreport.dumpsys_accessibility] Identified a total of 0 accessibility services             
-INFO     [mvt.android.modules.bugreport.dumpsys_activities] Running module DumpsysActivities...                           
-INFO     [mvt.android.modules.bugreport.dumpsys_activities] Extracted 525 package activities                              
-INFO     [mvt.android.modules.bugreport.dumpsys_appops] Running module DumpsysAppops...                                   
-22:22:35 INFO     [mvt.android.modules.bugreport.dumpsys_appops] Identified a total of 20 packages in App-Ops Manager              
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_daily] Running module DumpsysBatteryDaily...                      
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_daily] Extracted a total of 0 battery daily stats                 
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_history] Running module DumpsysBatteryHistory...                  
-INFO     [mvt.android.modules.bugreport.dumpsys_battery_history] Extracted a total of 35 battery history records          
-INFO     [mvt.android.modules.bugreport.dumpsys_dbinfo] Running module DumpsysDBInfo...                                   
-INFO     [mvt.android.modules.bugreport.dumpsys_dbinfo] Extracted a total of 300 database connection pool records         
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] Running module DumpsysGetProp...                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] Extracted 696 Android system properties                          
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] gsm.sim.operator.alpha: T-Mobile                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] gsm.sim.operator.iso-country: us                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] persist.sys.timezone: GMT                                        
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.boot.serialno: EMULATOR36X4X9X0                               
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.build.version.sdk: 30                                         
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.build.version.security_patch: 2021-08-05                      
-WARNING  [mvt.android.modules.bugreport.dumpsys_getprop] This phone has not received security updates for more than six   
-months (last update: 2021-08-05)                                                                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.cpu.abi: x86_64                                       
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.locale: en-US                                         
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.vendor.manufacturer: unknown                          
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.vendor.model: Android SDK built for x86_64            
-INFO     [mvt.android.modules.bugreport.dumpsys_getprop] ro.product.vendor.name: sdk_phone_x86_64                         
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Running module DumpsysPackages...                               
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Found package "android" requested 20 potentially dangerous      
-permissions                                                                                                      
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Found package "com.android.dialer" requested 10 potentially     
-dangerous permissions                                                                                            
-INFO     [mvt.android.modules.bugreport.dumpsys_packages] Extracted details on 164 packages                               
-INFO     [mvt.android.modules.bugreport.dumpsys_platform_compat] Running module DumpsysPlatformCompat...                  
-INFO     [mvt.android.modules.bugreport.dumpsys_platform_compat] Found 0 uninstalled apps                                 
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Running module DumpsysReceivers...                             
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Extracted receivers for 137 intents                            
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Found a receiver to intercept incoming SMS messages:           
-"com.android.messaging/.receiver.AbortSmsReceiver"                                                               
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Found a receiver to intercept incoming SMS messages:           
-"com.android.messaging/.receiver.SmsReceiver"                                                                    
-INFO     [mvt.android.modules.bugreport.dumpsys_receivers] Found a receiver monitoring outgoing calls:                    
-"com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"                                                  
-INFO     [mvt.android.modules.bugreport.dumpsys_adb_state] Running module DumpsysADBState...                              
-INFO     [mvt.android.modules.bugreport.dumpsys_adb_state] Identified a total of 6 trusted ADB keys                       
-INFO     [mvt.android.modules.bugreport.fs_timestamps] Running module BugReportTimestamps...                              
-INFO     [mvt.android.modules.bugreport.fs_timestamps] Extracted a total of 141 filesystem timestamps from bugreport.     
-INFO     [mvt.android.modules.bugreport.fs_timestamps] The BugReportTimestamps module does not support checking for       
-indicators                                                                                                       
-INFO     [mvt.android.modules.bugreport.tombstones] Running module Tombstones...                                          
-ERROR    [mvt.android.modules.bugreport.tombstones] Unable to find any tombstone files. Did you provide a valid bugreport
-archive?                                                                                                         
-WARNING  [mvt.android.cmd_check_androidqf] Skipping backup modules as no backup.ab found in AndroidQF data.               
-22:22:36 INFO     [mvt.android.cmd_check_androidqf] Please disable Developer Options and ADB (Android Debug Bridge) on the device  
-once finished with the acquisition. ADB is a powerful tool which can allow unauthorized access to the device.    
-WARNING   NOTE: Detected indicators of compromise. Only expert review can confirm if the detected indicators are signs of
-an attack.
-
-                  Please seek reputable expert help if you have serious concerns about a possible spyware attack. Such support is  
-                  available to human rights defenders and civil society through Amnesty International's Security Lab at            
-                  https://securitylab.amnesty.org/get-help/?c=mvt                                                                  
-         WARNING  [mvt] The analysis of the AndroidQF acquisition produced 1 detections!
+mvt.android.modules.androidqf.aqf_packages - WARNING - Found a non-system package installed via adb or another method: "com.android.chrome"
 ```
-# Recomendaciones
+
+En ambos archivos se encuentra la instalación de chrome por adb. En el presente caso, se instaló la versión antigua de Chrome
+, si se encontrara otro de paquetes instalados por adb sin que lo reconozca la víctima, se trataría de un indicador de
+compromiso importante.
+
+Otro warning informa que no cuenta con parches de seguridad recientes. De ser un celular regular, sería prioritario actualizarlo
+y sospechar de una infección.
+
+```bash
+mvt.android.modules.androidqf.aqf_getprop - INFO - ro.build.version.security_patch: 2021-08-05
+mvt.android.modules.androidqf.aqf_getprop - WARNING - This phone has not received security updates for more than six months (last update: 2021-08-05)
+```
+Lo siguiente es de esperar al utilizar un emulador, pero si se enucnetra otro tipo de aplicaciones, es importante investigar más
+del tema.
+
+```bash
+mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.SmsReceiver"
+mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.AbortSmsReceiver"
+mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver monitoring outgoing calls: "com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"
+```
+
+Lo siguiente también se espera por utilizar la plataforma de Android Studio, sin embargo, un dispositivo movil que cuente
+con multimples llaves adb es preocupante y se debe de asumir una infección.
+
+```bash
+mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'xxxxx' with fingerprint 'E6:E0:7A:34:8C:73:84:72:D6:00:29:28:82:74:B5:26'
+mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'version='1.0' encoding='utf-8' standalone='yes' ?>' with fingerprint ''
+mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'version="1">' with fingerprint '7F:B6:CB:8D:54:D2:69:03:4E:61:D9:78:1E:DD:F7:5A'
+mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'key="QAAAADPanNcFT/6MMXTyuTXHCT7fW9OCL6yAUOTBpfcLthpxEJw7FrKheNwgvHlxfyzapjsmtPMo9KKIJyLtiB/TWToeoF4c9TcqAV7WP9zcSZdfcpoHrBEu98dBfb9Gr/3AqG/HHD4otueSCSDsirNUCR3Oq8AkIk3P3+KIMyAD0bYu+PvH1UPuUuZIVQtQb7VRMOwjCgde1u3Y7KgHJJX86eeGUGSlMaIf7X+vs8286u3rrxWDQmKqfe4pxBXbW+M250LANILrTt0TKSrOCQg2TBq8UuQVcnwcLj2dEzo8JlsCfdt0TTVzHQmcCMvMMqDBw/TT+ACC00l9+uSxoAcEYgDdZhquN6r5nVMn4eUUt7eH4PyQ/296II8J+6Simn0Ln6bKTZyMr653EHGHgFFzZBkOIzTDVTAg++GNKUDpvDkwQaQBTgv0w9R3YNIAfjbyTZayOtlz71JhdAqhS3ebO41cwu2nRI5uu/bst/fZZeOYpa6zL2Gk7kQlLopZMDN1bFtx5MizlbkRD/OkebLYDLkep7ILedBa5FhFcAcGtXbFQpC97WMPRXpLppBCjwwQKUfg5CVIaZHLgs2+cx7vm5xeaPA/qYOeO8MihkMRgXRZCvLuZDV9RljnKP1UlzCc3hPx+mCpHOFUUJNX1F9sDoPMelpKxUdUv3tPJ0k81ozRvNuRoQEAAQA= santl@88UACE" lastConnection="1777046168517" />' with fingerprint ''
+mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user '' with fingerprint ''
+mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'android-eng@google.com' with fingerprint ''
+```
+
+Los tombstones son archivos generados al ocurrir un crash. Los crashes pueden ocurrir por varisos motivos, pero también llegan
+a ser indicadores de compromiso. Se deben analizar para determinar si son consecuencia de un ataque, o simplemente fallos
+reales de aplicaciones.
+
+```bash
+mvt.android.modules.bugreport.tombstones - INFO - Running module Tombstones...
+mvt.android.modules.bugreport.tombstones - INFO - Extracted a total of 3 tombstone files
+mvt.android.modules.bugreport.tombstones - INFO - The Tombstones module produced no detections!
+```
+
+Los SMS pueden ser la puerta de entrada al ataque, siendo el primer paso al la víctima entrar a un hipervínculo desconocido
+
+```bash
+mvt.android.modules.backup.sms - INFO - Extracted a total of 2 SMS & MMS messages
+```
+## Archivos generados por MVT
+
+### AQF Packages detected
+Este archivo contiene cualquier aplicación extra al sistema. Como visto anteriormente, el único instalado es Chrome. Es
+de importancia notar las últimas lineas. "system:false" muestra que no cuenta con privilegios de sistema. De tenerlos, y 
+que siga siendo de un *third party* sería un indicador.
+```json
+    {
+        "name": "com.android.chrome",
+        "files": [
+            {
+                "path": "/data/app/~~Lhc5M7ESJ1S3ZDO6guxong==/com.android.chrome-NvLvTtE7eZZa2N-2u63wCw==/base.apk",
+                "local_name": "",
+                "md5": "1ebdc7b6480665d348941e9bdb86d45f",
+                "sha1": "217f97213b757af13b4d5531e651e78ef5035e00",
+                "sha256": "d06cd8350bcec30e87d2d8555f0dbc2f31b53873f644f86e1e2dcdace41923bf",
+                "sha512": "0e8ffc5fba770eee2b2b3c326f629007d3d887b012b9df3d64d1bc37100c653f812a8485477b2f133586c8c113a8b766dceca325a869a829ad36c32897c7f927",
+                "error": "",
+                "verified_certificate": true,
+                "certificate": {
+                    "Md5": "cde9f6208d672b54b1dacc0b7029f5eb",
+                    "Sha1": "38918a453d07199354f8b19af05ec6562ced5788",
+                    "Sha256": "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83",
+                    "ValidFrom": "2008-08-21T23:13:34Z",
+                    "ValidTo": "2036-01-07T23:13:34Z",
+                    "Issuer": "C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android",
+                    "Subject": "C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android",
+                    "SignatureAlgorithm": "MD5-RSA",
+                    "SerialNumber": 14042372374541250701
+                },
+                "certificate_error": "",
+                "trusted_certificate": true
+            }
+        ],
+        "installer": "null",
+        "uid": 10130,
+        "disabled": false,
+        "system": false,
+        "third_party": true
+    }
+```
+### Dumpsys Packages
+
+Otro archivo a revisar sería *dumpsys_packages.json*. En este se describen todas las aplicaciones en los dispositivos
+y los permisos con los que cuentan. Es importante revisarlo por si se encuentra una aplicación con un número de permisos
+otorgados sospechosos. En este caso, no se encontró software maligno. Se comparte el formato del documento:
+```json
+    {
+ "package_name": "com.android.printservice.recommendation",
+ "uid": "10085",
+ "version_name": "1.3.0",
+ "version_code": "4 minSdk=30 targetSdk=30",
+ "timestamp": "2023-05-04 16:11:22",
+ "first_install_time": "2023-05-04 16:11:22",
+ "last_update_time": "2023-05-04 16:11:22",
+ "permissions": [
+  {
+   "name": "android.permission.CHANGE_WIFI_MULTICAST_STATE",
+   "granted": true,
+   "type": "install"
+  },
+  {
+   "name": "android.permission.INTERNET",
+   "granted": true,
+   "type": "install"
+  }
+ ],
+ "requested_permissions": []
+}
+```
+### Root Binaries Detected
+Este archivo registra la presencia de binarios asociados a privilegios elevados en el sistema. En este caso, el 
+contenido indica que se ha detectado el binario *su* en la ruta /system/xbin/su, el cual es conocido como “SuperUser binary” y 
+permite la ejecución de comandos con permisos de administrador. Su presencia sugiere que el entorno 
+cuenta con acceso root o ha sido modificado para permitir elevación de privilegios, lo cual puede ser relevante 
+otro contexto del análisis, ya que implica un estado no estándar del sistema que podría indicar posibles manipulaciones. 
+Aunque en este contexto se debe a que se utilizó el telefono *rooteado* para permitirciertos permisos para la reproducción 
+del primera ataque.
+```json
+[
+ {
+  "path": "/system/xbin/su",
+  "binary_name": "su",
+  "description": "SuperUser binary"
+ }
+]
+```
+### SMS
+
+Contiene registros de mensajes SMS asociados al dispositivo. En este caso, el contenido muestra un mensaje recibido desde
+un numero “10” con un texto que intenta inducir al usuario a acceder a un enlace externo bajo un mensaje engañoso
+(“Apareciste en esta noticia como infiel”). El mensaje incluye una URL potencialmente maliciosa:
+"https://login.c1ic.link/root_zwWzuP_video_player_update.php", lo que sugiere que se trate de phishing. La marca 
+*isodate* indica cuándo fue recibido, importante para generar la línea del tiempo
+```json
+{
+ "address": "10",
+ "body": "Apareciste en esta noticia como infiel!\nhttps://web-safe.link/NmlunV_digital_sign.vbs",
+ "date": "1777046009854",
+ "date_sent": "0",
+ "status": "-1",
+ "type": "2",
+ "recipients": [
+  "10"
+ ],
+ "read": "1",
+ "isodate": "2026-04-24 15:53:29.854000",
+ "direction": "received",
+ "links": [
+  "https://web-safe.link/NmlunV_digital_sign.vbs"
+ ]
+}
+```
+### Tombstones
+Este registra los *crashes* de las aplicaciones, generalmente por una señal de sistema. En este contexto, se trata de 
+una falla en el binario de Chrome. El error se trata de un "SIGSYS 31", que se genera cuando un proceso intenta
+ejecutar una llamada al sistema no permitida.
+```json
+{
+ "file_name": "tombstone_02",
+ "file_timestamp": "2026-04-24 15:54:10.000000",
+ "build_fingerprint": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys",
+ "revision": "0",
+ "arch": "x86",
+ "timestamp": "2026-04-24 15:54:09.000000",
+ "process_uptime": null,
+ "command_line": null,
+ "pid": 13012,
+ "tid": 13012,
+ "process_name": "main",
+ "binary_path": "com.android.chrome",
+ "selinux_label": null,
+ "uid": 10130,
+ "signal_info": {
+  "code": 1,
+  "code_name": "SYS_SECCOMP",
+  "name": "SIGSYS",
+  "number": 31
+ },
+ "cause": "seccomp prevented call to disallowed x86 system call 214",
+ "extra": null
+}
+```
+
+## Timeline de los hechos
+### 2026-04-24 15:53:29.854000 - Llega el mensaje a la victima
+"Apareciste en esta noticia como infiel!
+https://web-safe.link/NmlunV_digital_sign.vbs"
+
+La victima accede al enlace
+### 2026-04-24 15:54:10.000000 - Crash por CVE-2023-4863
+La vulnerabilidad crashea el navegador movil
 
 # Conclusiones
+
+## "Lo bueno"
+Gracias a este Proyecto de Aplicación Profesional, me desarrollé en varios aspectos de mi persona. De lo técnico, utilicé 
+y mejoré los conocimientos adquiridos en las clases de Ética y Vulnerabilidad de Sistemas I y II e Informática Forense, 
+principalmente los temas de scripting, pentesting y comprensión lectora técnica. Del aspecto personal, me ayudó a comunicarme 
+y escuchar de manera efectiva, además de ganar más conciencia sobre el ciber-espionaje en la era actual.
+Aprendí que no siempre se cumple completamente con lo esperado, pero es mejor ser honesto y mostrar los avances a mentir. 
+Al ser honesto, se desarrolló la confianza. Añadiendo a lo anterior, me ayudó a identificar que debo tener en cuenta el 
+beneficio social dentro de cualquier trabajo en el futuro, priorizando mi ética sobre las decisiones que tomo.
+
+## "Lo no tan bueno"
+Surgieron múltiples problemas en el desarrollo de este proyecto. Uno de los más grandes fue la selección de las vulnerabilidades.
+Aceptando mi error, debí de haber investigado no solo si existían las pruebas de concepto, pero que fueran aplicables a 
+dispositivos moviles, ya que prácticamente todos los que escogí solo funcionaban en una versión desktop de Linux. Encontrar
+la manera en la que funcionaran en el emulador tardó más tiempo del que esperaba, aunque no fue en vano, ya que aprendí varios
+aspectos de los ataques de Buffer Overflow.
+
+### Tombstones y Cambio de Error
+El ataque inicial de libwebp funcionó, ocasionando un SIGSEGV 11 que era posible ver en el logcat, sin embargo, mostraba un gran
+error que explicaba que Chrome no podía acceder al registro de tombstones:
+``` bash
+libc                    pid-8227                             E  failed to connect to tombstoned: Permission denied
+```
+
+Se intentaron varias alternativas, como reducir la memoria RAM y el heap a lo mínimo permisible e intentarlo en otras
+versiones de Android compatibles con la vulnerabilidad. Ninguno de los anteriores métodos llegaron a los resultados esperados.
+
+La solución para que generara tombstones fue la siguiente:
+Para que el entorno fuera más permisivo, se mandaron los siguientes comandos:
+
+``` bash
+adb root
+adb shell setenforce 0
+```
+El primero habilita la ejecución de comandos que necesitan privilegios elevados, y el segundo desactiva temporalmente el 
+modo *enforcing* de SELinux, haciendo el sistema más flexible. Esto se creyó como el problema del envío de tombstones. 
+Al cambiar esto, se permite su generación y acceso desde el proceso de Chrome, conteniendo información detallada de los 
+crashes nativos.
+
+A pesar de los cambios, el comportamiento esperado no se reprodujo de la misma manera que en situaciones anteriores. En 
+lugar del crash  típico (SIGSEGV 11), se observó SIGSYS 31. Además, no mostraba información completa del fallo
+
+![sigsys31](imgs/sigsys31.png)
+Para evitar que el sandbox de Chrome limite la visibilidad, se configuró la aplicación para ejecutarse bajo un wrapper de logging.
+``` bash
+adb shell setprop wrap.com.android.chrome "logwrapper"
+```
+Después de este cambio se forzó el cierre de Chrome y se relanzó la aplicación. Al abrir, se observó el nuevo tipo de crash a detalle.
+![shown_crash-png](imgs/SHOWN_CRASH.png)
+
+Finalmente, el crash fue registrado correctamente y se guardó en los tombstones, permitiendo su extracción para análisis.
+![tomb_saved](imgs/tomb_saved.png)
+
+En conclusión, si bien no se terminó por desarrollar la cadena completa, se adquirieron diversos aprendizajes en todos 
+los aspectos de mi persona. El PAP fue un reto significativo que exigía desarrollo aprendizajes constantes que dejaron 
+un impacto en mi persona. Me siento satisfecho con lo desarrollado y más preparado para desarrollar otros proyectos.
 
 # Referencias
