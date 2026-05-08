@@ -684,8 +684,6 @@ La vulnerabilidad crashea el navegador movil
 | IOC | ej APK instalado por ADB      | `com.android.chrome` instalado manualmente | Instalación fuera del flujo normal del sistema |
 | IOC | Falta de parches              | Security patch: `2021-08-05` | Sistema vulnerable a exploits conocidos |
 
----
-
 ## TTPs (Tactics, Techniques and Procedures)
 
 | Tipo | Técnica   | Descripción | Relación en el caso |

@@ -1,0 +1,2042 @@
+[
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.250",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.596",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.596",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.596",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.449",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.449",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.127",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.123",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.038",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.038",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.037",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:35:28.894",
+        "action": "executeForLastInsertedRowId",
+        "sql": "INSERT OR REPLACE  INTO icons(profileId,system_state,icon_color,icon,label,version,keywords,lastUpdated,componentName) VALUES (?,?,?,?,?,?,?,?,?)",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:35:28.894",
+        "action": "prepare",
+        "sql": "INSERT OR REPLACE  INTO icons(profileId,system_state,icon_color,icon,label,version,keywords,lastUpdated,componentName) VALUES (?,?,?,?,?,?,?,?,?)",
+        "path": "/data/user/0/com.android.launcher3/databases/app_icons.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.597",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.597",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.597",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.038",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.038",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.038",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:35:28.903",
+        "action": "executeForChangedRowCount",
+        "sql": "DELETE FROM shortcut_and_widget_previews WHERE packageName = ? AND profileId = ?",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:35:28.903",
+        "action": "prepare",
+        "sql": "DELETE FROM shortcut_and_widget_previews WHERE packageName = ? AND profileId = ?",
+        "path": "/data/user/0/com.android.launcher3/databases/widgetpreviews.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.251",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.597",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.597",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.597",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.450",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.128",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.124",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.039",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.039",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.039",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:03.415",
+        "action": "executeForChangedRowCount",
+        "sql": "UPDATE favorites SET intent=?,profileId=?,screen=?,modified=?,container=?,restored=?,icon=?,rank=?,cellX=?,cellY=?,spanX=?,spanY=?,title=?,itemType=? WHERE _id=5",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:03.414",
+        "action": "prepare",
+        "sql": "UPDATE favorites SET intent=?,profileId=?,screen=?,modified=?,container=?,restored=?,icon=?,rank=?,cellX=?,cellY=?,spanX=?,spanY=?,title=?,itemType=? WHERE _id=5",
+        "path": "/data/user/0/com.android.launcher3/databases/launcher.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.375",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.375",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.375",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.723",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.723",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.723",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.523",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.523",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.523",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.204",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.204",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.204",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.174",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.174",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.174",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.093",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.093",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.093",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:59.350",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT _id FROM filtered_numbers_table WHERE (type=1)",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:59.349",
+        "action": "prepare",
+        "sql": "SELECT _id FROM filtered_numbers_table WHERE (type=1)",
+        "path": "/data/user/0/com.android.dialer/databases/dialer.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.464",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.464",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.464",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.818",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.818",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.818",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.659",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.659",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.659",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.338",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.338",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.338",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.339",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.339",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.339",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.236",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.236",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.236",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:57.715",
+        "action": "execute",
+        "sql": "COMMIT;",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:57.715",
+        "action": "executeForChangedRowCount",
+        "sql": "PRAGMA user_version = 12",
+        "path": "/data/user_de/0/com.android.cellbroadcastreceiver.module/databases/cell_broadcasts.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.486",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.486",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.486",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.848",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.847",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.847",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.683",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.683",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.682",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.362",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.362",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.362",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.364",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.364",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.364",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.263",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.263",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.263",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:12.698",
+        "action": "execute",
+        "sql": "COMMIT;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:12.697",
+        "action": "executeForChangedRowCount",
+        "sql": "UPDATE local_metadata SET generation=generation+1;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/external.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.487",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.487",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.487",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.849",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.848",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.848",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.683",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.683",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.683",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.363",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.363",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.363",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.365",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.365",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.364",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.264",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.264",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.264",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:12.684",
+        "action": "execute",
+        "sql": "COMMIT;",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:12.684",
+        "action": "executeForChangedRowCount",
+        "sql": "delete from videothumbnails where video_id=?",
+        "path": "/data/user/0/com.android.providers.media.module/databases/internal.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.508",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.508",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.508",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.874",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.873",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.873",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.705",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.705",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.705",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.385",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.384",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.384",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.387",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.387",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.387",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.288",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.288",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.288",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:07.709",
+        "action": "execute",
+        "sql": "COMMIT;",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:07.708",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT * FROM (SELECT begin -(0)  -(minutes*60000) AS myAlarmTime,Instances.event_id AS eventId,begin,end,title,allDay,method,minutes FROM Instances INNER JOIN view_events ON (view_events._id=Instances.event_id) INNER JOIN Reminders ON (Instances.event_id=Reminders.event_id) WHERE visible=1 AND myAlarmTime>=CAST(? AS INT) AND myAlarmTime<=CAST(? AS INT) AND end>=? AND method=1 AND allDay=1 UNION ALL SELECT begin -(minutes*60000) AS myAlarmTime,Instances.event_id AS eventId,begin,end,title,allDay,method,minutes FROM Instances INNER JOIN view_events ON (view_events._id=Instances.event_id) INNER JOIN Reminders ON (Instances.event_id=Reminders.event_id) WHERE visible=1 AND myAlarmTime>=CAST(? AS INT) AND myAlarmTime<=CAST(? AS INT) AND end>=? AND method=1 AND allDay=0) WHERE 0=(SELECT count(*) FROM CalendarAlerts CA WHERE CA.event_id=eventId AND CA.begin=begin AND CA.alarmTime=myAlarmTime) ORDER BY myAlarmTime,begin,title",
+        "path": "/data/user/0/com.android.providers.calendar/databases/calendar.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.590",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.589",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.589",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.972",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.972",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:43:28.971",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.787",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.787",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.787",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.470",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.470",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.469",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.477",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.477",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.477",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.381",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.381",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.381",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:32:57.355",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT device_id FROM Documents WHERE row_state IN (?, ?) AND document_type = ? GROUP BY device_id",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:32:57.355",
+        "action": "prepare",
+        "sql": "SELECT device_id FROM Documents WHERE row_state IN (?, ?) AND document_type = ? GROUP BY device_id",
+        "path": "/data/user/0/com.android.mtp/databases/database"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.635",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.634",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.634",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.024",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.024",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.023",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.832",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.832",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.831",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.514",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.513",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.513",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.526",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.526",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.525",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.430",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.429",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.429",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:02.429",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT messages._id as _id, messages.conversation_id as conversation_id, messages.sender_id as sender_id, CASE WHEN (count(parts._id)>1) THEN group_concat(ifnull(parts._id,''), '|') ELSE parts._id END AS parts_ids, CASE WHEN (count(parts._id)>1) THEN group_concat(quote(ifnull(parts.content_type,'')), '|') ELSE parts.content_type END AS parts_content_types, CASE WHEN (count(parts._id)>1) THEN group_concat(quote(ifnull(parts.uri,'')), '|') ELSE parts.uri END AS parts_content_uris, CASE WHEN (count(parts._id)>1) THEN group_concat(ifnull(parts.width,''), '|') ELSE parts.width END AS parts_widths, CASE WHEN (count(parts._id)>1) THEN group_concat(ifnull(parts.height,''), '|') ELSE parts.height END AS parts_heights, CASE WHEN (count(parts._id)>1) THEN group_concat(quote(ifnull(parts.text,'')), '|') ELSE parts.text END AS parts_texts, count(parts._id) as parts_count, messages.sent_timestamp as sent_timestamp, messages.received_timestamp as received_timestamp, messages.seen as seen, messages.read as read, messages.message_protocol as message_protocol, messages.message_status as message_status, messages.sms_message_uri as sms_message_uri, messages.sms_priority as sms_priority, messages.sms_message_size as sms_message_size, messages.mms_subject as mms_subject, messages.mms_expiry as mms_expiry, messages.raw_status as raw_status, messages.self_id as self_id, participants.full_name as full_name, participants.first_name as first_name, participants.display_destination as display_destination, participants.normalized_destination as normalized_destination, participants.profile_photo_uri as profile_photo_uri, participants.contact_id as contact_id, participants.lookup_key as lookup_key  FROM messages LEFT JOIN parts ON (messages._id=parts.message_id)  LEFT JOIN participants ON (messages.sender_id=participants._id) WHERE (messages.message_status <> 3 AND (message_status in (100, 101) AND seen = 0)) GROUP BY parts.message_id ORDER BY messages.received_timestamp DESC",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:33:02.428",
+        "action": "prepare",
+        "sql": "SELECT messages._id as _id, messages.conversation_id as conversation_id, messages.sender_id as sender_id, CASE WHEN (count(parts._id)>1) THEN group_concat(ifnull(parts._id,''), '|') ELSE parts._id END AS parts_ids, CASE WHEN (count(parts._id)>1) THEN group_concat(quote(ifnull(parts.content_type,'')), '|') ELSE parts.content_type END AS parts_content_types, CASE WHEN (count(parts._id)>1) THEN group_concat(quote(ifnull(parts.uri,'')), '|') ELSE parts.uri END AS parts_content_uris, CASE WHEN (count(parts._id)>1) THEN group_concat(ifnull(parts.width,''), '|') ELSE parts.width END AS parts_widths, CASE WHEN (count(parts._id)>1) THEN group_concat(ifnull(parts.height,''), '|') ELSE parts.height END AS parts_heights, CASE WHEN (count(parts._id)>1) THEN group_concat(quote(ifnull(parts.text,'')), '|') ELSE parts.text END AS parts_texts, count(parts._id) as parts_count, messages.sent_timestamp as sent_timestamp, messages.received_timestamp as received_timestamp, messages.seen as seen, messages.read as read, messages.message_protocol as message_protocol, messages.message_status as message_status, messages.sms_message_uri as sms_message_uri, messages.sms_priority as sms_priority, messages.sms_message_size as sms_message_size, messages.mms_subject as mms_subject, messages.mms_expiry as mms_expiry, messages.raw_status as raw_status, messages.self_id as self_id, participants.full_name as full_name, participants.first_name as first_name, participants.display_destination as display_destination, participants.normalized_destination as normalized_destination, participants.profile_photo_uri as profile_photo_uri, participants.contact_id as contact_id, participants.lookup_key as lookup_key  FROM messages LEFT JOIN parts ON (messages._id=parts.message_id)  LEFT JOIN participants ON (messages.sender_id=participants._id) WHERE (messages.message_status <> 3 AND (message_status in (100, 101) AND seen = 0)) GROUP BY parts.message_id ORDER BY messages.received_timestamp DESC",
+        "path": "/data/user/0/com.android.messaging/databases/bugle_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.658",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.658",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.658",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.053",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.053",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.053",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.855",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.855",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.854",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.556",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.555",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.555",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.571",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.571",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.571",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.477",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.477",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.476",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:32:56.030",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT pendingid, type, status, id, locale, description, filename, url, date, checksum, filesize, version, formatversion, flags, rawChecksum, remainingRetries FROM pendingUpdates WHERE status = ? OR status = ? OR status = ? ORDER BY locale",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:32:56.030",
+        "action": "prepare",
+        "sql": "SELECT pendingid, type, status, id, locale, description, filename, url, date, checksum, filesize, version, formatversion, flags, rawChecksum, remainingRetries FROM pendingUpdates WHERE status = ? OR status = ? OR status = ? ORDER BY locale",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates.com.android.inputmethod.latin"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.659",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.659",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.659",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.054",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.054",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.054",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.855",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.855",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.855",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.556",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.556",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.556",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.572",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.571",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.571",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.477",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.477",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.477",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:32:56.032",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT uri FROM clients WHERE clientid = ?",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:32:56.032",
+        "action": "prepare",
+        "sql": "SELECT uri FROM clients WHERE clientid = ?",
+        "path": "/data/user_de/0/com.android.inputmethod.latin/databases/pendingUpdates"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.754",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.754",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.754",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.163",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.642",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.642",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.642",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.661",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.661",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.661",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.595",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.594",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.594",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:55.957",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT * FROM btopp WHERE ((confirm == '0' AND (visibility IS NULL OR visibility == '0'))) ORDER BY _id",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:55.957",
+        "action": "prepare",
+        "sql": "SELECT * FROM btopp WHERE ((confirm == '0' AND (visibility IS NULL OR visibility == '0'))) ORDER BY _id",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/btopp.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.755",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.755",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.755",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.755",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.755",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.164",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.938",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.643",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.643",
+        "action": "executeForLong",
+        "sql": "PRAGMA temp.page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.643",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.642",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.642",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.bluetooth/databases/bluetooth_db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.783",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.783",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.783",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.198",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.197",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.197",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.965",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.965",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:56.964",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.667",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.667",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.667",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.688",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.687",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.687",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.628",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.628",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:36:59.628",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:59.184",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT * FROM carrier_id WHERE (mccmnc=? AND gid1 is NULL AND gid2 is NULL AND imsi_prefix_xpattern is NULL AND spn is NULL AND iccid_prefix is NULL AND plmn is NULL AND privilege_access_rule is NULL AND apn is NULL)",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:32:59.183",
+        "action": "prepare",
+        "sql": "SELECT * FROM carrier_id WHERE (mccmnc=? AND gid1 is NULL AND gid2 is NULL AND imsi_prefix_xpattern is NULL AND spn is NULL AND iccid_prefix is NULL AND plmn is NULL AND privilege_access_rule is NULL AND apn is NULL)",
+        "path": "/data/user_de/0/com.android.providers.telephony/databases/carrierIdentification.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:43.168",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT event_user_id, pkg, CAST(((1777075199168 - event_time_ms) / 86400000) AS int) AS day, COUNT(*) AS cnt, SUM(muted) as muted, SUM(noisy) as noisy, SUM(demoted) as demoted, SUM(undecorated) as undecorated FROM log WHERE event_type=1 AND event_time_ms > 0  GROUP BY event_user_id, day, pkg",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:43.168",
+        "action": "prepare",
+        "sql": "SELECT event_user_id, pkg, CAST(((1777075199168 - event_time_ms) / 86400000) AS int) AS day, COUNT(*) AS cnt, SUM(muted) as muted, SUM(noisy) as noisy, SUM(demoted) as demoted, SUM(undecorated) as undecorated FROM log WHERE event_type=1 AND event_time_ms > 0  GROUP BY event_user_id, day, pkg",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.923",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.923",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.923",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.593",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT event_user_id, pkg, CAST(((1777075199592 - event_time_ms) / 86400000) AS int) AS day, COUNT(*) AS cnt, SUM(muted) as muted, SUM(noisy) as noisy, SUM(demoted) as demoted, SUM(undecorated) as undecorated FROM log WHERE event_type=1 AND event_time_ms > 0  GROUP BY event_user_id, day, pkg",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.593",
+        "action": "prepare",
+        "sql": "SELECT event_user_id, pkg, CAST(((1777075199592 - event_time_ms) / 86400000) AS int) AS day, COUNT(*) AS cnt, SUM(muted) as muted, SUM(noisy) as noisy, SUM(demoted) as demoted, SUM(undecorated) as undecorated FROM log WHERE event_type=1 AND event_time_ms > 0  GROUP BY event_user_id, day, pkg",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.373",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.373",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.373",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:57.113",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:57.113",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:57.113",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.801",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.801",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:36.801",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:15.077",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT event_user_id, pkg, CAST(((1777075199077 - event_time_ms) / 86400000) AS int) AS day, COUNT(*) AS cnt, SUM(muted) as muted, SUM(noisy) as noisy, SUM(demoted) as demoted, SUM(undecorated) as undecorated FROM log WHERE event_type=1 AND event_time_ms > 0  GROUP BY event_user_id, day, pkg",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:15.077",
+        "action": "prepare",
+        "sql": "SELECT event_user_id, pkg, CAST(((1777075199077 - event_time_ms) / 86400000) AS int) AS day, COUNT(*) AS cnt, SUM(muted) as muted, SUM(noisy) as noisy, SUM(demoted) as demoted, SUM(undecorated) as undecorated FROM log WHERE event_type=1 AND event_time_ms > 0  GROUP BY event_user_id, day, pkg",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.822",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:14.822",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system/notification_log.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:43.174",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT visibility._package, visibility.value, accounts.name, accounts.type FROM visibility JOIN accounts ON accounts._id = visibility.accounts_id",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:43.174",
+        "action": "prepare",
+        "sql": "SELECT visibility._package, visibility.value, accounts.name, accounts.type FROM visibility JOIN accounts ON accounts._id = visibility.accounts_id",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:43.173",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT * FROM debug_table ORDER BY time",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:43.173",
+        "action": "prepare",
+        "sql": "SELECT * FROM debug_table ORDER BY time",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.924",
+        "action": "executeForLong",
+        "sql": "PRAGMA ceDb.page_size;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.924",
+        "action": "executeForLong",
+        "sql": "PRAGMA ceDb.page_count;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.923",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.923",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:44:42.923",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.374",
+        "action": "executeForLong",
+        "sql": "PRAGMA ceDb.page_size;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.374",
+        "action": "executeForLong",
+        "sql": "PRAGMA ceDb.page_count;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.374",
+        "action": "executeForCursorWindow",
+        "sql": "PRAGMA database_list;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.374",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_size;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:29.374",
+        "action": "executeForLong",
+        "sql": "PRAGMA page_count;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:08.056",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT visibility._package, visibility.value, accounts.name, accounts.type FROM visibility JOIN accounts ON accounts._id = visibility.accounts_id",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:08.056",
+        "action": "prepare",
+        "sql": "SELECT visibility._package, visibility.value, accounts.name, accounts.type FROM visibility JOIN accounts ON accounts._id = visibility.accounts_id",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:08.056",
+        "action": "executeForCursorWindow",
+        "sql": "SELECT * FROM debug_table ORDER BY time",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:43:08.055",
+        "action": "prepare",
+        "sql": "SELECT * FROM debug_table ORDER BY time",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:57.113",
+        "action": "executeForLong",
+        "sql": "PRAGMA ceDb.page_size;",
+        "path": "/data/system_de/0/accounts_de.db"
+    },
+    {
+        "isodate": "2026-04-24 15:38:57.113",
+        "action": "executeForLong",
+        "sql": "PRAGMA ceDb.page_count;",
+        "path": "/data/system_de/0/accounts_de.db"
+    }
+]

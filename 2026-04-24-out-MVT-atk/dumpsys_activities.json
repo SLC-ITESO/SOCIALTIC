@@ -1,0 +1,2627 @@
+[
+    {
+        "intent": "android.settings.FINGERPRINT_SETUP",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.biometrics.fingerprint.SetupFingerprintEnrollIntroduction"
+    },
+    {
+        "intent": "android.net.wifi.PICK_WIFI_NETWORK",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiPickerActivity"
+    },
+    {
+        "intent": "android.hardware.usb.action.USB_DEVICE_ATTACHED",
+        "package_name": "com.android.mtp",
+        "activity": "com.android.mtp/.ReceiverActivity"
+    },
+    {
+        "intent": "android.hardware.usb.action.USB_DEVICE_ATTACHED",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/.ingest.IngestActivity"
+    },
+    {
+        "intent": "android.settings.SHOW_REGULATORY_INFO",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.RegulatoryInfoDisplayActivity"
+    },
+    {
+        "intent": "android.settings.MANAGE_ALL_FILES_ACCESS_PERMISSION",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageExternalStorageActivity"
+    },
+    {
+        "intent": "com.android.settings.action.SUPPORT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.support.SupportDashboardActivity"
+    },
+    {
+        "intent": "android.settings.SHOW_MANUAL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.ManualDisplayActivity"
+    },
+    {
+        "intent": "android.settings.NETWORK_OPERATOR_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.network.telephony.MobileNetworkActivity"
+    },
+    {
+        "intent": "android.os.storage.action.OPEN_EXTERNAL_DIRECTORY",
+        "package_name": "com.android.documentsui",
+        "activity": "com.android.documentsui/.ScopedAccessActivity"
+    },
+    {
+        "intent": "com.android.settings.action.SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$UserSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.action.SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DevelopmentSettingsDashboardActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_MANAGED_DEVICE_FROM_TRUSTED_SOURCE",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.PreProvisioningActivityViaTrustedApp"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_CONTACTS_WITH_PHONES",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.net.wifi.action.REQUEST_ENABLE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.RequestToggleWiFiActivity"
+    },
+    {
+        "intent": "android.content.pm.action.CONFIRM_INSTALL",
+        "package_name": "com.android.packageinstaller",
+        "activity": "com.android.packageinstaller/.InstallStart"
+    },
+    {
+        "intent": "com.android.dialer.action.CHANGE_PIN",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.voicemail.settings.VoicemailChangePinActivity"
+    },
+    {
+        "intent": "android.settings.ACTION_NOTIFICATION_LISTENER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NotificationAccessSettingsActivity"
+    },
+    {
+        "intent": "android.settings.USER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$UserSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.USER_DICTIONARY_INSERT",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.inputmethod.UserDictionaryAddWordActivity"
+    },
+    {
+        "intent": "android.media.action.IMAGE_CAPTURE",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.CaptureActivity"
+    },
+    {
+        "intent": "android.settings.HOME_SETTINGS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.HomeSettingsActivity"
+    },
+    {
+        "intent": "android.settings.DISPLAY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DisplaySettingsActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.webapps.ActivateWebApkActivity.ACTIVATE",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.ActivateWebApkActivity"
+    },
+    {
+        "intent": "android.settings.DATA_SAVER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DataSaverSummaryActivity"
+    },
+    {
+        "intent": "android.telephony.euicc.action.RENAME_SUBSCRIPTION_PRIVILEGED",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccPrivilegedActionUiDispatcherActivity"
+    },
+    {
+        "intent": "com.android.phone.CallFeaturesSetting.ADD_VOICEMAIL",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.VoicemailSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.BLUETOOTH_DEVICE_DETAIL_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$BluetoothDeviceDetailActivity"
+    },
+    {
+        "intent": "android.intent.action.MEDIA_SEARCH",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.IntentDispatcher"
+    },
+    {
+        "intent": "com.android.launcher3.action.SHOW_HYBRID_HOTSEAT_EDU",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/.hybridhotseat.HotseatEduActivity"
+    },
+    {
+        "intent": "android.os.action.CREATE_USER",
+        "package_name": "android",
+        "activity": "android/com.android.internal.app.ConfirmUserCreationActivity"
+    },
+    {
+        "intent": "android.telecom.action.CHANGE_PHONE_ACCOUNTS",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.PhoneAccountSettingsActivity"
+    },
+    {
+        "intent": "android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL",
+        "package_name": "com.android.musicfx",
+        "activity": "com.android.musicfx/.ActivityMusic"
+    },
+    {
+        "intent": "android.media.action.DISPLAY_AUDIO_EFFECT_CONTROL_PANEL",
+        "package_name": "com.android.musicfx",
+        "activity": "com.android.musicfx/.Compatibility$Redirector"
+    },
+    {
+        "intent": "android.settings.LOCATION_SOURCE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$LocationSettingsActivity"
+    },
+    {
+        "intent": "android.telephony.euicc.action.DELETE_SUBSCRIPTION_PRIVILEGED",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccPrivilegedActionUiDispatcherActivity"
+    },
+    {
+        "intent": "android.settings.BLUETOOTH_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ConnectedDeviceDashboardActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_FINALIZATION_INSIDE_SUW",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.finalization.FinalizationInsideSuwActivity"
+    },
+    {
+        "intent": "android.telephony.ims.action.SHOW_CAPABILITY_DISCOVERY_OPT_IN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.network.telephony.MobileNetworkActivity"
+    },
+    {
+        "intent": "com.android.dialer.main.impl.MAIN",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.main.impl.MainActivity"
+    },
+    {
+        "intent": "com.android.credentials.INSTALL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.security.CredentialStorage"
+    },
+    {
+        "intent": "android.settings.APPLICATION_DEVELOPMENT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.development.DevelopmentSettingsDisabledActivity"
+    },
+    {
+        "intent": "android.settings.APPLICATION_DEVELOPMENT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DevelopmentSettingsDashboardActivity"
+    },
+    {
+        "intent": "android.provider.Telephony.ACTION_CHANGE_DEFAULT",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.RequestRoleActivity"
+    },
+    {
+        "intent": "android.settings.SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.homepage.SettingsHomepageActivity"
+    },
+    {
+        "intent": "android.media.action.IMAGE_CAPTURE_SECURE",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.SecureCameraActivity"
+    },
+    {
+        "intent": "com.android.settings.SETUP_LOCK_SCREEN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.SetupChooseLockGeneric"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.webapps.WebappManager.ACTION_START_SECURE_WEBAPP",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.SecureWebAppLauncher"
+    },
+    {
+        "intent": "android.nfc.action.TECH_DISCOVERED",
+        "package_name": "com.android.apps.tag",
+        "activity": "com.android.apps.tag/.TagViewer"
+    },
+    {
+        "intent": "android.settings.HARD_KEYBOARD_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PhysicalKeyboardActivity"
+    },
+    {
+        "intent": "android.settings.VR_LISTENER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$VrListenersSettingsActivity"
+    },
+    {
+        "intent": "com.android.cts.action.ACTION_SUB",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeActionSubset"
+    },
+    {
+        "intent": "com.android.settings.sim.SIM_SUB_INFO_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NetworkDashboardActivity"
+    },
+    {
+        "intent": "android.settings.ADD_ACCOUNT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.accounts.AddAccountSettings"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_STREQUENT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.usage_stats.action.UNAUTHORIZE",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsConsentActivity"
+    },
+    {
+        "intent": "com.android.providers.contacts.DUMP_DATABASE",
+        "package_name": "com.android.providers.contacts",
+        "activity": "com.android.providers.contacts/.debug.ContactsDumpActivity"
+    },
+    {
+        "intent": "android.intent.action.CHOOSER",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.chooser.ChooserActivity"
+    },
+    {
+        "intent": "android.intent.action.CHOOSER",
+        "package_name": "android",
+        "activity": "android/com.android.internal.app.ChooserActivity"
+    },
+    {
+        "intent": "android.settings.MANAGED_PROFILE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManagedProfileSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.action.EXTRA_SETTINGS",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.tuner.TunerActivity"
+    },
+    {
+        "intent": "android.settings.USAGE_ACCESS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$UsageAccessSettingsActivity"
+    },
+    {
+        "intent": "android.cellbroadcastreceiver.UPDATE_LIST_VIEW",
+        "package_name": "com.android.cellbroadcastreceiver.module",
+        "activity": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastListActivity"
+    },
+    {
+        "intent": "android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.BluetoothPermissionActivity"
+    },
+    {
+        "intent": "com.android.phone.action.RECENT_CALLS",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.main.impl.MainActivity"
+    },
+    {
+        "intent": "com.android.settings.TRUSTED_CREDENTIALS_USER",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$TrustedCredentialsSettingsActivity"
+    },
+    {
+        "intent": "android.settings.BIOMETRIC_ENROLL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.biometrics.BiometricEnrollActivity"
+    },
+    {
+        "intent": "android.app.action.CONFIRM_FRP_CREDENTIAL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.ConfirmDeviceCredentialActivity"
+    },
+    {
+        "intent": "android.emergency.EDIT_MEDICAL_INFO",
+        "package_name": "com.android.emergency",
+        "activity": "com.android.emergency/.edit.EditMedicalInfoActivity"
+    },
+    {
+        "intent": "android.app.action.ADD_DEVICE_ADMIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.applications.specialaccess.deviceadmin.DeviceAdminAdd"
+    },
+    {
+        "intent": "android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.BluetoothPermissionActivity"
+    },
+    {
+        "intent": "com.android.settings.GLOBAL_ACTIONS_PANEL_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$GlobalActionsPanelSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.WIFI_TETHER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiTetherSettingsActivity"
+    },
+    {
+        "intent": "android.search.action.GLOBAL_SEARCH",
+        "package_name": "com.android.quicksearchbox",
+        "activity": "com.android.quicksearchbox/.SearchActivity"
+    },
+    {
+        "intent": "android.search.action.GLOBAL_SEARCH",
+        "package_name": "com.android.quicksearchbox",
+        "activity": "com.android.quicksearchbox/.SearchActivity"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.multiwindow.MultiInstanceChromeTabbedActivity"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity2"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.WebappActivity"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.SameTaskWebApkActivity"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.Main"
+    },
+    {
+        "intent": "com.samsung.android.support.REMOTE_ACTION",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity"
+    },
+    {
+        "intent": "android.settings.LICENSE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.SettingsLicenseActivity"
+    },
+    {
+        "intent": "android.nfc.cardemulation.action.ACTION_CHANGE_DEFAULT",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.nfc.PaymentDefaultDialog"
+    },
+    {
+        "intent": "android.settings.NOTIFICATION_ASSISTANT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NotificationAssistantSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.OPEN_DOCUMENT_TREE",
+        "package_name": "com.android.documentsui",
+        "activity": "com.android.documentsui/.picker.PickActivity"
+    },
+    {
+        "intent": "android.settings.ACTION_OTHER_SOUND_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SoundSettingsActivity"
+    },
+    {
+        "intent": "android.settings.ACCOUNT_SYNC_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccountSyncSettingsActivity"
+    },
+    {
+        "intent": "android.telecom.action.MANAGE_BLOCKED_NUMBERS",
+        "package_name": "com.android.server.telecom",
+        "activity": "com.android.server.telecom/.settings.BlockedNumbersActivity"
+    },
+    {
+        "intent": "android.settings.LOCATION_SCANNING_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ScanningSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.DIAL",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.main.impl.MainActivity"
+    },
+    {
+        "intent": "android.intent.action.EDIT",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkInputActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SystemDashboardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiTetherSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PowerUsageSummaryActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wallpaper.StyleSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.inputmethod.latin",
+        "activity": "com.android.inputmethod.latin/.spellcheck.SpellCheckerSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.inputmethod.latin",
+        "activity": "com.android.inputmethod.latin/.setup.SetupActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SoundSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/.app.GalleryActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.sim.SimDialogActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wallpaper.WallpaperSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.SetupRedactionInterstitial"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DateTimeSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.DessertCase"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/com.android.camera.CameraLauncher"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PrintSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.messaging",
+        "activity": "com.android.messaging/.ui.conversationlist.ConversationListActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ConfigureWifiSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PaymentSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.server.telecom",
+        "activity": "com.android.server.telecom/.RespondViaSmsSettings"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NetworkDashboardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$UserDictionarySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/.app.Gallery"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.inputmethod.latin",
+        "activity": "com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DictionarySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SpellCheckersSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiInfoActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$IccLockSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.android_webview.devui.MonochromeLauncherActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.inputmethod.latin",
+        "activity": "com.android.inputmethod.latin/.setup.SetupWizardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$BluetoothSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.CameraActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccountDashboardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/com.android.services.telephony.sip.SipSettings"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.ScreenLockSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$RunningServicesActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DeviceAdminSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.AccessibilitySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wallpaper.WallpaperSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiStatusTest"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.egg",
+        "activity": "com.android.egg/.neko.NekoActivationActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeScheduleRuleSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.RadioInfo"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.cellbroadcastreceiver.module",
+        "activity": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastListLauncherActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.calendar",
+        "activity": "com.android.calendar/.AllInOneActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.fdn.FdnSetting"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.EnableIccPinScreen"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiConfigInfo"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "android",
+        "activity": "android/com.android.internal.app.SystemUserHomeActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiP2pSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.history.NotificationHistoryActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$LanguageAndInputSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.dreams.phototable",
+        "activity": "com.android.dreams.phototable/.FlipperDreamSettings"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ApnSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.inputmethod.latin",
+        "activity": "com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.DownloadOverMeteredDialog"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.vpndialogs",
+        "activity": "com.android.vpndialogs/.ConfirmDialog"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$LocalePickerActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.traceur",
+        "activity": "com.android.traceur/.MainActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.inputmethod.latin",
+        "activity": "com.android.inputmethod.latin/.settings.SettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.inputmethod.InputMethodAndSubtypeEnablerActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.providers.calendar",
+        "activity": "com.android.providers.calendar/.CalendarDebug"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.GsmUmtsAdditionalCallOptions"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$VpnSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DataUsageSummaryActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.GsmUmtsCallBarringOptions"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.provision",
+        "activity": "com.android.provision/.DefaultActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.ChangeIccPinScreen"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkMain"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.zen.ZenSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.main.impl.MainActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.sdksetup",
+        "activity": "com.android.sdksetup/.DefaultActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.documentsui",
+        "activity": "com.android.documentsui/.selection.demo.SelectionDemoActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "org.chromium.webview_shell",
+        "activity": "org.chromium.webview_shell/.WebViewBrowserActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccessibilitySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.preprovisioning.PostEncryptionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.Somnambulator"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiCallingSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.UsageStatsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/com.cooliris.media.Gallery"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DisplaySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.cellbroadcastreceiver.module",
+        "activity": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastListActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.calling.WifiCallingSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NightDisplaySuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageApplicationsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.CryptKeeper"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NightDisplaySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.FontSizeSettingsForSetupWizardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.emergency",
+        "activity": "com.android.emergency/.edit.EditInfoSuggestion"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.egg.MLandActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$StorageDashboardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.egg",
+        "activity": "com.android.egg/.neko.NekoLand"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.CallFeaturesSetting"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/.secondarydisplay.SecondaryDisplayLauncher"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.biometrics.fingerprint.FingerprintEnrollSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PrivacySettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NotificationStationActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiAPITestActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$GestureNavigationSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.BandMode"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiSettings2Activity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.GsmUmtsCallOptions"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.providers.calendar",
+        "activity": "com.android.providers.calendar/.CalendarDebugActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.documentsui",
+        "activity": "com.android.documentsui/.files.FilesActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.Main"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.zen.ZenSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.IntentDispatcher"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccessibilityDaltonizerSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ConfigureNotificationSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/.uioverrides.QuickstepLauncher"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.FallbackHome"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SecurityDashboardActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.CdmaCallOptions"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$MyDeviceInfoActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.GsmUmtsCallForwardOptions"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.DeskClock"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.documentsui",
+        "activity": "com.android.documentsui/.LauncherActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.CameraLauncher"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$StorageUseActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PictureInPictureSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.server.telecom",
+        "activity": "com.android.server.telecom/.settings.EnableAccountPreferenceActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.NonPhoneActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.SetupFingerprintSuggestionActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.backup.UserBackupSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$LocationSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.messaging",
+        "activity": "com.android.messaging/.ui.appsettings.ApplicationSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.dreams.phototable",
+        "activity": "com.android.dreams.phototable/.PhotoTableDreamSettings"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.quicksearchbox",
+        "activity": "com.android.quicksearchbox/.SearchActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.egg",
+        "activity": "com.android.egg/.paint.PaintActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DarkThemeSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.traceur",
+        "activity": "com.android.traceur/.MainTvActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$TetherSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiCallingDisclaimerActivity"
+    },
+    {
+        "intent": "android.intent.action.MAIN",
+        "package_name": "com.android.egg",
+        "activity": "com.android.egg/.quares.QuaresActivity"
+    },
+    {
+        "intent": "android.intent.action.PICK",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkLauncherActivity"
+    },
+    {
+        "intent": "android.intent.action.PICK",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkMenuActivity"
+    },
+    {
+        "intent": "android.intent.action.SEND",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.SEND",
+        "package_name": "com.android.cts.ctsshim",
+        "activity": "com.android.cts.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkInputActivity"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkLauncherActivity"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.calendar",
+        "activity": "com.android.calendar/.EventInfoActivity"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.CallFeaturesSetting"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.dialog.CallSubjectDialog"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/com.android.contacts.common.dialog.CallSubjectDialog"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.cts.ctsshim",
+        "activity": "com.android.cts.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.VIEW",
+        "package_name": "com.android.stk",
+        "activity": "com.android.stk/.StkMenuActivity"
+    },
+    {
+        "intent": "android.settings.TETHER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$TetherSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_PERMISSION_APPS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ManagePermissionsActivity"
+    },
+    {
+        "intent": "android.settings.NOTIFICATION_POLICY_ACCESS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenAccessSettingsActivity"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_ALL_CONTACTS",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.content.pm.action.CONFIRM_PIN_APPWIDGET",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/.dragndrop.AddItemActivity"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_PACKAGE_STORAGE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$StorageUseActivity"
+    },
+    {
+        "intent": "android.settings.ZEN_MODE_ONBOARDING",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.zen.ZenOnboardingActivity"
+    },
+    {
+        "intent": "com.google.android.apps.chrome.webapps.WebappManager.ACTION_START_WEBAPP",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.WebappLauncherActivity"
+    },
+    {
+        "intent": "android.settings.INTERNAL_STORAGE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$StorageDashboardActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_ADD_NETWORKS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.addappnetworks.AddAppNetworksActivity"
+    },
+    {
+        "intent": "android.settings.MANAGE_APPLICATIONS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageApplicationsActivity"
+    },
+    {
+        "intent": "android.settings.SHOW_REMOTE_BUGREPORT_DIALOG",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.RemoteBugreportActivity"
+    },
+    {
+        "intent": "android.settings.SHOW_SAFETY_AND_REGULATORY_INFO",
+        "package_name": "com.android.safetyregulatoryinfo",
+        "activity": "com.android.safetyregulatoryinfo/.SafetyAndRegulatoryInfoActivity"
+    },
+    {
+        "intent": "android.settings.SYNC_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccountDashboardActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_MANAGED_DEVICE",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.preprovisioning.PreProvisioningActivity"
+    },
+    {
+        "intent": "com.android.settings.GESTURE_NAVIGATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$GestureNavigationSettingsActivity"
+    },
+    {
+        "intent": "android.os.image.action.START_INSTALL",
+        "package_name": "com.android.dynsystem",
+        "activity": "com.android.dynsystem/.VerificationActivity"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_SPECIAL_APP_ACCESSES",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.SpecialAppAccessListActivity"
+    },
+    {
+        "intent": "android.app.action.SET_PROFILE_OWNER",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.applications.specialaccess.deviceadmin.ProfileOwnerAdd"
+    },
+    {
+        "intent": "android.intent.action.SNOOZE_ALARM",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleApiCalls"
+    },
+    {
+        "intent": "android.settings.WEBVIEW_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.WebViewImplementation"
+    },
+    {
+        "intent": "android.app.role.action.REQUEST_ROLE",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.RequestRoleActivity"
+    },
+    {
+        "intent": "android.settings.NFC_PAYMENT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PaymentSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.TTS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$TextToSpeechSettingsActivity"
+    },
+    {
+        "intent": "com.android.managedprovisioning.action.RESUME_PROVISIONING",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.PreProvisioningActivityAfterEncryption"
+    },
+    {
+        "intent": "android.settings.ACTION_APP_NOTIFICATION_REDACTION",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.RedactionSettingsStandalone"
+    },
+    {
+        "intent": "android.settings.MEMORY_CARD_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$StorageDashboardActivity"
+    },
+    {
+        "intent": "android.settings.ACCESSIBILITY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccessibilitySettingsActivity"
+    },
+    {
+        "intent": "com.android.cts.action.NEW_ACTION",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeNewAction"
+    },
+    {
+        "intent": "android.settings.EDIT_EMERGENCY_INFO",
+        "package_name": "com.android.emergency",
+        "activity": "com.android.emergency/.edit.EditInfoActivity"
+    },
+    {
+        "intent": "com.android.webview.SHOW_DEV_UI",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.android_webview.devui.MainActivity"
+    },
+    {
+        "intent": "com.android.webview.SHOW_DEV_UI",
+        "package_name": "com.android.webview",
+        "activity": "com.android.webview/org.chromium.android_webview.devui.MainActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_CALLING_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiCallingSettingsActivity"
+    },
+    {
+        "intent": "android.telephony.action.SHOW_NOTICE_ECM_BLOCK_OTHERS",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.EmergencyCallbackModeExitDialog"
+    },
+    {
+        "intent": "android.telecom.action.SHOW_RESPOND_VIA_SMS_SETTINGS",
+        "package_name": "com.android.server.telecom",
+        "activity": "com.android.server.telecom/.RespondViaSmsSettings"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity2"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.ChromeTabbedActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.customtabs.CustomTabActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.customtabs.TranslucentCustomTabActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.Main"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.SameTaskWebApkActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.dummy.action",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.WebappActivity"
+    },
+    {
+        "intent": "android.intent.action.SET_WALLPAPER",
+        "package_name": "com.android.wallpaperpicker",
+        "activity": "com.android.wallpaperpicker/.WallpaperPickerActivity"
+    },
+    {
+        "intent": "android.intent.action.SET_WALLPAPER",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/.app.Wallpaper"
+    },
+    {
+        "intent": "android.intent.action.SET_WALLPAPER",
+        "package_name": "com.android.wallpaper.livepicker",
+        "activity": "com.android.wallpaper.livepicker/.LiveWallpaperActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_MANAGED_USER",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.preprovisioning.PreProvisioningActivity"
+    },
+    {
+        "intent": "android.content.pm.action.REQUEST_PERMISSIONS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.GrantPermissionsActivity"
+    },
+    {
+        "intent": "android.settings.DARK_THEME_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DarkThemeSettingsActivity"
+    },
+    {
+        "intent": "android.bluetooth.adapter.action.REQUEST_ENABLE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.RequestPermissionActivity"
+    },
+    {
+        "intent": "android.settings.MOBILE_NETWORK_LIST",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$MobileNetworkListActivity"
+    },
+    {
+        "intent": "android.settings.PRIVACY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PrivacyDashboardActivity"
+    },
+    {
+        "intent": "com.android.settings.ADVANCED_CONNECTED_DEVICE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AdvancedConnectedDeviceActivity"
+    },
+    {
+        "intent": "android.settings.ALL_APPS_NOTIFICATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NotificationAppListActivity"
+    },
+    {
+        "intent": "com.android.cts.action.CATEGORY_SUB",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeCategorySubset"
+    },
+    {
+        "intent": "android.intent.action.APPLICATION_PREFERENCES",
+        "package_name": "com.android.bluetooth",
+        "activity": "com.android.bluetooth/.BluetoothPrefs"
+    },
+    {
+        "intent": "android.intent.action.APPLICATION_PREFERENCES",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/.settings.SettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.action.SETTINGS_SEARCH",
+        "package_name": "com.android.settings.intelligence",
+        "activity": "com.android.settings.intelligence/.search.SearchActivity"
+    },
+    {
+        "intent": "org.webapk.ACTION_START_WEBAPK",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webapps.WebappLauncherActivity"
+    },
+    {
+        "intent": "com.android.dialer.action.BLOCKED_NUMBERS_SETTINGS",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.app.filterednumber.BlockedNumbersSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.MONITORING_CERT_INFO",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.MonitoringCertInfoActivity"
+    },
+    {
+        "intent": "com.android.intent.action.SHOW_BRIGHTNESS_DIALOG",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.settings.BrightnessDialog"
+    },
+    {
+        "intent": "android.os.storage.action.MANAGE_STORAGE",
+        "package_name": "com.android.storagemanager",
+        "activity": "com.android.storagemanager/.deletionhelper.DeletionHelperActivity"
+    },
+    {
+        "intent": "android.settings.MMS_MESSAGE_SETTING",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.network.telephony.MobileNetworkActivity"
+    },
+    {
+        "intent": "com.android.settings.action.DEMO_MODE",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.DemoMode"
+    },
+    {
+        "intent": "android.settings.MOBILE_DATA_USAGE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$MobileDataUsageListActivity"
+    },
+    {
+        "intent": "android.telephony.euicc.action.MANAGE_EMBEDDED_SUBSCRIPTIONS",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccUiDispatcherActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_MANAGED_PROFILE",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.preprovisioning.PreProvisioningActivity"
+    },
+    {
+        "intent": "android.settings.NOTIFICATION_HISTORY",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.history.NotificationHistoryActivity"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_DEFAULT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.settings.WIRELESS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NetworkDashboardActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_SETTINGS2",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiSettings2Activity"
+    },
+    {
+        "intent": "com.android.cts.action.MATCH_MULTIPLE",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeMatchMultiple"
+    },
+    {
+        "intent": "android.telephony.euicc.action.PROVISION_EMBEDDED_SUBSCRIPTION",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccUiDispatcherActivity"
+    },
+    {
+        "intent": "android.settings.USER_DICTIONARY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$UserDictionarySettingsActivity"
+    },
+    {
+        "intent": "android.telephony.euicc.action.TOGGLE_SUBSCRIPTION_PRIVILEGED",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccPrivilegedActionUiDispatcherActivity"
+    },
+    {
+        "intent": "android.settings.FOREGROUND_SERVICES_SETTINGS",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.ForegroundServicesDialog"
+    },
+    {
+        "intent": "android.settings.NOTIFICATION_LISTENER_DETAIL_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NotificationAccessDetailsActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_IP_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ConfigureWifiSettingsActivity"
+    },
+    {
+        "intent": "android.settings.APPLICATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageApplicationsActivity"
+    },
+    {
+        "intent": "android.net.conn.PROMPT_LOST_VALIDATION",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiNoInternetDialog"
+    },
+    {
+        "intent": "android.bluetooth.device.action.PAIRING_REQUEST",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.BluetoothPairingDialog"
+    },
+    {
+        "intent": "android.service.quicksettings.action.QS_TILE_PREFERENCES",
+        "package_name": "com.android.traceur",
+        "activity": "com.android.traceur/.MainActivity"
+    },
+    {
+        "intent": "android.service.quicksettings.action.QS_TILE_PREFERENCES",
+        "package_name": "com.android.egg",
+        "activity": "com.android.egg/.neko.NekoLand"
+    },
+    {
+        "intent": "android.support.customtabs.action.ACTION_MANAGE_TRUSTED_WEB_ACTIVITY_DATA",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.browserservices.ManageTrustedWebActivityDataActivity"
+    },
+    {
+        "intent": "android.settings.WEBVIEW_LICENSE",
+        "package_name": "com.android.webview",
+        "activity": "com.android.webview/org.chromium.android_webview.nonembedded.LicenseActivity"
+    },
+    {
+        "intent": "android.settings.WEBVIEW_LICENSE",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.android_webview.nonembedded.LicenseActivity"
+    },
+    {
+        "intent": "com.android.dialer.app.settings.SHOW_ASSISTED_DIALING_SETTINGS",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.assisteddialing.ui.AssistedDialingSettingActivity"
+    },
+    {
+        "intent": "android.settings.ACTION_DEVICE_CONTROLS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DeviceControlsSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.TRUSTED_CREDENTIALS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$TrustedCredentialsSettingsActivity"
+    },
+    {
+        "intent": "android.credentials.UNLOCK",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SecurityDashboardActivity"
+    },
+    {
+        "intent": "android.provider.Telephony.SMS_CB_RECEIVED",
+        "package_name": "com.android.cellbroadcastreceiver.module",
+        "activity": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastAlertDialog"
+    },
+    {
+        "intent": "android.telecom.action.CONFIGURE_PHONE_ACCOUNT",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/com.android.services.telephony.sip.SipPhoneAccountSettingsActivity"
+    },
+    {
+        "intent": "com.android.cts.action.NEW_CATEGORY",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeNewCategory"
+    },
+    {
+        "intent": "android.settings.ZEN_MODE_PRIORITY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeSettingsActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.usage_stats.action.AUTHORIZE",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.usage_stats.UsageStatsConsentActivity"
+    },
+    {
+        "intent": "android.intent.action.QUICK_CLOCK",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DateTimeSettingsActivity"
+    },
+    {
+        "intent": "android.credentials.INSTALL_AS_USER",
+        "package_name": "com.android.certinstaller",
+        "activity": "com.android.certinstaller/.InstallCertAsUser"
+    },
+    {
+        "intent": "android.net.vpn.SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$VpnSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.SEND_MULTIPLE",
+        "package_name": "com.android.cts.ctsshim",
+        "activity": "com.android.cts.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.SEND_MULTIPLE",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.settings.ZEN_MODE_AUTOMATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeAutomationSettingsActivity"
+    },
+    {
+        "intent": "android.settings.DEVICE_INFO_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$MyDeviceInfoActivity"
+    },
+    {
+        "intent": "android.settings.FINGERPRINT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$FingerprintSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.DIAL_EMERGENCY",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.EmergencyDialer"
+    },
+    {
+        "intent": "android.intent.action.DIAL_EMERGENCY",
+        "package_name": "com.android.emergency",
+        "activity": "com.android.emergency/.EmergencyDialerTrampoline"
+    },
+    {
+        "intent": "com.android.credentials.RESET",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.security.CredentialStorage"
+    },
+    {
+        "intent": "android.net.wifi.action.REQUEST_SCAN_ALWAYS_AVAILABLE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiScanModeActivity"
+    },
+    {
+        "intent": "android.settings.SECURITY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SecurityDashboardActivity"
+    },
+    {
+        "intent": "android.speech.action.VOICE_SEARCH_RESULTS",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.IntentDispatcher"
+    },
+    {
+        "intent": "android.intent.action.POWER_USAGE_SUMMARY",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PowerUsageSummaryActivity"
+    },
+    {
+        "intent": "android.settings.panel.action.NFC",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.panel.SettingsPanelActivity"
+    },
+    {
+        "intent": "android.settings.SHOW_ADMIN_SUPPORT_DETAILS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.enterprise.ActionDisabledByAdminDialog"
+    },
+    {
+        "intent": "com.android.internal.intent.action.REQUEST_SHUTDOWN",
+        "package_name": "android",
+        "activity": "android/com.android.internal.app.ShutdownActivity"
+    },
+    {
+        "intent": "android.intent.action.DISMISS_ALARM",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleApiCalls"
+    },
+    {
+        "intent": "android.settings.ZEN_MODE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.DISMISS_TIMER",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleApiCalls"
+    },
+    {
+        "intent": "android.settings.VPN_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$VpnSettingsActivity"
+    },
+    {
+        "intent": "com.android.cts.action.NEW_AUTHORITY",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeNewAuthority"
+    },
+    {
+        "intent": "android.intent.action.PICK_ACTIVITY",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.ActivityPicker"
+    },
+    {
+        "intent": "android.intent.action.SET_ALARM",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleSetAlarmApiCalls"
+    },
+    {
+        "intent": "com.android.permissioncontroller.settingssearch.action.MANAGE_DEFAULT_APP",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.RoleSearchTrampolineActivity"
+    },
+    {
+        "intent": "android.os.storage.action.CLEAR_APP_CACHE",
+        "package_name": "com.android.providers.media.module",
+        "activity": "com.android.providers.media.module/com.android.providers.media.CacheClearingActivity"
+    },
+    {
+        "intent": "android.intent.action.SET_TIMER",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleSetAlarmApiCalls"
+    },
+    {
+        "intent": "android.settings.BUGREPORT_HANDLER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$BugReportHandlerPickerActivity"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_DEFAULT_APP",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.DefaultAppActivity"
+    },
+    {
+        "intent": "android.appwidget.action.APPWIDGET_CONFIGURE",
+        "package_name": "com.android.messaging",
+        "activity": "com.android.messaging/.ui.WidgetPickConversationActivity"
+    },
+    {
+        "intent": "android.appwidget.action.APPWIDGET_CONFIGURE",
+        "package_name": "com.android.gallery3d",
+        "activity": "com.android.gallery3d/.gadget.WidgetConfigure"
+    },
+    {
+        "intent": "android.net.wifi.action.REQUEST_DISABLE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.RequestToggleWiFiActivity"
+    },
+    {
+        "intent": "android.settings.CONVERSATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ConversationListSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.CALL_BUTTON",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.main.impl.MainActivity"
+    },
+    {
+        "intent": "android.settings.MANAGE_ALL_APPLICATIONS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageApplicationsActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_DPP_CONFIGURATOR_QR_CODE_GENERATOR",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.dpp.WifiDppConfiguratorActivity"
+    },
+    {
+        "intent": "android.settings.REQUEST_ENABLE_CONTENT_CAPTURE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PrivacyDashboardActivity"
+    },
+    {
+        "intent": "android.settings.ASSIST_GESTURE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AssistGestureSettingsActivity"
+    },
+    {
+        "intent": "android.settings.ENTERPRISE_PRIVACY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$EnterprisePrivacySettingsActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiSettingsActivity"
+    },
+    {
+        "intent": "android.bluetooth.adapter.action.REQUEST_DISCOVERABLE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.RequestPermissionActivity"
+    },
+    {
+        "intent": "android.settings.APP_NOTIFICATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AppNotificationSettingsActivity"
+    },
+    {
+        "intent": "android.settings.AIRPLANE_MODE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NetworkDashboardActivity"
+    },
+    {
+        "intent": "android.settings.MANAGE_UNKNOWN_APP_SOURCES",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageExternalSourcesActivity"
+    },
+    {
+        "intent": "android.net.conn.PROMPT_UNVALIDATED",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiNoInternetDialog"
+    },
+    {
+        "intent": "android.media.action.STILL_IMAGE_CAMERA",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.CameraActivity"
+    },
+    {
+        "intent": "android.settings.panel.action.INTERNET_CONNECTIVITY",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.panel.SettingsPanelActivity"
+    },
+    {
+        "intent": "android.settings.MODULE_LICENSES",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ModuleLicensesActivity"
+    },
+    {
+        "intent": "android.media.action.STILL_IMAGE_CAMERA_SECURE",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.SecureCameraActivity"
+    },
+    {
+        "intent": "android.settings.SOUND_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SoundSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.RINGTONE_PICKER",
+        "package_name": "com.android.soundpicker",
+        "activity": "com.android.soundpicker/.RingtonePickerActivity"
+    },
+    {
+        "intent": "android.settings.VOICE_CONTROL_DO_NOT_DISTURB_MODE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.notification.zen.ZenModeVoiceActivity"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_STARRED",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.translate.TRANSLATE_TAB",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.TranslateDispatcher"
+    },
+    {
+        "intent": "android.settings.VOICE_INPUT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageAssistActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity.ACTIVATE",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.app.feed.followmanagement.FollowManagementActivity"
+    },
+    {
+        "intent": "android.settings.MANAGE_DOMAIN_URLS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ManageDomainUrlsActivity"
+    },
+    {
+        "intent": "android.telecom.action.CHANGE_DEFAULT_DIALER",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.RequestRoleActivity"
+    },
+    {
+        "intent": "android.telephony.action.EMERGENCY_ASSISTANCE",
+        "package_name": "com.android.emergency",
+        "activity": "com.android.emergency/.view.ViewInfoActivity"
+    },
+    {
+        "intent": "android.settings.APP_MEMORY_USAGE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AppMemoryUsageActivity"
+    },
+    {
+        "intent": "android.settings.action.MANAGE_OVERLAY_PERMISSION",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$OverlaySettingsActivity"
+    },
+    {
+        "intent": "android.service.wallpaper.CHANGE_LIVE_WALLPAPER",
+        "package_name": "com.android.wallpaper.livepicker",
+        "activity": "com.android.wallpaper.livepicker/.LiveWallpaperChange"
+    },
+    {
+        "intent": "android.settings.WIFI_SAVED_NETWORK_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SavedAccessPointsSettingsActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_MANAGED_SHAREABLE_DEVICE",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.preprovisioning.PreProvisioningActivity"
+    },
+    {
+        "intent": "com.android.settings.panel.action.MEDIA_OUTPUT_GROUP",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.MediaOutputSlice"
+    },
+    {
+        "intent": "android.settings.VOICE_CONTROL_AIRPLANE_MODE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.AirplaneModeVoiceActivity"
+    },
+    {
+        "intent": "android.settings.DATA_ROAMING_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.network.telephony.MobileNetworkActivity"
+    },
+    {
+        "intent": "android.media.action.VIDEO_CAPTURE",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.VideoCamera"
+    },
+    {
+        "intent": "android.settings.NFCSHARING_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AndroidBeamSettingsActivity"
+    },
+    {
+        "intent": "android.telecom.action.SHOW_CALL_ACCESSIBILITY_SETTINGS",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.AccessibilitySettingsActivity"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_FREQUENT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.settings.ZEN_MODE_SCHEDULE_RULE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeScheduleRuleSettingsActivity"
+    },
+    {
+        "intent": "com.android.permissioncontroller.settingssearch.action.MANAGE_SPECIAL_APP_ACCESS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.RoleSearchTrampolineActivity"
+    },
+    {
+        "intent": "android.settings.MANAGE_CROSS_PROFILE_ACCESS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$InteractAcrossProfilesSettingsActivity"
+    },
+    {
+        "intent": "android.settings.NIGHT_DISPLAY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$NightDisplaySettingsActivity"
+    },
+    {
+        "intent": "com.android.contacts.action.JOIN_CONTACT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.ContactSelectionActivity"
+    },
+    {
+        "intent": "android.settings.ACCESSIBILITY_SETTINGS_FOR_SUW",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.accessibility.AccessibilitySettingsForSetupWizardActivity"
+    },
+    {
+        "intent": "android.telecom.action.SHOW_CALL_SETTINGS",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.CallFeaturesSetting"
+    },
+    {
+        "intent": "android.settings.ACTION_POWER_MENU_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PowerMenuSettingsActivity"
+    },
+    {
+        "intent": "com.android.phone.action.TOUCH_DIALER",
+        "package_name": "com.android.dialer",
+        "activity": "com.android.dialer/.main.impl.MainActivity"
+    },
+    {
+        "intent": "android.app.action.CONFIRM_DEVICE_CREDENTIAL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.ConfirmDeviceCredentialActivity"
+    },
+    {
+        "intent": "android.settings.NOTIFICATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ConfigureNotificationSettingsActivity"
+    },
+    {
+        "intent": "android.settings.DATA_USAGE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DataUsageSummaryActivity"
+    },
+    {
+        "intent": "android.settings.DREAM_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DreamSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.wifi.action.NETWORK_REQUEST",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.NetworkRequestDialogActivity"
+    },
+    {
+        "intent": "android.settings.action.MANAGE_WRITE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WriteSettingsActivity"
+    },
+    {
+        "intent": "android.telephony.euicc.action.START_EUICC_ACTIVATION",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccPublicActionUiDispatcherActivity"
+    },
+    {
+        "intent": "android.telephony.action.CONFIGURE_VOICEMAIL",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.settings.VoicemailSettingsActivity"
+    },
+    {
+        "intent": "android.hardware.usb.action.USB_ACCESSORY_ATTACHED",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.webauth.authenticator.CableAuthenticatorUSBActivity"
+    },
+    {
+        "intent": "android.bluetooth.adapter.action.REQUEST_DISABLE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.RequestPermissionActivity"
+    },
+    {
+        "intent": "android.intent.action.SHOW_ALARMS",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleApiCalls"
+    },
+    {
+        "intent": "android.media.action.VIDEO_CAMERA",
+        "package_name": "com.android.camera2",
+        "activity": "com.android.camera2/com.android.camera.VideoCamera"
+    },
+    {
+        "intent": "com.android.bluetooth.action.TransferHistory",
+        "package_name": "com.android.bluetooth",
+        "activity": "com.android.bluetooth/.opp.BluetoothOppTransferHistory"
+    },
+    {
+        "intent": "android.settings.INPUT_METHOD_SUBTYPE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.inputmethod.InputMethodAndSubtypeEnablerActivity"
+    },
+    {
+        "intent": "android.settings.CAST_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$WifiDisplaySettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.ACCESSIBILITY_COLOR_SPACE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccessibilityDaltonizerSettingsActivity"
+    },
+    {
+        "intent": "android.settings.panel.action.VOLUME",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.panel.SettingsPanelActivity"
+    },
+    {
+        "intent": "com.android.settings.APPLICATION_DEVELOPMENT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.development.DevelopmentSettingsDisabledActivity"
+    },
+    {
+        "intent": "com.android.settings.APPLICATION_DEVELOPMENT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DevelopmentSettingsDashboardActivity"
+    },
+    {
+        "intent": "com.android.settings.WIFI_DIALOG",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.WifiDialogActivity"
+    },
+    {
+        "intent": "com.android.keychain.CHOOSER",
+        "package_name": "com.android.keychain",
+        "activity": "com.android.keychain/.KeyChainActivity"
+    },
+    {
+        "intent": "com.sec.android.airview.HOVER",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.IntentDispatcher"
+    },
+    {
+        "intent": "android.settings.MANAGE_DEFAULT_APPS_SETTINGS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.role.ui.DefaultAppListActivity"
+    },
+    {
+        "intent": "com.android.settings.BATTERY_SAVER_SCHEDULE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$BatterySaverScheduleSettingsActivity"
+    },
+    {
+        "intent": "android.settings.ACTION_PRINT_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PrintSettingsActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_FINANCED_DEVICE",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.PreProvisioningActivityViaTrustedApp"
+    },
+    {
+        "intent": "android.app.action.START_ENCRYPTION",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$CryptKeeperSettingsActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_DPP_CONFIGURATOR_QR_CODE_SCANNER",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.dpp.WifiDppConfiguratorActivity"
+    },
+    {
+        "intent": "android.service.wallpaper.LIVE_WALLPAPER_CHOOSER",
+        "package_name": "com.android.wallpaper.livepicker",
+        "activity": "com.android.wallpaper.livepicker/.LiveWallpaperActivity"
+    },
+    {
+        "intent": "android.intent.action.VIEW_DOWNLOADS",
+        "package_name": "com.android.documentsui",
+        "activity": "com.android.documentsui/.ViewDownloadsActivity"
+    },
+    {
+        "intent": "android.app.action.PROVISION_FINALIZATION",
+        "package_name": "com.android.managedprovisioning",
+        "activity": "com.android.managedprovisioning/.finalization.FinalizationPostSuwActivity"
+    },
+    {
+        "intent": "android.net.wifi.action.PASSPOINT_LAUNCH_OSU_VIEW",
+        "package_name": "com.android.hotspot2.osulogin",
+        "activity": "com.android.hotspot2.osulogin/.OsuLoginActivity"
+    },
+    {
+        "intent": "android.intent.action.REVIEW_ACCESSIBILITY_SERVICES",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ReviewAccessibilityServicesActivity"
+    },
+    {
+        "intent": "android.companiondevice.START_DISCOVERY",
+        "package_name": "com.android.companiondevicemanager",
+        "activity": "com.android.companiondevicemanager/.DeviceChooserActivity"
+    },
+    {
+        "intent": "android.settings.INPUT_METHOD_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AvailableVirtualKeyboardActivity"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_APP_PERMISSION",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ManagePermissionsActivity"
+    },
+    {
+        "intent": "com.android.settings.DISPLAY_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DisplaySettingsActivity"
+    },
+    {
+        "intent": "com.android.quickstep.action.GESTURE_SANDBOX",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/com.android.quickstep.interaction.GestureSandboxActivity"
+    },
+    {
+        "intent": "android.settings.LOCALE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$LocalePickerActivity"
+    },
+    {
+        "intent": "android.credentials.INSTALL",
+        "package_name": "com.android.certinstaller",
+        "activity": "com.android.certinstaller/.CertInstallerMain"
+    },
+    {
+        "intent": "com.android.intent.action.REQUEST_SLICE_PERMISSION",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.SlicePermissionActivity"
+    },
+    {
+        "intent": "android.app.action.SET_NEW_PASSWORD",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.SetNewPasswordActivity"
+    },
+    {
+        "intent": "android.appwidget.action.APPWIDGET_BIND",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.AllowBindAppWidgetActivity"
+    },
+    {
+        "intent": "android.appwidget.action.APPWIDGET_PICK",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.AppWidgetPickActivity"
+    },
+    {
+        "intent": "android.settings.IGNORE_BATTERY_OPTIMIZATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$HighPowerApplicationsActivity"
+    },
+    {
+        "intent": "android.intent.action.SHOW_TIMERS",
+        "package_name": "com.android.deskclock",
+        "activity": "com.android.deskclock/.HandleApiCalls"
+    },
+    {
+        "intent": "android.settings.TETHER_PROVISIONING_UI",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.network.TetherProvisioningActivity"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_APP_PERMISSIONS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ManagePermissionsActivity"
+    },
+    {
+        "intent": "org.chromium.chrome.browser.incognito.OPEN_PRIVATE_TAB",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/org.chromium.chrome.browser.incognito.IncognitoTabLauncher"
+    },
+    {
+        "intent": "android.intent.action.REVIEW_PERMISSIONS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ReviewPermissionsActivity"
+    },
+    {
+        "intent": "com.android.server.wifi.intent.action.SERVICE_WIFI_RESOURCES_APK",
+        "package_name": "com.android.wifi.resources",
+        "activity": "com.android.wifi.resources/android.app.Activity"
+    },
+    {
+        "intent": "com.android.permissioncontroller.settingssearch.action.MANAGE_PERMISSION_APPS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ManagePermissionsActivityTrampoline"
+    },
+    {
+        "intent": "com.android.contacts.action.LIST_CONTACTS",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.settings.APN_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ApnSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.action.IA_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.backup.UserBackupSettingsActivity"
+    },
+    {
+        "intent": "com.android.settings.action.IA_SETTINGS",
+        "package_name": "com.android.traceur",
+        "activity": "com.android.traceur/.MainActivity"
+    },
+    {
+        "intent": "com.android.settings.panel.action.MEDIA_OUTPUT",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.MediaOutputSlice"
+    },
+    {
+        "intent": "com.android.cts.action.AUTHORITY_SUB",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeAuthoritySubset"
+    },
+    {
+        "intent": "android.intent.action.MANAGE_PERMISSIONS",
+        "package_name": "com.android.permissioncontroller",
+        "activity": "com.android.permissioncontroller/.permission.ui.ManagePermissionsActivity"
+    },
+    {
+        "intent": "android.app.action.CONFIRM_DEVICE_CREDENTIAL_WITH_USER",
+        "package_name": "com.android.systemui",
+        "activity": "com.android.systemui/.keyguard.WorkLockActivity"
+    },
+    {
+        "intent": "android.app.action.CONFIRM_DEVICE_CREDENTIAL_WITH_USER",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.ConfirmDeviceCredentialActivity$InternalActivity"
+    },
+    {
+        "intent": "com.android.internal.intent.action.CHOOSE_ACCESSIBILITY_BUTTON",
+        "package_name": "android",
+        "activity": "android/com.android.internal.accessibility.dialog.AccessibilityShortcutChooserActivity"
+    },
+    {
+        "intent": "com.android.internal.intent.action.CHOOSE_ACCESSIBILITY_BUTTON",
+        "package_name": "android",
+        "activity": "android/com.android.internal.accessibility.dialog.AccessibilityButtonChooserActivity"
+    },
+    {
+        "intent": "com.android.settings.SEARCH_RESULT_TRAMPOLINE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.search.SearchResultTrampoline"
+    },
+    {
+        "intent": "android.content.pm.action.CONFIRM_PIN_SHORTCUT",
+        "package_name": "com.android.launcher3",
+        "activity": "com.android.launcher3/.dragndrop.AddItemActivity"
+    },
+    {
+        "intent": "com.android.cts.action.ACTION_SUB_2",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeActionSubset"
+    },
+    {
+        "intent": "com.android.cts.action.ACTION_SUB_3",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeActionSubset"
+    },
+    {
+        "intent": "com.android.settings.SOUND_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$SoundSettingsActivity"
+    },
+    {
+        "intent": "android.settings.CAPTIONING_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$CaptioningSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.WEB_SEARCH",
+        "package_name": "com.android.quicksearchbox",
+        "activity": "com.android.quicksearchbox/.google.GoogleSearch"
+    },
+    {
+        "intent": "android.settings.ZEN_MODE_EVENT_RULE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeEventRuleSettingsActivity"
+    },
+    {
+        "intent": "android.settings.APP_SEARCH_SETTINGS",
+        "package_name": "com.android.settings.intelligence",
+        "activity": "com.android.settings.intelligence/.search.SearchActivity"
+    },
+    {
+        "intent": "android.settings.FACE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$FaceSettingsActivity"
+    },
+    {
+        "intent": "android.intent.action.CREATE_SHORTCUT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.ContactShortcut"
+    },
+    {
+        "intent": "android.intent.action.CREATE_SHORTCUT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/alias.DialShortcut"
+    },
+    {
+        "intent": "android.intent.action.CREATE_SHORTCUT",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/alias.MessageShortcut"
+    },
+    {
+        "intent": "android.intent.action.CREATE_SHORTCUT",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$CreateShortcutActivity"
+    },
+    {
+        "intent": "com.android.phone.action.ACTION_SHOW_ECM_EXIT_DIALOG",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.EmergencyCallbackModeExitDialog"
+    },
+    {
+        "intent": "android.net.sip.NOTIFY",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/com.android.services.telephony.sip.SipSettings"
+    },
+    {
+        "intent": "com.android.cts.action.LOWER_PRIORITY",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeLowerPriority"
+    },
+    {
+        "intent": "android.settings.CHANNEL_NOTIFICATION_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ChannelNotificationSettingsActivity"
+    },
+    {
+        "intent": "android.settings.ACTION_CONDITION_PROVIDER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$ZenModeAutomationSettingsActivity"
+    },
+    {
+        "intent": "android.telephony.euicc.action.RESOLVE_ERROR",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.euicc.EuiccResolutionUiDispatcherActivity"
+    },
+    {
+        "intent": "android.settings.FINGERPRINT_ENROLL",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.biometrics.fingerprint.FingerprintEnrollIntroduction"
+    },
+    {
+        "intent": "android.settings.DEVICE_NAME",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$MyDeviceInfoActivity"
+    },
+    {
+        "intent": "android.intent.action.REBOOT",
+        "package_name": "android",
+        "activity": "android/com.android.internal.app.ShutdownActivity"
+    },
+    {
+        "intent": "android.bluetooth.devicepicker.action.LAUNCH",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.bluetooth.DevicePickerActivity"
+    },
+    {
+        "intent": "android.settings.ACCESSIBILITY_DETAILS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AccessibilityDetailsSettingsActivity"
+    },
+    {
+        "intent": "com.android.phone.EmergencyDialer.DIAL",
+        "package_name": "com.android.phone",
+        "activity": "com.android.phone/.EmergencyDialer"
+    },
+    {
+        "intent": "android.settings.DATE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$DateTimeSettingsActivity"
+    },
+    {
+        "intent": "com.android.cts.action.MATCH",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.UpgradeMatch"
+    },
+    {
+        "intent": "android.settings.panel.action.WIFI",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.panel.SettingsPanelActivity"
+    },
+    {
+        "intent": "android.net.conn.CAPTIVE_PORTAL",
+        "package_name": "com.android.captiveportallogin",
+        "activity": "com.android.captiveportallogin/.CaptivePortalLoginActivity"
+    },
+    {
+        "intent": "android.intent.action.SEARCH",
+        "package_name": "com.android.chrome",
+        "activity": "com.android.chrome/com.google.android.apps.chrome.IntentDispatcher"
+    },
+    {
+        "intent": "android.intent.action.SEARCH",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.SEARCH",
+        "package_name": "com.android.contacts",
+        "activity": "com.android.contacts/.activities.PeopleActivity"
+    },
+    {
+        "intent": "android.intent.action.SEARCH",
+        "package_name": "com.android.cts.ctsshim",
+        "activity": "com.android.cts.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.SENDTO",
+        "package_name": "com.android.cts.ctsshim",
+        "activity": "com.android.cts.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.intent.action.SENDTO",
+        "package_name": "com.android.cts.priv.ctsshim",
+        "activity": "com.android.cts.priv.ctsshim/.InstallPriority"
+    },
+    {
+        "intent": "android.app.action.SET_NEW_PARENT_PROFILE_PASSWORD",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.password.SetNewPasswordActivity"
+    },
+    {
+        "intent": "android.settings.VOICE_CONTROL_BATTERY_SAVER_MODE",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.fuelgauge.BatterySaverModeVoiceActivity"
+    },
+    {
+        "intent": "android.settings.WIFI_DPP_ENROLLEE_QR_CODE_SCANNER",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.wifi.dpp.WifiDppEnrolleeActivity"
+    },
+    {
+        "intent": "android.settings.BATTERY_SAVER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$BatterySaverSettingsActivity"
+    },
+    {
+        "intent": "android.settings.PICTURE_IN_PICTURE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$PictureInPictureSettingsActivity"
+    },
+    {
+        "intent": "android.settings.ACTION_MEDIA_CONTROLS_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$MediaControlsSettingsActivity"
+    },
+    {
+        "intent": "android.settings.NFC_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AdvancedConnectedDeviceActivity"
+    },
+    {
+        "intent": "android.settings.STORAGE_MANAGER_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AutomaticStorageManagerSettingsActivity"
+    },
+    {
+        "intent": "android.settings.APP_NOTIFICATION_BUBBLE_SETTINGS",
+        "package_name": "com.android.settings",
+        "activity": "com.android.settings/.Settings$AppBubbleNotificationSettingsActivity"
+    }
+]

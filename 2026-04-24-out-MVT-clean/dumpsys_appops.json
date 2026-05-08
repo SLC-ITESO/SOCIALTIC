@@ -1,0 +1,706 @@
+[
+    {
+        "package_name": "root",
+        "permissions": [
+            {
+                "name": "VIBRATE",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:43:31.757000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "0"
+    },
+    {
+        "package_name": "com.android.phone",
+        "permissions": [
+            {
+                "name": "MANAGE_IPSEC_TUNNELS",
+                "entries": [],
+                "access": "allow"
+            }
+        ],
+        "uid": "0"
+    },
+    {
+        "package_name": "android",
+        "permissions": [
+            {
+                "name": "COARSE_LOCATION",
+                "entries": [],
+                "access": "allow"
+            },
+            {
+                "name": "FINE_LOCATION",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:44:39.911000"
+                    }
+                ],
+                "access": "all"
+            },
+            {
+                "name": "READ_SMS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-tpd",
+                        "timestamp": "2026-04-24 15:35:50.979000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:41:55.642000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "MONITOR_LOCATION",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:32:55.378000"
+                    }
+                ],
+                "access": "all"
+            },
+            {
+                "name": "GET_USAGE_STATS",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:41:55.685000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "1000"
+    },
+    {
+        "package_name": "com.android.server.telecom",
+        "permissions": [
+            {
+                "name": "READ_CALL_LOG",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-tpd",
+                        "timestamp": "2026-04-24 15:33:01.816000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "1000"
+    },
+    {
+        "package_name": "com.android.settings",
+        "permissions": [
+            {
+                "name": "GET_USAGE_STATS",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:02.722000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "1000"
+    },
+    {
+        "package_name": "com.android.phone",
+        "permissions": [
+            {
+                "name": "READ_CALL_LOG",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:32:58.654000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_SMS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-tp",
+                        "timestamp": "2026-04-24 15:41:55.678000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:16.984000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_PHONE_STATE",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:16.988000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "1001"
+    },
+    {
+        "package_name": "com.android.bluetooth",
+        "permissions": [
+            {
+                "name": "READ_CONTACTS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-tpd",
+                        "timestamp": "2026-04-24 15:32:58.990000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:32:54.844000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "GET_USAGE_STATS",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:32:54.929000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "1002"
+    },
+    {
+        "package_name": "audioserver",
+        "permissions": [
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:41:55.783000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "GET_USAGE_STATS",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:38:45.962000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "1041"
+    },
+    {
+        "package_name": "com.android.cellbroadcastservice",
+        "permissions": [
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:32:55.824000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "1073"
+    },
+    {
+        "package_name": "com.android.providers.contacts",
+        "permissions": [
+            {
+                "name": "READ_CONTACTS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "fg-tp",
+                        "timestamp": "2026-04-24 15:33:01.366000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_CALL_LOG",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "fg-tp",
+                        "timestamp": "2026-04-24 15:33:01.816000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "bg-tp",
+                        "timestamp": "2026-04-24 15:32:58.438000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "WRITE_CALL_LOG",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tp",
+                        "timestamp": "2026-04-24 15:32:58.529000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "ADD_VOICEMAIL",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "fg-tp",
+                        "timestamp": "2026-04-24 15:33:01.376000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "bg-tp",
+                        "timestamp": "2026-04-24 15:38:21.953000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "u0a63"
+    },
+    {
+        "package_name": "com.android.cellbroadcastreceiver",
+        "permissions": [
+            {
+                "name": "READ_CELL_BROADCASTS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-up",
+                        "timestamp": "2026-04-24 15:32:57.573000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "u0a64"
+    },
+    {
+        "package_name": "com.android.soundpicker",
+        "permissions": [
+            {
+                "name": "MANAGE_EXTERNAL_STORAGE",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "fg-s",
+                        "timestamp": "2026-04-24 15:32:57.528000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "u0a66"
+    },
+    {
+        "package_name": "com.android.providers.calendar",
+        "permissions": [
+            {
+                "name": "READ_CALENDAR",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tp",
+                        "timestamp": "2026-04-24 15:33:07.707000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "WRITE_CALENDAR",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tp",
+                        "timestamp": "2026-04-24 15:33:02.699000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:02.694000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "u0a67"
+    },
+    {
+        "package_name": "com.android.dialer",
+        "permissions": [
+            {
+                "name": "READ_CALL_LOG",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tpd",
+                        "timestamp": "2026-04-24 15:33:01.790000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "SEND_SMS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:37:21.902000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_PHONE_STATE",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:00.573000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:33:00.322000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "ADD_VOICEMAIL",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tpd",
+                        "timestamp": "2026-04-24 15:38:21.953000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "u0a99"
+    },
+    {
+        "package_name": "com.android.messaging",
+        "permissions": [
+            {
+                "name": "READ_CONTACTS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tpd",
+                        "timestamp": "2026-04-24 15:33:00.624000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_SMS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-tpd",
+                        "timestamp": "2026-04-24 15:33:00.335000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_PHONE_STATE",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:00.614000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:33:01.871000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "RUN_IN_BACKGROUND",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:00.397000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:33:02.411000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_DEVICE_IDENTIFIERS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:00.611000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:33:01.868000"
+                    }
+                ],
+                "access": "deny"
+            }
+        ],
+        "uid": "u0a105"
+    },
+    {
+        "package_name": "com.android.deskclock",
+        "permissions": [
+            {
+                "name": "WAKE_LOCK",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:02.292000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "RUN_IN_BACKGROUND",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:33:02.233000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "u0a106"
+    },
+    {
+        "package_name": "com.android.systemui",
+        "permissions": [
+            {
+                "name": "COARSE_LOCATION",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:16.987000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_CONTACTS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-tpd",
+                        "timestamp": "2026-04-24 15:33:01.366000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_CALL_LOG",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:32:58.654000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "TOAST_WINDOW",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:41:55.660000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_PHONE_STATE",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:16.988000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_MEDIA_IMAGES",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:01.192000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "MANAGE_EXTERNAL_STORAGE",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:01.191000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "u0a121"
+    },
+    {
+        "package_name": "com.android.cellbroadcastreceiver.module",
+        "permissions": [
+            {
+                "name": "READ_PHONE_STATE",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:33:00.991000"
+                    },
+                    {
+                        "access": "Access",
+                        "type": "cch-s",
+                        "timestamp": "2026-04-24 15:33:16.988000"
+                    }
+                ],
+                "access": "allow"
+            },
+            {
+                "name": "READ_CELL_BROADCASTS",
+                "entries": [
+                    {
+                        "access": "Access",
+                        "type": "bg-upd",
+                        "timestamp": "2026-04-24 15:32:57.573000"
+                    }
+                ],
+                "access": "allow"
+            }
+        ],
+        "uid": "u0a122"
+    },
+    {
+        "package_name": "com.android.permissioncontroller",
+        "permissions": [
+            {
+                "name": "GET_USAGE_STATS",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "bg-s",
+                        "timestamp": "2026-04-24 15:43:29.725000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "u0a128"
+    },
+    {
+        "package_name": "com.android.providers.media.module",
+        "permissions": [
+            {
+                "name": "WRITE_SETTINGS",
+                "entries": [
+                    {
+                        "access": "Reject",
+                        "type": "pers-s",
+                        "timestamp": "2026-04-24 15:33:06.871000"
+                    }
+                ],
+                "access": "default"
+            }
+        ],
+        "uid": "u0a129"
+    }
+]

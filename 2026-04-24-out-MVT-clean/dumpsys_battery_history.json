@@ -1,0 +1,275 @@
+[
+    {
+        "time_elapsed": "+5s595ms",
+        "event": "start_top",
+        "uid": "1000",
+        "package_name": "com.android.settings:CryptKeeper",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+5s721ms",
+        "event": "end_top",
+        "uid": "1000",
+        "package_name": "com.android.settings:CryptKeeper",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+5s750ms",
+        "event": "start_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+7s446ms",
+        "event": "end_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+8s041ms",
+        "event": "start_top",
+        "uid": "u0a113",
+        "package_name": "com.android.sdksetup",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+8s765ms",
+        "event": "end_top",
+        "uid": "u0a113",
+        "package_name": "com.android.sdksetup",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+8s980ms",
+        "event": "start_top",
+        "uid": "u0a116",
+        "package_name": "com.android.provision",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+9s117ms",
+        "event": "end_top",
+        "uid": "u0a116",
+        "package_name": "com.android.provision",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+9s117ms",
+        "event": "start_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+10s539ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+10s873ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.BackgroundWorkerService"
+    },
+    {
+        "time_elapsed": "+10s908ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+11s321ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+11s322ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.BackgroundWorkerService"
+    },
+    {
+        "time_elapsed": "+11s727ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+11s997ms",
+        "event": "start_job",
+        "uid": "u0a129",
+        "package_name": "com.android.providers.media.module",
+        "service": "com.android.providers.media.module/com.android.providers.media.MediaService"
+    },
+    {
+        "time_elapsed": "+12s541ms",
+        "event": "start_job",
+        "uid": "u0a110",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+12s577ms",
+        "event": "start_job",
+        "uid": "u0a99",
+        "package_name": "com.android.dialer",
+        "service": "com.android.dialer/com.android.voicemail.impl.scheduling.TaskSchedulerJobService"
+    },
+    {
+        "time_elapsed": "+12s598ms",
+        "event": "end_job",
+        "uid": "u0a110",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+13s725ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+13s740ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+13s996ms",
+        "event": "start_job",
+        "uid": "u0a128",
+        "package_name": "com.android.permissioncontroller",
+        "service": "com.android.permissioncontroller/.permission.service.AutoRevokeService"
+    },
+    {
+        "time_elapsed": "+14s000ms",
+        "event": "end_job",
+        "uid": "u0a128",
+        "package_name": "com.android.permissioncontroller",
+        "service": "com.android.permissioncontroller/.permission.service.AutoRevokeService"
+    },
+    {
+        "time_elapsed": "+14s272ms",
+        "event": "start_job",
+        "uid": "u0a110",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+14s280ms",
+        "event": "end_job",
+        "uid": "u0a110",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+24s020ms",
+        "event": "end_job",
+        "uid": "u0a129",
+        "package_name": "com.android.providers.media.module",
+        "service": "com.android.providers.media.module/com.android.providers.media.MediaService"
+    },
+    {
+        "time_elapsed": "+1m03s825ms",
+        "event": "start_job",
+        "uid": "1000",
+        "package_name": "android",
+        "service": "android/com.android.server.pm.BackgroundDexOptService"
+    },
+    {
+        "time_elapsed": "+1m03s863ms",
+        "event": "end_job",
+        "uid": "1000",
+        "package_name": "android",
+        "service": "android/com.android.server.pm.BackgroundDexOptService"
+    },
+    {
+        "time_elapsed": "+2m40s119ms",
+        "event": "start_job",
+        "uid": "u0a110",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+2m40s148ms",
+        "event": "end_job",
+        "uid": "u0a110",
+        "package_name": "com.android.gallery3d",
+        "service": "com.android.gallery3d/.app.PackagesMonitor$AsyncService"
+    },
+    {
+        "time_elapsed": "+3m00s477ms",
+        "event": "end_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3m00s528ms",
+        "event": "start_top",
+        "uid": "u0a71",
+        "package_name": "com.android.backupconfirm",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3m02s264ms",
+        "event": "end_top",
+        "uid": "u0a71",
+        "package_name": "com.android.backupconfirm",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3m02s350ms",
+        "event": "start_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+5m38s284ms",
+        "event": "end_job",
+        "uid": "u0a99",
+        "package_name": "com.android.dialer",
+        "service": "com.android.dialer/com.android.voicemail.impl.scheduling.TaskSchedulerJobService"
+    },
+    {
+        "time_elapsed": "+9m05s680ms",
+        "event": "end_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+9m05s680ms",
+        "event": "start_top",
+        "uid": "u0a71",
+        "package_name": "com.android.backupconfirm",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+9m06s953ms",
+        "event": "end_top",
+        "uid": "u0a71",
+        "package_name": "com.android.backupconfirm",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+9m07s031ms",
+        "event": "start_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    }
+]

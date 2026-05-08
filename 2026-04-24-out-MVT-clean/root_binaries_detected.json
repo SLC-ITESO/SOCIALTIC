@@ -1,0 +1,7 @@
+[
+    {
+        "path": "/system/xbin/su",
+        "binary_name": "su",
+        "description": "SuperUser binary"
+    }
+]

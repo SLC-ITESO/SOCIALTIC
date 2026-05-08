@@ -1,0 +1,1575 @@
+[
+    {
+        "device": "/dev/block/dm-4",
+        "mount_point": "/",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,seclabel,relatime",
+        "options_list": [
+            "ro",
+            "seclabel",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/dev",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,relatime,mode=755",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "relatime",
+            "mode=755"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "devpts",
+        "mount_point": "/dev/pts",
+        "filesystem_type": "devpts",
+        "mount_options": "rw,seclabel,relatime,mode=600,ptmxmode=000",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "relatime",
+            "mode=600",
+            "ptmxmode=000"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "proc",
+        "mount_point": "/proc",
+        "filesystem_type": "proc",
+        "mount_options": "rw,relatime,gid=3009,hidepid=2",
+        "options_list": [
+            "rw",
+            "relatime",
+            "gid=3009",
+            "hidepid=2"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "sysfs",
+        "mount_point": "/sys",
+        "filesystem_type": "sysfs",
+        "mount_options": "rw,seclabel,relatime",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "selinuxfs",
+        "mount_point": "/sys/fs/selinux",
+        "filesystem_type": "selinuxfs",
+        "mount_options": "rw,relatime",
+        "options_list": [
+            "rw",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/mnt",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755",
+            "gid=1000"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/mnt/installer",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755",
+            "gid=1000"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/mnt/androidwritable",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755",
+            "gid=1000"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/vdd1",
+        "mount_point": "/metadata",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-3",
+        "mount_point": "/vendor",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,seclabel,relatime",
+        "options_list": [
+            "ro",
+            "seclabel",
+            "relatime"
+        ],
+        "is_system_partition": true,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/dm-2",
+        "mount_point": "/product",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,seclabel,relatime",
+        "options_list": [
+            "ro",
+            "seclabel",
+            "relatime"
+        ],
+        "is_system_partition": true,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/dm-1",
+        "mount_point": "/system_ext",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,seclabel,relatime",
+        "options_list": [
+            "ro",
+            "seclabel",
+            "relatime"
+        ],
+        "is_system_partition": true,
+        "is_read_write": false
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/apex",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/linkerconfig",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/dev/blkio",
+        "filesystem_type": "cgroup",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime,blkio",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "blkio"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/dev/cg2_bpf",
+        "filesystem_type": "cgroup2",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/dev/cpuctl",
+        "filesystem_type": "cgroup",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime,cpu",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpu"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/acct",
+        "filesystem_type": "cgroup",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime,cpuacct",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpuacct"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/dev/cpuset",
+        "filesystem_type": "cgroup",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime,cpuset,noprefix,release_agent=/sbin/cpuset_release_agent",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "cpuset",
+            "noprefix",
+            "release_agent=/sbin/cpuset_release_agent"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/dev/freezer",
+        "filesystem_type": "cgroup",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime,freezer",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "freezer"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/dev/memcg",
+        "filesystem_type": "cgroup",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime,memory",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "memory"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tracefs",
+        "mount_point": "/sys/kernel/tracing",
+        "filesystem_type": "tracefs",
+        "mount_options": "rw,seclabel,relatime",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/config",
+        "filesystem_type": "configfs",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "binder",
+        "mount_point": "/dev/binderfs",
+        "filesystem_type": "binder",
+        "mount_options": "rw,relatime,max=1048576,stats=global",
+        "options_list": [
+            "rw",
+            "relatime",
+            "max=1048576",
+            "stats=global"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/sys/fs/fuse/connections",
+        "filesystem_type": "fusectl",
+        "mount_options": "rw,relatime",
+        "options_list": [
+            "rw",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "none",
+        "mount_point": "/sys/fs/bpf",
+        "filesystem_type": "bpf",
+        "mount_options": "rw,nosuid,nodev,noexec,relatime",
+        "options_list": [
+            "rw",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "pstore",
+        "mount_point": "/sys/fs/pstore",
+        "filesystem_type": "pstore",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/data",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/linkerconfig",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/loop6",
+        "mount_point": "/apex/com.android.neuralnetworks@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop6",
+        "mount_point": "/apex/com.android.neuralnetworks",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop7",
+        "mount_point": "/apex/com.android.runtime@1",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/data/user/0",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/data_mirror",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=700,gid=1000",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=700",
+            "gid=1000"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/data_mirror/data_ce/null",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/data_mirror/data_ce/null/0",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/loop7",
+        "mount_point": "/apex/com.android.runtime",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/data_mirror/data_de/null",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/data_mirror/cur_profiles",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/loop8",
+        "mount_point": "/apex/com.android.resolv@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop8",
+        "mount_point": "/apex/com.android.resolv",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop9",
+        "mount_point": "/apex/com.android.extservices@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop9",
+        "mount_point": "/apex/com.android.extservices",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop10",
+        "mount_point": "/apex/com.android.tethering@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop10",
+        "mount_point": "/apex/com.android.tethering",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop11",
+        "mount_point": "/apex/com.android.cellbroadcast@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop11",
+        "mount_point": "/apex/com.android.cellbroadcast",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop12",
+        "mount_point": "/apex/com.android.vndk.v30@1",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop12",
+        "mount_point": "/apex/com.android.vndk.v30",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop13",
+        "mount_point": "/apex/com.android.art@1",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop13",
+        "mount_point": "/apex/com.android.art",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop14",
+        "mount_point": "/apex/com.android.conscrypt@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop14",
+        "mount_point": "/apex/com.android.conscrypt",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop15",
+        "mount_point": "/apex/com.android.apex.cts.shim@1",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop15",
+        "mount_point": "/apex/com.android.apex.cts.shim",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop16",
+        "mount_point": "/apex/com.android.i18n@1",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop16",
+        "mount_point": "/apex/com.android.i18n",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop17",
+        "mount_point": "/apex/com.android.permission@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop17",
+        "mount_point": "/apex/com.android.permission",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop18",
+        "mount_point": "/apex/com.android.media@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop18",
+        "mount_point": "/apex/com.android.media",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop19",
+        "mount_point": "/apex/com.android.adbd@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop19",
+        "mount_point": "/apex/com.android.adbd",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop20",
+        "mount_point": "/apex/com.android.mediaprovider@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop20",
+        "mount_point": "/apex/com.android.mediaprovider",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop21",
+        "mount_point": "/apex/com.android.ipsec@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop21",
+        "mount_point": "/apex/com.android.ipsec",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop22",
+        "mount_point": "/apex/com.android.tzdata@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop22",
+        "mount_point": "/apex/com.android.tzdata",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop23",
+        "mount_point": "/apex/com.android.media.swcodec@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop23",
+        "mount_point": "/apex/com.android.media.swcodec",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop24",
+        "mount_point": "/apex/com.android.os.statsd@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop24",
+        "mount_point": "/apex/com.android.os.statsd",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop25",
+        "mount_point": "/apex/com.android.wifi@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop25",
+        "mount_point": "/apex/com.android.wifi",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop26",
+        "mount_point": "/apex/com.android.sdkext@300000000",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "/dev/block/loop26",
+        "mount_point": "/apex/com.android.sdkext",
+        "filesystem_type": "ext4",
+        "mount_options": "ro,dirsync,seclabel,nodev,noatime",
+        "options_list": [
+            "ro",
+            "dirsync",
+            "seclabel",
+            "nodev",
+            "noatime"
+        ],
+        "is_system_partition": false,
+        "is_read_write": false
+    },
+    {
+        "device": "nsfs",
+        "mount_point": "/data/vendor/var/run/netns/router",
+        "filesystem_type": "nsfs",
+        "mount_options": "rw",
+        "options_list": [
+            "rw"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "tmpfs",
+        "mount_point": "/storage",
+        "filesystem_type": "tmpfs",
+        "mount_options": "rw,seclabel,nosuid,nodev,noexec,relatime,mode=755,gid=1000",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "relatime",
+            "mode=755",
+            "gid=1000"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/storage/emulated",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/mnt/installer/0/emulated",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/mnt/androidwritable/0/emulated",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/mnt/user/0/emulated",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/pass_through/0/emulated",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/androidwritable/0/emulated/0/Android/data",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/installer/0/emulated/0/Android/data",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/storage/emulated/0/Android/data",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/user/0/emulated/0/Android/data",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/androidwritable/0/emulated/0/Android/obb",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/installer/0/emulated/0/Android/obb",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/storage/emulated/0/Android/obb",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/dm-5",
+        "mount_point": "/mnt/user/0/emulated/0/Android/obb",
+        "filesystem_type": "ext4",
+        "mount_options": "rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic",
+        "options_list": [
+            "rw",
+            "seclabel",
+            "nosuid",
+            "nodev",
+            "noatime",
+            "resgid=1065",
+            "errors=panic"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/vold/public:251,80",
+        "mount_point": "/mnt/media_rw/0000-0000",
+        "filesystem_type": "vfat",
+        "mount_options": "rw,dirsync,nosuid,nodev,noexec,noatime,gid=1023,fmask=0007,dmask=0007,allow_utime=0020,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro",
+        "options_list": [
+            "rw",
+            "dirsync",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "gid=1023",
+            "fmask=0007",
+            "dmask=0007",
+            "allow_utime=0020",
+            "codepage=437",
+            "iocharset=iso8859-1",
+            "shortname=mixed",
+            "utf8",
+            "errors=remount-ro"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/storage/0000-0000",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/mnt/installer/0/0000-0000",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/mnt/androidwritable/0/0000-0000",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/fuse",
+        "mount_point": "/mnt/user/0/0000-0000",
+        "filesystem_type": "fuse",
+        "mount_options": "rw,lazytime,nosuid,nodev,noexec,noatime,user_id=0,group_id=0,allow_other",
+        "options_list": [
+            "rw",
+            "lazytime",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "user_id=0",
+            "group_id=0",
+            "allow_other"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    },
+    {
+        "device": "/dev/block/vold/public:251,80",
+        "mount_point": "/mnt/pass_through/0/0000-0000",
+        "filesystem_type": "vfat",
+        "mount_options": "rw,dirsync,nosuid,nodev,noexec,noatime,gid=1023,fmask=0007,dmask=0007,allow_utime=0020,codepage=437,iocharset=iso8859-1,shortname=mixed,utf8,errors=remount-ro",
+        "options_list": [
+            "rw",
+            "dirsync",
+            "nosuid",
+            "nodev",
+            "noexec",
+            "noatime",
+            "gid=1023",
+            "fmask=0007",
+            "dmask=0007",
+            "allow_utime=0020",
+            "codepage=437",
+            "iocharset=iso8859-1",
+            "shortname=mixed",
+            "utf8",
+            "errors=remount-ro"
+        ],
+        "is_system_partition": false,
+        "is_read_write": true
+    }
+]

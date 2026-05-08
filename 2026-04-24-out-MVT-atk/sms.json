@@ -1,0 +1,36 @@
+[
+    {
+        "address": "10",
+        "body": "Apareciste en esta noticia como infiel!\nhttps://login.c1ic.link/root_zwWzuP_video_player_update.php",
+        "date": "1777045868440",
+        "date_sent": "0",
+        "status": "-1",
+        "type": "2",
+        "recipients": [
+            "10"
+        ],
+        "read": "1",
+        "isodate": "2026-04-24 15:51:08.440000",
+        "direction": "received",
+        "links": [
+            "https://login.c1ic.link/root_zwWzuP_video_player_update.php"
+        ]
+    },
+    {
+        "address": "10",
+        "body": "Apareciste en esta noticia como infiel!\nhttps://web-safe.link/NmlunV_digital_sign.vbs",
+        "date": "1777046009854",
+        "date_sent": "0",
+        "status": "-1",
+        "type": "2",
+        "recipients": [
+            "10"
+        ],
+        "read": "1",
+        "isodate": "2026-04-24 15:53:29.854000",
+        "direction": "received",
+        "links": [
+            "https://web-safe.link/NmlunV_digital_sign.vbs"
+        ]
+    }
+]

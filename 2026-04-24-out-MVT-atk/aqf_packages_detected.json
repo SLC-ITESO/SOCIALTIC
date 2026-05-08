@@ -1,0 +1,35 @@
+[
+    {
+        "name": "com.android.chrome",
+        "files": [
+            {
+                "path": "/data/app/~~Lhc5M7ESJ1S3ZDO6guxong==/com.android.chrome-NvLvTtE7eZZa2N-2u63wCw==/base.apk",
+                "local_name": "",
+                "md5": "1ebdc7b6480665d348941e9bdb86d45f",
+                "sha1": "217f97213b757af13b4d5531e651e78ef5035e00",
+                "sha256": "d06cd8350bcec30e87d2d8555f0dbc2f31b53873f644f86e1e2dcdace41923bf",
+                "sha512": "0e8ffc5fba770eee2b2b3c326f629007d3d887b012b9df3d64d1bc37100c653f812a8485477b2f133586c8c113a8b766dceca325a869a829ad36c32897c7f927",
+                "error": "",
+                "verified_certificate": true,
+                "certificate": {
+                    "Md5": "cde9f6208d672b54b1dacc0b7029f5eb",
+                    "Sha1": "38918a453d07199354f8b19af05ec6562ced5788",
+                    "Sha256": "f0fd6c5b410f25cb25c3b53346c8972fae30f8ee7411df910480ad6b2d60db83",
+                    "ValidFrom": "2008-08-21T23:13:34Z",
+                    "ValidTo": "2036-01-07T23:13:34Z",
+                    "Issuer": "C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android",
+                    "Subject": "C=US, ST=California, L=Mountain View, O=Google Inc., OU=Android, CN=Android",
+                    "SignatureAlgorithm": "MD5-RSA",
+                    "SerialNumber": 14042372374541250701
+                },
+                "certificate_error": "",
+                "trusted_certificate": true
+            }
+        ],
+        "installer": "null",
+        "uid": 10130,
+        "disabled": false,
+        "system": false,
+        "third_party": true
+    }
+]

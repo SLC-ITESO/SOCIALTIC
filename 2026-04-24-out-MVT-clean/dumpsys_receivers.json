@@ -1,0 +1,1124 @@
+{
+    "com.android.storagemanager.automatic.SHOW_NOTIFICATION": [
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.NotificationController"
+        }
+    ],
+    "android.hardware.usb.action.USB_DEVICE_ATTACHED": [
+        {
+            "package_name": "com.android.mtp",
+            "receiver": "com.android.mtp/.UsbIntentReceiver"
+        }
+    ],
+    "android.intent.action.SERVICE_STATE": [
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "android.accounts.action.ACCOUNT_REMOVED": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.libraries.phenotype.client.stable.AccountRemovedBroadcastReceiver"
+        }
+    ],
+    "times_up": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.timer.TimerReceiver"
+        }
+    ],
+    "android.telecom.action.SHOW_MISSED_CALLS_NOTIFICATION": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/.app.calllog.MissedCallNotificationReceiver"
+        }
+    ],
+    "android.telephony.action.PRIMARY_SUBSCRIPTION_LIST_CHANGED": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.sim.SimSelectNotification"
+        }
+    ],
+    "com.android.chrome.safe_browsing.LOGIN": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.safe_browsing.PasswordProtectionBroadcastReceiver"
+        }
+    ],
+    "android.media.action.OPEN_AUDIO_EFFECT_CONTROL_SESSION": [
+        {
+            "package_name": "com.android.musicfx",
+            "receiver": "com.android.musicfx/.ControlPanelReceiver"
+        }
+    ],
+    "com.android.deskclock.WORLD_CITIES_CHANGED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        }
+    ],
+    "android.provider.Telephony.SMS_SERVICE_CATEGORY_PROGRAM_DATA_RECEIVED": [
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "com.android.storagemanager.automatic.SHOW_SETTINGS": [
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.NotificationController"
+        }
+    ],
+    "com.android.intent.action.DISMISS_KEYBOARD_SHORTCUTS": [
+        {
+            "package_name": "com.android.systemui",
+            "receiver": "com.android.systemui/.statusbar.KeyboardShortcutsReceiver"
+        }
+    ],
+    "android.intent.action.UID_REMOVED": [
+        {
+            "package_name": "com.android.providers.downloads",
+            "receiver": "com.android.providers.downloads/.DownloadReceiver"
+        }
+    ],
+    "android.settings.ENABLE_MMS_DATA_REQUEST": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.sim.SimSelectNotification"
+        }
+    ],
+    "com.android.inputmethod.dictionarypack.aosp.UPDATE_NOW": [
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.EventHandler"
+        }
+    ],
+    "com.android.packageinstaller.ACTION_INSTALL_COMMIT": [
+        {
+            "package_name": "com.android.packageinstaller",
+            "receiver": "com.android.packageinstaller/.InstallEventReceiver"
+        }
+    ],
+    "android.hardware.usb.action.USB_DEVICE_DETACHED": [
+        {
+            "package_name": "com.android.mtp",
+            "receiver": "com.android.mtp/.UsbIntentReceiver"
+        }
+    ],
+    "com.android.service.ims.presence.task.timeout": [
+        {
+            "package_name": "com.android.service.ims",
+            "receiver": "com.android.service.ims/.AlarmBroadcastReceiver"
+        }
+    ],
+    "com.google.firebase.appindexing.UPDATE_INDEX": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.apps.chrome.icing.AppIndexingUpdateReceiver"
+        }
+    ],
+    "android.intent.action.SCREEN_ON": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        }
+    ],
+    "android.bluetooth.device.action.CONNECTION_ACCESS_CANCEL": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.bluetooth.BluetoothPermissionRequest"
+        }
+    ],
+    "android.os.storage.action.VOLUME_STATE_CHANGED": [
+        {
+            "package_name": "com.android.externalstorage",
+            "receiver": "com.android.externalstorage/.MountReceiver"
+        }
+    ],
+    "android.bluetooth.device.action.CONNECTION_ACCESS_REQUEST": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.bluetooth.BluetoothPermissionRequest"
+        }
+    ],
+    "com.android.server.telecom.PROCEED_WITH_CALL": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "com.google.android.gms.wallet.ENABLE_WALLET_OPTIMIZATION": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.no.real.class.needed.receiver"
+        }
+    ],
+    "com.android.voicemail.VoicemailClient.ACTION_SHOW_LEGACY_VOICEMAIL": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/.app.voicemail.LegacyVoicemailNotificationReceiver"
+        }
+    ],
+    "com.android.server.telecom.CANCEL_CALL": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.DEVICE_STORAGE_LOW": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.StorageStatusReceiver"
+        }
+    ],
+    "com.android.internal.action.CALL_LOG_CHANGE": [
+        {
+            "package_name": "com.android.calllogbackup",
+            "receiver": "com.android.calllogbackup/.CallLogChangeReceiver"
+        }
+    ],
+    "com.android.deskclock.ON_DAY_CHANGE": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        }
+    ],
+    "android.telephony.action.CARRIER_CONFIG_CHANGED": [
+        {
+            "package_name": "com.android.phone",
+            "receiver": "com.android.phone/.otasp.OtaspSimStateReceiver"
+        },
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.phone",
+            "receiver": "com.android.phone/.vvm.VvmSimStateTracker"
+        }
+    ],
+    "com.android.storagemanager.automatic.DEBUG_SHOW_NOTIFICATION": [
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.NotificationController"
+        }
+    ],
+    "com.android.server.telecom.ACTION_REJECT_FROM_NOTIFICATION": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "com.android.internal.telephony.CARRIER_VVM_PACKAGE_INSTALLED": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.impl.CarrierVvmPackageInstalledReceiver"
+        }
+    ],
+    "com.android.internal.stk.command": [
+        {
+            "package_name": "com.android.stk",
+            "receiver": "com.android.stk/.StkCmdReceiver"
+        }
+    ],
+    "com.android.storagemanager.automatic.DISMISS": [
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.NotificationController"
+        }
+    ],
+    "android.intent.action.LOCKED_BOOT_COMPLETED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.AlarmInitReceiver"
+        },
+        {
+            "package_name": "com.android.ons",
+            "receiver": "com.android.ons/.ONSAutoBoot"
+        }
+    ],
+    "android.accounts.LOGIN_ACCOUNTS_CHANGED": [
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/.accounts.AccountsChangedReceiver"
+        }
+    ],
+    "com.android.internal.intent.action.BUGREPORT_REQUESTED": [
+        {
+            "package_name": "com.android.shell",
+            "receiver": "com.android.shell/.BugreportRequestedReceiver"
+        }
+    ],
+    "com.android.server.telecom.PROCEED_WITH_REDIRECTED_CALL": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "com.android.voicemail.VoicemailClient.ACTION_UPLOAD": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.impl.VoicemailClientReceiver"
+        }
+    ],
+    "com.google.android.libraries.appdoctor.ACTION_TELE_DOCTOR_FIX": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.android.webview.chromium.SafeModeAppDoctorReceiver"
+        }
+    ],
+    "android.intent.action.DEVICE_STORAGE_OK": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.StorageStatusReceiver"
+        }
+    ],
+    "android.media.action.CLOSE_AUDIO_EFFECT_CONTROL_SESSION": [
+        {
+            "package_name": "com.android.musicfx",
+            "receiver": "com.android.musicfx/.ControlPanelReceiver"
+        }
+    ],
+    "android.app.action.PROVISION_MANAGED_DEVICE_SILENTLY": [
+        {
+            "package_name": "com.android.managedprovisioning",
+            "receiver": "com.android.managedprovisioning/.provisioning.SilentDeviceOwnerProvisioningReceiver"
+        }
+    ],
+    "android.intent.action.DEVICE_CUSTOMIZATION_READY": [
+        {
+            "package_name": "com.android.soundpicker",
+            "receiver": "com.android.soundpicker/.RingtoneReceiver"
+        },
+        {
+            "package_name": "android",
+            "receiver": "android/com.android.server.WallpaperUpdateReceiver"
+        }
+    ],
+    "android.app.action.MANAGED_USER_CREATED": [
+        {
+            "package_name": "com.android.managedprovisioning",
+            "receiver": "com.android.managedprovisioning/.manageduser.ManagedUserCreationListener"
+        }
+    ],
+    "android.hardware.usb.action.USB_STATE": [
+        {
+            "package_name": "com.android.mtp",
+            "receiver": "com.android.mtp/.MtpReceiver"
+        }
+    ],
+    "android.provider.action.SYNC_VOICEMAIL": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.impl.sync.OmtpVvmSyncReceiver"
+        }
+    ],
+    "android.app.action.NEXT_ALARM_CLOCK_CHANGED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        }
+    ],
+    "com.android.systemui.screenshot.SHOW_ERROR": [
+        {
+            "package_name": "com.android.systemui",
+            "receiver": "com.android.systemui/.screenshot.ScreenshotServiceErrorReceiver"
+        }
+    ],
+    "android.intent.action.USER_INITIALIZE": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.SettingsInitialize"
+        },
+        {
+            "package_name": "com.android.stk",
+            "receiver": "com.android.stk/.BootCompletedReceiver"
+        },
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/.SystemBroadcastReceiver"
+        }
+    ],
+    "org.chromium.chrome.browser.notifications.CLOSE_NOTIFICATION": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver"
+        }
+    ],
+    "android.hardware.input.action.QUERY_KEYBOARD_LAYOUTS": [
+        {
+            "package_name": "com.android.inputdevices",
+            "receiver": "com.android.inputdevices/.InputDeviceReceiver"
+        }
+    ],
+    "android.telephony.action.DEFAULT_SMS_SUBSCRIPTION_CHANGED": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.DefaultSmsSubscriptionChangeReceiver"
+        },
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.SIM_STATE_CHANGED": [
+        {
+            "package_name": "com.android.phone",
+            "receiver": "com.android.phone/.vvm.VvmSimStateTracker"
+        }
+    ],
+    "android.bluetooth.device.action.PAIRING_REQUEST": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.bluetooth.BluetoothPairingRequest"
+        }
+    ],
+    "android.intent.action.MASTER_CLEAR": [
+        {
+            "package_name": "android",
+            "receiver": "android/com.android.server.MasterClearReceiver"
+        }
+    ],
+    "com.android.storagemanager.automatic.ACTIVATE": [
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.NotificationController"
+        }
+    ],
+    "android.provider.Telephony.SMS_DELIVER": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.SmsDeliverReceiver"
+        }
+    ],
+    "android.provider.Contacts.PROFILE_CHANGED": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.users.ProfileUpdateReceiver"
+        }
+    ],
+    "com.android.messaging.receiver.SendStatusReceiver.MESSAGE_DELIVERED": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.SendStatusReceiver"
+        }
+    ],
+    "android.cellbroadcastreceiver.START_CONFIG": [
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "android.provider.Telephony.SMS_CB_RECEIVED": [
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "com.android.intent.action.SHOW_KEYBOARD_SHORTCUTS": [
+        {
+            "package_name": "com.android.systemui",
+            "receiver": "com.android.systemui/.statusbar.KeyboardShortcutsReceiver"
+        }
+    ],
+    "android.provider.rcs.eab.EAB_NEW_CONTACT_INSERTED": [
+        {
+            "package_name": "com.android.service.ims.presence",
+            "receiver": "com.android.service.ims.presence/.AlarmBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.LOCALE_CHANGED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.AlarmInitReceiver"
+        },
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory"
+        },
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.notifications.channels.LocaleChangedBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.alerts.AlertReceiver"
+        },
+        {
+            "package_name": "com.android.providers.media.module",
+            "receiver": "com.android.providers.media.module/com.android.providers.media.MediaReceiver"
+        },
+        {
+            "package_name": "com.android.carrierdefaultapp",
+            "receiver": "com.android.carrierdefaultapp/.CarrierDefaultBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.providers.contacts",
+            "receiver": "com.android.providers.contacts/.LocaleChangeReceiver"
+        },
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/.SystemBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "com.android.shell.action.DELETE_HEAP_DUMP": [
+        {
+            "package_name": "com.android.shell",
+            "receiver": "com.android.shell/.HeapDumpReceiver"
+        }
+    ],
+    "android.provider.action.SMS_EMERGENCY_CB_RECEIVED": [
+        {
+            "package_name": "com.android.cellbroadcastreceiver.module",
+            "receiver": "com.android.cellbroadcastreceiver.module/com.android.cellbroadcastreceiver.CellBroadcastReceiver"
+        }
+    ],
+    "AudioEffect.ACTION_SET_PARAM": [
+        {
+            "package_name": "com.android.musicfx",
+            "receiver": "com.android.musicfx/.ControlPanelReceiver"
+        }
+    ],
+    "com.android.internal.telephony.CARRIER_SIGNAL_DEFAULT_NETWORK_AVAILABLE": [
+        {
+            "package_name": "com.android.carrierdefaultapp",
+            "receiver": "com.android.carrierdefaultapp/.CarrierDefaultBroadcastReceiver"
+        }
+    ],
+    "android.content.pm.action.SESSION_COMMITTED": [
+        {
+            "package_name": "com.android.launcher3",
+            "receiver": "com.android.launcher3/.SessionCommitReceiver"
+        }
+    ],
+    "com.google.android.c2dm.intent.RECEIVE": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.firebase.iid.FirebaseInstanceIdReceiver"
+        },
+        {
+            "package_name": "android",
+            "receiver": "android/com.android.server.MasterClearReceiver"
+        }
+    ],
+    "AudioEffect.ACTION_GET_PARAM": [
+        {
+            "package_name": "com.android.musicfx",
+            "receiver": "com.android.musicfx/.ControlPanelReceiver"
+        }
+    ],
+    "android.telecom.action.PHONE_ACCOUNT_REGISTERED": [
+        {
+            "package_name": "com.android.providers.contacts",
+            "receiver": "com.android.providers.contacts/.PhoneAccountRegistrationReceiver"
+        }
+    ],
+    "android.app.action.APP_BLOCK_STATE_CHANGED": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.notifications.permissions.NotificationPermissionChangeReceiver"
+        }
+    ],
+    "android.telephony.action.SHOW_VOICEMAIL_NOTIFICATION": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/.app.voicemail.LegacyVoicemailNotificationReceiver"
+        }
+    ],
+    "android.intent.action.TIMEZONE_CHANGED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.AlarmInitReceiver"
+        },
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory"
+        }
+    ],
+    "android.intent.action.TIME_SET": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.AlarmInitReceiver"
+        },
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory"
+        }
+    ],
+    "com.google.android.finsky.installapi.ACTION_INSTALL_STATUS": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.apps.chrome.webapps.WebApkInstallStatusReceiver"
+        }
+    ],
+    "com.android.launcher.action.INSTALL_SHORTCUT": [
+        {
+            "package_name": "com.android.launcher3",
+            "receiver": "com.android.launcher3/.InstallShortcutReceiver"
+        }
+    ],
+    "com.android.server.telecom.CANCEL_REDIRECTED_CALL": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "com.android.service.ims.presence.retry": [
+        {
+            "package_name": "com.android.service.ims",
+            "receiver": "com.android.service.ims/.AlarmBroadcastReceiver"
+        }
+    ],
+    "android.bluetooth.intent.DISCOVERABLE_TIMEOUT": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/com.android.settingslib.bluetooth.BluetoothDiscoverableTimeoutReceiver"
+        }
+    ],
+    "com.android.internal.intent.action.HEAP_DUMP_FINISHED": [
+        {
+            "package_name": "com.android.shell",
+            "receiver": "com.android.shell/.HeapDumpReceiver"
+        }
+    ],
+    "com.android.server.telecom.ACTION_CALL_BACK_FROM_NOTIFICATION": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "com.android.emulator.multidisplay.START": [
+        {
+            "package_name": "com.android.emulator.multidisplay",
+            "receiver": "com.android.emulator.multidisplay/.MultiDisplayServiceReceiver"
+        }
+    ],
+    "android.service.controls.action.ADD_CONTROL": [
+        {
+            "package_name": "com.android.systemui",
+            "receiver": "com.android.systemui/.controls.management.ControlsRequestReceiver"
+        }
+    ],
+    "android.btopp.intent.action.WHITELIST_DEVICE": [
+        {
+            "package_name": "com.android.bluetooth",
+            "receiver": "com.android.bluetooth/.opp.BluetoothOppHandoverReceiver"
+        }
+    ],
+    "android.app.action.DATA_SHARING_RESTRICTION_CHANGED": [
+        {
+            "package_name": "com.android.managedprovisioning",
+            "receiver": "com.android.managedprovisioning/.task.CrossProfileIntentFiltersSetter$RestrictionChangedReceiver"
+        }
+    ],
+    "com.android.deskclock.ALARM_CHANGED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        }
+    ],
+    "android.intent.action.PRE_BOOT_COMPLETED": [
+        {
+            "package_name": "com.android.providers.contacts",
+            "receiver": "com.android.providers.contacts/.ContactsUpgradeReceiver"
+        },
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.SettingsInitialize"
+        },
+        {
+            "package_name": "com.android.documentsui",
+            "receiver": "com.android.documentsui/.PreBootReceiver"
+        },
+        {
+            "package_name": "com.android.providers.media.module",
+            "receiver": "com.android.providers.media.module/com.android.providers.media.MediaUpgradeReceiver"
+        },
+        {
+            "package_name": "com.android.managedprovisioning",
+            "receiver": "com.android.managedprovisioning/.ota.PreBootListener"
+        },
+        {
+            "package_name": "com.android.providers.calendar",
+            "receiver": "com.android.providers.calendar/.CalendarUpgradeReceiver"
+        }
+    ],
+    "android.intent.action.BOOT_COMPLETED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.AlarmInitReceiver"
+        },
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.fuelgauge.batterytip.AnomalyConfigReceiver"
+        },
+        {
+            "package_name": "com.android.documentsui",
+            "receiver": "com.android.documentsui/.roots.BootReceiver"
+        },
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.VoicemailPowerCycleReceiver"
+        },
+        {
+            "package_name": "com.android.gallery3d",
+            "receiver": "com.android.gallery3d/com.android.camera.DisableCameraReceiver"
+        },
+        {
+            "package_name": "com.android.service.ims.presence",
+            "receiver": "com.android.service.ims.presence/.DeviceBoot"
+        },
+        {
+            "package_name": "com.android.stk",
+            "receiver": "com.android.stk/.BootCompletedReceiver"
+        },
+        {
+            "package_name": "com.android.permissioncontroller",
+            "receiver": "com.android.permissioncontroller/.permission.service.LocationAccessCheck$SetupPeriodicBackgroundLocationAccessCheck"
+        },
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.AutomaticStorageBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.nfc",
+            "receiver": "com.android.nfc/.NfcBootCompletedReceiver"
+        },
+        {
+            "package_name": "android",
+            "receiver": "android/com.android.server.BootReceiver"
+        },
+        {
+            "package_name": "com.android.providers.media.module",
+            "receiver": "com.android.providers.media.module/com.android.providers.media.MediaReceiver"
+        },
+        {
+            "package_name": "com.android.mtp",
+            "receiver": "com.android.mtp/.MtpReceiver"
+        },
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.BootAndPackageReplacedReceiver"
+        },
+        {
+            "package_name": "com.android.traceur",
+            "receiver": "com.android.traceur/.Receiver"
+        },
+        {
+            "package_name": "com.android.providers.downloads",
+            "receiver": "com.android.providers.downloads/.DownloadReceiver"
+        },
+        {
+            "package_name": "com.android.contacts",
+            "receiver": "com.android.contacts/.interactions.OnBootOrUpgradeReceiver"
+        },
+        {
+            "package_name": "com.android.managedprovisioning",
+            "receiver": "com.android.managedprovisioning/.BootReminder"
+        },
+        {
+            "package_name": "com.android.shell",
+            "receiver": "com.android.shell/.HeapDumpReceiver"
+        },
+        {
+            "package_name": "com.android.onetimeinitializer",
+            "receiver": "com.android.onetimeinitializer/.OneTimeInitializerReceiver"
+        },
+        {
+            "package_name": "com.android.permissioncontroller",
+            "receiver": "com.android.permissioncontroller/.permission.service.AutoRevokeOnBootReceiver"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.alerts.AlertReceiver"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.UpgradeReceiver"
+        },
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/.SystemBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.packageinstaller",
+            "receiver": "com.android.packageinstaller/.TemporaryFileManager"
+        },
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/.app.calllog.CallLogReceiver"
+        },
+        {
+            "package_name": "com.android.dynsystem",
+            "receiver": "com.android.dynsystem/.BootCompletedReceiver"
+        },
+        {
+            "package_name": "com.android.providers.calendar",
+            "receiver": "com.android.providers.calendar/.CalendarReceiver"
+        },
+        {
+            "package_name": "com.android.phone",
+            "receiver": "com.android.phone/.vvm.VvmSimStateTracker"
+        },
+        {
+            "package_name": "com.android.camera2",
+            "receiver": "com.android.camera2/com.android.camera.SetActivitiesCameraReceiver"
+        }
+    ],
+    "com.android.voicemail.impl.transcribe.GetTranscriptReceiver.POLL_ALARM": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.impl.transcribe.GetTranscriptReceiver"
+        }
+    ],
+    "android.intent.action.USER_PRESENT": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.sharing.click_to_call.ClickToCallMessageHandler$PhoneUnlockedReceiver"
+        }
+    ],
+    "com.android.service.ims.presence.periodical_capability_discovery": [
+        {
+            "package_name": "com.android.service.ims.presence",
+            "receiver": "com.android.service.ims.presence/.AlarmBroadcastReceiver"
+        }
+    ],
+    "com.android.packageinstaller.ACTION_UNINSTALL_COMMIT": [
+        {
+            "package_name": "com.android.packageinstaller",
+            "receiver": "com.android.packageinstaller/.UninstallEventReceiver"
+        }
+    ],
+    "android.appwidget.action.APPWIDGET_HOST_RESTORED": [
+        {
+            "package_name": "com.android.launcher3",
+            "receiver": "com.android.launcher3/.AppWidgetsRestoredReceiver"
+        }
+    ],
+    ".BOOKMARK_APPWIDGET_UPDATE": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider"
+        }
+    ],
+    "android.intent.action.DATE_CHANGED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.widget.CalendarAppWidgetService$CalendarFactory"
+        },
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.EventHandler"
+        }
+    ],
+    "com.android.internal.stk.icc_status_change": [
+        {
+            "package_name": "com.android.stk",
+            "receiver": "com.android.stk/.StkCmdReceiver"
+        }
+    ],
+    "com.android.internal.provider.action.VOICEMAIL_SMS_RECEIVED": [
+        {
+            "package_name": "com.android.phone",
+            "receiver": "com.android.phone/.vvm.VvmSmsReceiver"
+        }
+    ],
+    "com.android.storagemanager.automatic.NO_THANKS": [
+        {
+            "package_name": "com.android.storagemanager",
+            "receiver": "com.android.storagemanager/.automatic.NotificationController"
+        }
+    ],
+    "com.android.internal.telephony.CARRIER_SIGNAL_REDIRECTED": [
+        {
+            "package_name": "com.android.carrierdefaultapp",
+            "receiver": "com.android.carrierdefaultapp/.CarrierDefaultBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.PENDING_INCIDENT_REPORTS_CHANGED": [
+        {
+            "package_name": "com.android.permissioncontroller",
+            "receiver": "com.android.permissioncontroller/.incident.ConfirmationReceiver"
+        }
+    ],
+    "com.android.server.telecom.ACTION_CLEAR_MISSED_CALLS": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "android.provider.Telephony.SMS_RECEIVED": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.AbortSmsReceiver"
+        },
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.SmsReceiver"
+        }
+    ],
+    "android.intent.action.DOWNLOAD_COMPLETE": [
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.EventHandler"
+        }
+    ],
+    "com.android.providers.calendar.intent.CalendarProvider2": [
+        {
+            "package_name": "com.android.providers.calendar",
+            "receiver": "com.android.providers.calendar/.CalendarProviderBroadcastReceiver"
+        }
+    ],
+    "com.android.vociemailomtp.sms.sms_received": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.impl.sms.OmtpMessageReceiver"
+        }
+    ],
+    "android.net.sip.action.SIP_INCOMING_CALL": [
+        {
+            "package_name": "com.android.phone",
+            "receiver": "com.android.phone/com.android.services.telephony.sip.SipIncomingCallReceiver"
+        }
+    ],
+    "org.chromium.chrome.browser.notifications.CLICK_NOTIFICATION": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.notifications.NotificationServiceImpl$Receiver"
+        }
+    ],
+    "com.android.service.ims.presence.retry.publish": [
+        {
+            "package_name": "com.android.service.ims",
+            "receiver": "com.android.service.ims/.AlarmBroadcastReceiver"
+        }
+    ],
+    "com.android.server.telecom.ACTION_SEND_SMS_FROM_NOTIFICATION": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.FACTORY_RESET": [
+        {
+            "package_name": "android",
+            "receiver": "android/com.android.server.MasterClearReceiver"
+        }
+    ],
+    "android.btopp.intent.action.OPEN_RECEIVED_FILES": [
+        {
+            "package_name": "com.android.bluetooth",
+            "receiver": "com.android.bluetooth/.opp.BluetoothOppReceiver"
+        }
+    ],
+    "com.android.internal.stk.session_end": [
+        {
+            "package_name": "com.android.stk",
+            "receiver": "com.android.stk/.StkCmdReceiver"
+        }
+    ],
+    "com.android.intent.action.timezone.TRIGGER_RULES_UPDATE_CHECK": [
+        {
+            "package_name": "com.android.timezone.updater",
+            "receiver": "com.android.timezone.updater/.RulesCheckReceiver"
+        }
+    ],
+    "com.google.android.finsky.compliance.flow.search.engine.installed": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.apps.chrome.search_engines.SearchEngineChoiceNotificationReceiver"
+        }
+    ],
+    "android.appwidget.action.APPWIDGET_UPDATE": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.DigitalAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderSearch"
+        },
+        {
+            "package_name": "com.android.quicksearchbox",
+            "receiver": "com.android.quicksearchbox/.SearchWidgetProvider"
+        },
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.widget.BugleWidgetProvider"
+        },
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.widget.CalendarAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.widget.WidgetConversationProvider"
+        },
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/com.android.alarmclock.AnalogAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.searchwidget.SearchWidgetProvider"
+        },
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.apps.chrome.appwidget.bookmarks.BookmarkThumbnailWidgetProvider"
+        },
+        {
+            "package_name": "com.android.gallery3d",
+            "receiver": "com.android.gallery3d/.gadget.PhotoAppWidgetProvider"
+        },
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.quickactionsearchwidget.QuickActionSearchWidgetProvider$QuickActionSearchWidgetProviderDino"
+        }
+    ],
+    "com.android.messaging.datamodel.PENDING_ACTION": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.datamodel.action.ActionServiceImpl$PendingActionReceiver"
+        }
+    ],
+    "com.android.inputmethod.dictionarypack.aosp.UNKNOWN_CLIENT": [
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/.DictionaryPackInstallBroadcastReceiver"
+        }
+    ],
+    "com.android.service.ims.presence.capability_polling_retry": [
+        {
+            "package_name": "com.android.service.ims.presence",
+            "receiver": "com.android.service.ims.presence/.AlarmBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.MY_PACKAGE_REPLACED": [
+        {
+            "package_name": "com.android.deskclock",
+            "receiver": "com.android.deskclock/.AlarmInitReceiver"
+        },
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.impl.PackageReplacedReceiver"
+        },
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/org.chromium.chrome.browser.upgrade.PackageReplacedBroadcastReceiver"
+        },
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.BootAndPackageReplacedReceiver"
+        },
+        {
+            "package_name": "com.android.contacts",
+            "receiver": "com.android.contacts/.interactions.OnBootOrUpgradeReceiver"
+        },
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/.SystemBroadcastReceiver"
+        }
+    ],
+    "com.android.systemui.action.CLEAR_TUNER": [
+        {
+            "package_name": "com.android.systemui",
+            "receiver": "com.android.systemui/.tuner.TunerService$ClearReceiver"
+        }
+    ],
+    "android.app.action.STATSD_STARTED": [
+        {
+            "package_name": "com.android.settings",
+            "receiver": "com.android.settings/.fuelgauge.batterytip.AnomalyConfigReceiver"
+        }
+    ],
+    "android.btopp.intent.action.STOP_HANDOVER_TRANSFER": [
+        {
+            "package_name": "com.android.bluetooth",
+            "receiver": "com.android.bluetooth/.opp.BluetoothOppHandoverReceiver"
+        }
+    ],
+    "com.android.internal.stk.alpha_notify": [
+        {
+            "package_name": "com.android.stk",
+            "receiver": "com.android.stk/.StkCmdReceiver"
+        }
+    ],
+    "com.android.calendar.APPWIDGET_UPDATE": [
+        {
+            "package_name": "com.android.calendar",
+            "receiver": "com.android.calendar/.widget.CalendarAppWidgetProvider"
+        }
+    ],
+    "android.intent.action.NEW_OUTGOING_CALL": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"
+        }
+    ],
+    "com.android.server.telecom.ACTION_ANSWER_FROM_NOTIFICATION": [
+        {
+            "package_name": "com.android.server.telecom",
+            "receiver": "com.android.server.telecom/.components.TelecomBroadcastReceiver"
+        }
+    ],
+    "android.intent.action.ACTION_SHUTDOWN": [
+        {
+            "package_name": "com.android.dialer",
+            "receiver": "com.android.dialer/com.android.voicemail.VoicemailPowerCycleReceiver"
+        },
+        {
+            "package_name": "com.android.service.ims",
+            "receiver": "com.android.service.ims/.DeviceShutdown"
+        },
+        {
+            "package_name": "com.android.service.ims.presence",
+            "receiver": "com.android.service.ims.presence/.DeviceShutdown"
+        }
+    ],
+    "android.provider.Telephony.MMS_DOWNLOADED": [
+        {
+            "package_name": "com.android.messaging",
+            "receiver": "com.android.messaging/.receiver.SmsReceiver"
+        }
+    ],
+    "com.google.android.gms.phenotype.UPDATE": [
+        {
+            "package_name": "com.android.chrome",
+            "receiver": "com.android.chrome/com.google.android.libraries.phenotype.client.stable.PhenotypeUpdateBackgroundBroadcastReceiver"
+        }
+    ],
+    "com.android.internal.telephony.CARRIER_SIGNAL_RESET": [
+        {
+            "package_name": "com.android.carrierdefaultapp",
+            "receiver": "com.android.carrierdefaultapp/.CarrierDefaultBroadcastReceiver"
+        }
+    ],
+    "com.android.inputmethod.dictionarypack.aosp.INIT_AND_UPDATE_NOW": [
+        {
+            "package_name": "com.android.inputmethod.latin",
+            "receiver": "com.android.inputmethod.latin/com.android.inputmethod.dictionarypack.EventHandler"
+        }
+    ]
+}

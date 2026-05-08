@@ -1,0 +1,142 @@
+[
+    {
+        "time_elapsed": "+1s474ms",
+        "event": "start_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3s551ms",
+        "event": "end_top",
+        "uid": "1000",
+        "package_name": "com.android.settings",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+3s551ms",
+        "event": "start_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+6s024ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+6s151ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.BackgroundWorkerService"
+    },
+    {
+        "time_elapsed": "+6s161ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+6s192ms",
+        "event": "start_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+6s193ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.BackgroundWorkerService"
+    },
+    {
+        "time_elapsed": "+6s264ms",
+        "event": "end_job",
+        "uid": "u0a105",
+        "package_name": "com.android.messaging",
+        "service": "com.android.messaging/.datamodel.action.ActionServiceImpl"
+    },
+    {
+        "time_elapsed": "+6s404ms",
+        "event": "start_job",
+        "uid": "u0a128",
+        "package_name": "com.android.permissioncontroller",
+        "service": "com.android.permissioncontroller/.permission.service.AutoRevokeService"
+    },
+    {
+        "time_elapsed": "+6s409ms",
+        "event": "end_job",
+        "uid": "u0a128",
+        "package_name": "com.android.permissioncontroller",
+        "service": "com.android.permissioncontroller/.permission.service.AutoRevokeService"
+    },
+    {
+        "time_elapsed": "+6s811ms",
+        "event": "start_job",
+        "uid": "u0a99",
+        "package_name": "com.android.dialer",
+        "service": "com.android.dialer/com.android.voicemail.impl.scheduling.TaskSchedulerJobService"
+    },
+    {
+        "time_elapsed": "+6s910ms",
+        "event": "start_job",
+        "uid": "u0a129",
+        "package_name": "com.android.providers.media.module",
+        "service": "com.android.providers.media.module/com.android.providers.media.MediaService"
+    },
+    {
+        "time_elapsed": "+8s488ms",
+        "event": "end_job",
+        "uid": "u0a129",
+        "package_name": "com.android.providers.media.module",
+        "service": "com.android.providers.media.module/com.android.providers.media.MediaService"
+    },
+    {
+        "time_elapsed": "+34s757ms",
+        "event": "end_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+34s809ms",
+        "event": "start_top",
+        "uid": "u0a71",
+        "package_name": "com.android.backupconfirm",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+36s227ms",
+        "event": "end_top",
+        "uid": "u0a71",
+        "package_name": "com.android.backupconfirm",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+36s308ms",
+        "event": "start_top",
+        "uid": "u0a118",
+        "package_name": "com.android.launcher3",
+        "service": ""
+    },
+    {
+        "time_elapsed": "+1m05s483ms",
+        "event": "start_job",
+        "uid": "1000",
+        "package_name": "android",
+        "service": "android/com.android.server.pm.BackgroundDexOptService"
+    },
+    {
+        "time_elapsed": "+1m05s763ms",
+        "event": "end_job",
+        "uid": "1000",
+        "package_name": "android",
+        "service": "android/com.android.server.pm.BackgroundDexOptService"
+    }
+]

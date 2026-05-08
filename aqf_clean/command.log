@@ -1,0 +1,64 @@
+2026-04-24T09:41:51-06:00 [INFO] Started new acquisition in 5991c226-d735-4f1e-b2ff-b1271d44121b
+2026-04-24T09:41:51-06:00 [INFO] Would you like to take a backup of the device?
+2026-04-24T09:41:53-06:00 [INFO] Generating a backup with argument com.android.providers.telephony. Please check the device to authorize the backup...
+
+2026-04-24T09:41:56-06:00 [INFO] Backup completed!
+2026-04-24T09:41:56-06:00 [INFO] Collecting information on installed apps. This might take a while...
+2026-04-24T09:42:22-06:00 [INFO] Found a total of 164 installed packages
+2026-04-24T09:42:22-06:00 [INFO] Would you like to download copies of all apps or only non-system ones?
+2026-04-24T09:43:03-06:00 [INFO] Would you like to remove copies of apps signed with a trusted certificate to limit the size of the output folder?
+2026-04-24T09:43:05-06:00 [DEBUG] Found Android package: com.android.chrome
+2026-04-24T09:43:07-06:00 [DEBUG] Downloaded /data/app/~~Lhc5M7ESJ1S3ZDO6guxong==/com.android.chrome-NvLvTtE7eZZa2N-2u63wCw==/base.apk to 5991c226-d735-4f1e-b2ff-b1271d44121b\apks\com.android.chrome_com.android.chrome-NvLvTtE7eZZa2N-2u63wCw.apk
+2026-04-24T09:43:07-06:00 [DEBUG] Trusted APK removed: 5991c226-d735-4f1e-b2ff-b1271d44121b\apks\com.android.chrome_com.android.chrome-NvLvTtE7eZZa2N-2u63wCw.apk - d06cd8350bcec30e87d2d8555f0dbc2f31b53873f644f86e1e2dcdace41923bf
+2026-04-24T09:43:07-06:00 [INFO] Collecting device properties...
+2026-04-24T09:43:07-06:00 [INFO] Collecting device diagnostic information. This might take a while...
+2026-04-24T09:43:30-06:00 [INFO] Collecting list of running processes...
+2026-04-24T09:43:30-06:00 [INFO] Collecting list of services...
+2026-04-24T09:43:30-06:00 [INFO] Generating a bugreport for the device...
+2026-04-24T09:45:26-06:00 [DEBUG] Bugreport completed!
+2026-04-24T09:45:26-06:00 [INFO] Collecting list of files... This might take a while...
+2026-04-24T09:45:26-06:00 [DEBUG] Using find command to collect list of files
+2026-04-24T09:45:33-06:00 [INFO] Collecting device settings...
+2026-04-24T09:45:33-06:00 [INFO] Collecting SELinux status...
+2026-04-24T09:45:33-06:00 [INFO] Collecting environment...
+2026-04-24T09:45:33-06:00 [INFO] Checking for traces of rooting
+2026-04-24T09:45:33-06:00 [DEBUG] Found root binary: /system/xbin/su
+2026-04-24T09:45:33-06:00 [INFO] Collecting mount information
+2026-04-24T09:45:33-06:00 [DEBUG] Running: mount
+2026-04-24T09:45:33-06:00 [DEBUG] Running: cat /proc/mounts
+2026-04-24T09:45:33-06:00 [DEBUG] Found 197 mount entries
+2026-04-24T09:45:34-06:00 [INFO] Collecting logcat...
+2026-04-24T09:45:34-06:00 [DEBUG] failed to run `adb shell logcat -L`: exit status 1
+2026-04-24T09:45:34-06:00 [INFO] Collecting system logs...
+2026-04-24T09:45:34-06:00 [DEBUG] Files in /data/anr/: [/data/anr/ /data/anr/dumptrace_Vw9YLY /data/anr/dumptrace_tDtvgb]
+2026-04-24T09:45:34-06:00 [DEBUG] From: /data/system/uiderrors.txt
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\data\system\uiderrors.txt
+2026-04-24T09:45:34-06:00 [ERROR] Failed to pull log file /data/system/uiderrors.txt: 
+
+2026-04-24T09:45:34-06:00 [DEBUG] From: /proc/kmsg
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\proc\kmsg
+2026-04-24T09:45:34-06:00 [ERROR] Failed to pull log file /proc/kmsg: 
+
+2026-04-24T09:45:34-06:00 [DEBUG] From: /proc/last_kmsg
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\proc\last_kmsg
+2026-04-24T09:45:34-06:00 [ERROR] Failed to pull log file /proc/last_kmsg: 
+
+2026-04-24T09:45:34-06:00 [DEBUG] From: /sys/fs/pstore/console-ramoops
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\sys\fs\pstore\console-ramoops
+2026-04-24T09:45:34-06:00 [ERROR] Failed to pull log file /sys/fs/pstore/console-ramoops: 
+
+2026-04-24T09:45:34-06:00 [DEBUG] From: /data/anr/
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\data\anr\
+2026-04-24T09:45:34-06:00 [ERROR] Failed to pull log file /data/anr/: 
+
+2026-04-24T09:45:34-06:00 [DEBUG] From: /data/anr/dumptrace_Vw9YLY
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\data\anr\dumptrace_Vw9YLY
+2026-04-24T09:45:34-06:00 [ERROR] Failed to pull log file /data/anr/dumptrace_Vw9YLY: 
+
+2026-04-24T09:45:34-06:00 [DEBUG] From: /data/anr/dumptrace_tDtvgb
+2026-04-24T09:45:34-06:00 [DEBUG] To: 5991c226-d735-4f1e-b2ff-b1271d44121b\logs\data\anr\dumptrace_tDtvgb
+2026-04-24T09:45:34-06:00 [INFO] Collecting files in tmp folder...
+2026-04-24T09:45:34-06:00 [INFO] Generating list of files hashes...
+2026-04-24T09:45:34-06:00 [INFO] Saving details about acquisition and device...
+2026-04-24T09:45:34-06:00 [DEBUG] Killing adb server
+2026-04-24T09:45:34-06:00 [DEBUG] kill-server ok

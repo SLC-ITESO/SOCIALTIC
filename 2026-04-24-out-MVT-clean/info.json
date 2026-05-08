@@ -1,0 +1,23 @@
+{
+    "target_path": "/home/kali/Desktop/ANALISIS_FOR/5991c226-d735-4f1e-b2ff-b1271d44121b",
+    "mvt_version": "2.7.0",
+    "date": "2026-04-24 11:24:30.224629",
+    "ioc_files": [
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_candiru_candiru.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-04-11_quadream_kingspawn.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2026-03-30_darksword_darksword.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_cellebrite_cellebrite.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_intellexa_predator_predator.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-06_01_operation_triangulation_operation_triangulation.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-12-16_serbia_novispy_novispy.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2023-03-29_android_campaign_malware.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AssoEchap_stalkerware-indicators_master_generated_stalkerware.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_ResidentBat_residentbat.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2026-03-03_coruna_cryptowaters_coruna.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-05-02_wintego_helios_wintego_helios.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2022-06-23_rcs_lab_rcs.stix2",
+        "/home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-07-25_wyrmspy_dragonegg_wyrmspy_dragonegg.stix2"
+    ],
+    "hashes": []
+}

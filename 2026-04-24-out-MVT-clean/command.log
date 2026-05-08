@@ -1,0 +1,334 @@
+2026-04-24 11:24:17,660 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_candiru_candiru.stix2
+2026-04-24 11:24:17,664 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 125 indicators for collection with name "Candiru"
+2026-04-24 11:24:17,664 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-04-11_quadream_kingspawn.stix2
+2026-04-24 11:24:17,687 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 167 indicators for collection with name "KingSpawn"
+2026-04-24 11:24:17,687 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2026-03-30_darksword_darksword.stix2
+2026-04-24 11:24:17,694 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 43 indicators for collection with name "DarkSword"
+2026-04-24 11:24:17,694 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_cellebrite_cellebrite.stix2
+2026-04-24 11:24:17,695 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "Cellebrite"
+2026-04-24 11:24:17,695 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_intellexa_predator_predator.stix2
+2026-04-24 11:24:17,719 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 585 indicators for collection with name "Predator"
+2026-04-24 11:24:17,719 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-06_01_operation_triangulation_operation_triangulation.stix2
+2026-04-24 11:24:17,722 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 112 indicators for collection with name "OperationTriangulation"
+2026-04-24 11:24:17,722 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-12-16_serbia_novispy_novispy.stix2
+2026-04-24 11:24:17,724 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 18 indicators for collection with name "NoviSpy"
+2026-04-24 11:24:17,724 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2023-03-29_android_campaign_malware.stix2
+2026-04-24 11:24:17,938 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2187 indicators for collection with name "MercenarySpywareCampaign"
+2026-04-24 11:24:17,939 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AssoEchap_stalkerware-indicators_master_generated_stalkerware.stix2
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 798 indicators for collection with name "TheTruthSpy"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 187 indicators for collection with name "HelloSpy"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "SpyAdvice"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 99 indicators for collection with name "Reptilicus"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 23 indicators for collection with name "PhoneSheriff"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 19 indicators for collection with name "OwnSpy"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 192 indicators for collection with name "Cocospy"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 11 indicators for collection with name "VIPTrack"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 85 indicators for collection with name "EasyLogger"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 119 indicators for collection with name "Hoverwatch"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 32 indicators for collection with name "LetMeSpy"
+2026-04-24 11:24:19,090 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 46 indicators for collection with name "Snoopza"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 41 indicators for collection with name "TrackMyPhones"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 139 indicators for collection with name "FlexiSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 126 indicators for collection with name "Cerberus"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 260 indicators for collection with name "mSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 113 indicators for collection with name "MeuSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 46 indicators for collection with name "AppSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 148 indicators for collection with name "MobileTrackerFree"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 34 indicators for collection with name "iKeyMonitor"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 13 indicators for collection with name "PanSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "AndroidLost"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "Metasploit"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 20 indicators for collection with name "Spy24"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 55 indicators for collection with name "CatWatchful"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 91 indicators for collection with name "HighsterMobile"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 15 indicators for collection with name "iMonitorSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 44 indicators for collection with name "MobileTool"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 28 indicators for collection with name "ShadowSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 49 indicators for collection with name "SpyHuman"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 18 indicators for collection with name "uMobix"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "Spymie"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 28 indicators for collection with name "TheOneSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 12 indicators for collection with name "ClevGuard"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 549 indicators for collection with name "EasyPhoneTrack"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 13 indicators for collection with name "bark"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 16 indicators for collection with name "SpyLive360"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 28 indicators for collection with name "XNSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "MobiSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 51 indicators for collection with name "NeoSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 99 indicators for collection with name "AllTracker"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 231 indicators for collection with name "SpyPhoneApp"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 81 indicators for collection with name "AndroidMonitor"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 14 indicators for collection with name "TalkLog"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 19 indicators for collection with name "SpyMasterPro"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 48 indicators for collection with name "FreeAndroidSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "NetSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "Spyier"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "CouplerTracker"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "GPSTrackerLoki"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "SpyApp247"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "SpyMug"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "WtSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "Xnore"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 20 indicators for collection with name "EspiaoAndroid"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 42 indicators for collection with name "pcTattletale"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "SpyEra"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "AntiFurtoDroid"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 17 indicators for collection with name "CallSMSTracker"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 14 indicators for collection with name "AiSpyer"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "SpyToApp"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "BlurSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "AppMia"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "SecretCamRecorder"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 15 indicators for collection with name "Unisafe"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 72 indicators for collection with name "TrackView"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 11 indicators for collection with name "TrackingSmartphone"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "SpyphoneMobileTracker"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "OneLocator"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 25 indicators for collection with name "EvaSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "RealtimeSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 37 indicators for collection with name "jjspy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 278 indicators for collection with name "AndroidSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 72 indicators for collection with name "AndroidPolice"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "FindMyPhone"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "Bulgok"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 50 indicators for collection with name "Tracku"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 76 indicators for collection with name "KidsShield"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "NemoSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "SpyKontrol"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 120 indicators for collection with name "Trackplus"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "MobileSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 37 indicators for collection with name "WebWatcher"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "NexSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "juju"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "mSpyitaly"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 11 indicators for collection with name "MyCellSpy"
+2026-04-24 11:24:19,091 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "Spylix"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 27 indicators for collection with name "MonitorUltra"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "SentryPC"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "TheWiSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "Observer"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 22 indicators for collection with name "Mrecorder"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "PhoneSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "ShadySpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 39 indicators for collection with name "AbsoluTrack"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "SmartKeylogger"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 34 indicators for collection with name "Traccar"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "SpyNote"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "FlashKeylogger"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 182 indicators for collection with name "MobiStealth"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "SMSForward"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "Ahmyth"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "xHunter"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "SpyTec"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "SpyTek"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "BosSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "Fenced"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "RastreadorDeNamorado"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "Intertel"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "SpyFly"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "MocoSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "MzanziSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "RecomSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "SwiftMobileSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "Trackji"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "XDSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "XploitSPY"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "SpySMS"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "DroidWatcher"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "Spyzier"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "AndroidSpyApp"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "SpyDroid"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "SpyAppGhazi"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "Curiosus"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "LoveSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "ISpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "PatanSpyApp"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "Dash"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 42 indicators for collection with name "SpyApp"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "MySpyApps"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 35 indicators for collection with name "OneSpy"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "Android007"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "RioSPY"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "WheresMyDroid"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "WiseMo"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "FindMyKids"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "MagMonitor"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 24 indicators for collection with name "BrunoEspiao"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 30 indicators for collection with name "Spyone"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "eagleSPY"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "PhoneMonitor"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "Buhsam"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "AndroRat"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "Spynger"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 12 indicators for collection with name "WiseMo"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 15 indicators for collection with name "FamiSafe"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "KasperskySafeKids"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 17 indicators for collection with name "KidsControl"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 8 indicators for collection with name "FindMyKids"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "Accountable2you"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "ZoeMob"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 17 indicators for collection with name "Life360"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "MicrosoftFamilySafe"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 10 indicators for collection with name "GeoZilla"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 9 indicators for collection with name "KidsLox"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 4 indicators for collection with name "FamiShield"
+2026-04-24 11:24:19,092 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "Qustodio"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "ScreenTime"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 7 indicators for collection with name "MMGuardian"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1 indicators for collection with name "FlareFamilyLocator"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 5 indicators for collection with name "FamilyOrbit"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "Trulpe"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "Boomrang"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "MobileFence"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "Kidgy"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "Kiddoware"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 6 indicators for collection with name "Netnanny"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "SeekDroid"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "LockItTight"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 3 indicators for collection with name "SafeNet"
+2026-04-24 11:24:19,093 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 2 indicators for collection with name "Discovenger"
+2026-04-24 11:24:19,097 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_ResidentBat_residentbat.stix2
+2026-04-24 11:24:19,100 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 48 indicators for collection with name "ResidentBat"
+2026-04-24 11:24:19,100 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2026-03-03_coruna_cryptowaters_coruna.stix2
+2026-04-24 11:24:19,114 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '05b5e4070b3b8a130b12ea96c5526b4615fcae121bb802b1a10c3a7a70f39901', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,114 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator 'd517c3868c5e7808202f53fa78d827a308d94500ae9051db0a62e11f7852e802', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,114 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '0dff17e3aa12c4928273c70a2e0a6fff25d3e43c0d1b71056abad34a22b03495', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,114 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '4dc255504a6c3ea8714ccdc95cc04138dc6c92130887274c8582b4a96ebab4a8', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,114 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '42cc02cecd65f22a3658354c5a5efa6a6ec3d716c7fbbcd12df1d1b077d2591b', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,114 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '499f6b1e012d9bc947eea8e23635dfe6464cd7c9d99eb11d5874bd7b613297b1', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '023e5fb71923cfa2088b9a48ad8566ff7ac92a99630add0629a5edf4679888de', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator 'be28b40df919d3fa87ed49e51135a719bd0616c9ac346ea5f20095cb78031ed9', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '721b46b43b7084b98e51ab00606f08a6ccd30b23bef5e542088f0b5706a8f780', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '2a9d21ca07244932939c6c58699448f2147992c1f49cd3bc7d067bd92cb54f3a', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '3c297829353778857edfeaed3ceeeca1bf8b60534f1979f7d442a0b03c56e541', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '4dfcf5a71e5a8f27f748ac7fd7760dec0099ce338722215b4a5862b60c5b2bfd', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '10bd8f2f8bb9595664bb9160fbc4136f1d796cb5705c551f7ab8b9b1e658085c', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '18394fcc096344e0730e49a0098970b1c53c137f679cff5c7ff8902e651cd8a3', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator 'd371e3bed18ee355438b166bbf3bdaf2e7c6a3af8931181b9649020553b07e7a', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '91d44c1f62fd863556aac0190cbef3b46abc4cbe880f80c580a1d258f0484c30', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '6eafd742f58db21fbaf5fd7636e6653446df04b4a5c9bca9104e5dfad34f547c', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '25a9b004cf61fb251c8d4024a8c7383a86cb30f60aa7d59ca53ce9460fcfb7de', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator 'f218068ea943a511b230f2a99991f6d1fbc2ac0aec7c796b261e2a26744929ac', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Can't add indicator '1fb9dedf1de81d387eff4bd5e747f730dd03c440157a66f20fdb5e95f64318c0', type file:hashes.'SHA-256' not supported
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 196 indicators for collection with name "Coruna"
+2026-04-24 11:24:19,115 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2021-07-18_nso_pegasus.stix2
+2026-04-24 11:24:19,244 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 1549 indicators for collection with name "Pegasus"
+2026-04-24 11:24:19,245 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_AmnestyTech_investigations_master_2024-05-02_wintego_helios_wintego_helios.stix2
+2026-04-24 11:24:19,267 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 175 indicators for collection with name "Wintego Helios"
+2026-04-24 11:24:19,267 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2022-06-23_rcs_lab_rcs.stix2
+2026-04-24 11:24:19,284 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 40 indicators for collection with name "RCSLab"
+2026-04-24 11:24:19,284 - mvt.android.cmd_check_androidqf - INFO - Parsing STIX2 indicators file at path /home/kali/.local/share/mvt/indicators/raw.githubusercontent.com_mvt-project_mvt-indicators_main_2023-07-25_wyrmspy_dragonegg_wyrmspy_dragonegg.stix2
+2026-04-24 11:24:19,297 - mvt.android.cmd_check_androidqf - DEBUG - Extracted 53 indicators for collection with name "WyrmSpy_DragonEgg"
+2026-04-24 11:24:19,297 - mvt.android.cmd_check_androidqf - INFO - Loaded a total of 11209 unique indicators
+2026-04-24 11:24:19,298 - mvt - INFO - Checking AndroidQF acquisition at path: 5991c226-d735-4f1e-b2ff-b1271d44121b
+2026-04-24 11:24:19,299 - mvt.android.modules.androidqf.aqf_packages - INFO - Running module AQFPackages...
+2026-04-24 11:24:19,312 - mvt.android.modules.androidqf.aqf_packages - INFO - Found 164 packages in packages.json
+2026-04-24 11:24:19,405 - mvt.android.modules.androidqf.aqf_packages - WARNING - Found a non-system package installed via adb or another method: "com.android.chrome"
+2026-04-24 11:24:19,488 - mvt.android.modules.androidqf.aqf_processes - INFO - Running module AQFProcesses...
+2026-04-24 11:24:19,489 - mvt.android.modules.androidqf.aqf_processes - INFO - The AQFProcesses module produced no detections!
+2026-04-24 11:24:19,490 - mvt.android.modules.androidqf.aqf_getprop - INFO - Running module AQFGetProp...
+2026-04-24 11:24:19,491 - mvt.android.modules.androidqf.aqf_getprop - INFO - Extracted a total of 422 properties
+2026-04-24 11:24:19,492 - mvt.android.modules.androidqf.aqf_getprop - INFO - gsm.sim.operator.alpha: T-Mobile
+2026-04-24 11:24:19,493 - mvt.android.modules.androidqf.aqf_getprop - INFO - gsm.sim.operator.iso-country: us
+2026-04-24 11:24:19,493 - mvt.android.modules.androidqf.aqf_getprop - INFO - persist.sys.timezone: GMT
+2026-04-24 11:24:19,494 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.boot.serialno: EMULATOR36X5X10X0
+2026-04-24 11:24:19,494 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.build.version.sdk: 30
+2026-04-24 11:24:19,495 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.build.version.security_patch: 2021-08-05
+2026-04-24 11:24:19,496 - mvt.android.modules.androidqf.aqf_getprop - WARNING - This phone has not received security updates for more than six months (last update: 2021-08-05)
+2026-04-24 11:24:19,497 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.product.cpu.abi: x86_64
+2026-04-24 11:24:19,497 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.product.locale: en-US
+2026-04-24 11:24:19,498 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.product.vendor.manufacturer: unknown
+2026-04-24 11:24:19,499 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.product.vendor.model: Android SDK built for x86_64
+2026-04-24 11:24:19,499 - mvt.android.modules.androidqf.aqf_getprop - INFO - ro.product.vendor.name: sdk_phone_x86_64
+2026-04-24 11:24:19,505 - mvt.android.modules.androidqf.aqf_getprop - INFO - The AQFGetProp module produced no detections!
+2026-04-24 11:24:19,507 - mvt.android.modules.androidqf.aqf_settings - INFO - Running module AQFSettings...
+2026-04-24 11:24:19,508 - mvt.android.modules.androidqf.aqf_settings - INFO - Identified 208 settings
+2026-04-24 11:24:19,509 - mvt.android.modules.androidqf.aqf_settings - WARNING - Found suspicious "global" setting "verifier_verify_adb_installs = 0" (disabled Google Play Services apps verification)
+2026-04-24 11:24:19,510 - mvt.android.modules.androidqf.aqf_settings - INFO - The AQFSettings module produced no detections!
+2026-04-24 11:24:19,511 - mvt.android.modules.androidqf.aqf_files - INFO - Running module AQFFiles...
+2026-04-24 11:24:19,512 - mvt.android.modules.androidqf.aqf_files - DEBUG - Identified local phone timezone: GMT
+2026-04-24 11:24:21,838 - mvt.android.modules.androidqf.aqf_files - INFO - Found a total of 88603 files
+2026-04-24 11:24:25,091 - mvt.android.modules.androidqf.aqf_files - INFO - The AQFFiles module produced no detections!
+2026-04-24 11:24:28,127 - mvt.android.modules.androidqf.sms - INFO - Running module SMS...
+2026-04-24 11:24:28,146 - mvt.android.modules.androidqf.sms - INFO - Identified 0 SMS in backup data
+2026-04-24 11:24:28,146 - mvt.android.modules.androidqf.sms - INFO - The SMS module produced no detections!
+2026-04-24 11:24:28,147 - mvt.android.modules.androidqf.root_binaries - INFO - Running module RootBinaries...
+2026-04-24 11:24:28,148 - mvt.android.modules.androidqf.root_binaries - INFO - Found 1 root binaries
+2026-04-24 11:24:28,149 - mvt.android.modules.androidqf.root_binaries - WARNING - Found root binary "su" at path "/system/xbin/su"
+2026-04-24 11:24:28,149 - mvt.android.modules.androidqf.root_binaries - WARNING - Device shows signs of rooting with 1 root binaries found
+2026-04-24 11:24:28,150 - mvt.android.modules.androidqf.mounts - INFO - Running module Mounts...
+2026-04-24 11:24:28,151 - mvt.android.modules.androidqf.mounts - INFO - Found mount information file: 5991c226-d735-4f1e-b2ff-b1271d44121b/mounts.json
+2026-04-24 11:24:28,152 - mvt.android.modules.androidqf.mounts - INFO - Extracted a total of 99 mount entries
+2026-04-24 11:24:28,153 - mvt.android.modules.androidqf.mounts - INFO - Data partition: /data mounted as ext4 with options: rw,seclabel,nosuid,nodev,noatime,resgid=1065,errors=panic
+2026-04-24 11:24:28,154 - mvt.android.modules.androidqf.mounts - INFO - Parsed 99 mount entries
+2026-04-24 11:24:28,161 - mvt.android.modules.androidqf.mounts - INFO - The Mounts module produced no detections!
+2026-04-24 11:24:28,173 - mvt.android.modules.bugreport.dumpsys_accessibility - INFO - Running module DumpsysAccessibility...
+2026-04-24 11:24:28,349 - mvt.android.modules.bugreport.dumpsys_accessibility - INFO - Identified a total of 0 accessibility services
+2026-04-24 11:24:28,350 - mvt.android.modules.bugreport.dumpsys_accessibility - INFO - The DumpsysAccessibility module produced no detections!
+2026-04-24 11:24:28,351 - mvt.android.modules.bugreport.dumpsys_activities - INFO - Running module DumpsysActivities...
+2026-04-24 11:24:28,477 - mvt.android.modules.bugreport.dumpsys_activities - INFO - Extracted 525 package activities
+2026-04-24 11:24:28,570 - mvt.android.modules.bugreport.dumpsys_activities - INFO - The DumpsysActivities module produced no detections!
+2026-04-24 11:24:28,573 - mvt.android.modules.bugreport.dumpsys_appops - INFO - Running module DumpsysAppops...
+2026-04-24 11:24:28,667 - mvt.android.modules.bugreport.dumpsys_appops - INFO - Identified a total of 20 packages in App-Ops Manager
+2026-04-24 11:24:28,672 - mvt.android.modules.bugreport.dumpsys_appops - INFO - The DumpsysAppops module produced no detections!
+2026-04-24 11:24:28,674 - mvt.android.modules.bugreport.dumpsys_battery_daily - INFO - Running module DumpsysBatteryDaily...
+2026-04-24 11:24:28,763 - mvt.android.modules.bugreport.dumpsys_battery_daily - INFO - Extracted a total of 0 battery daily stats
+2026-04-24 11:24:28,765 - mvt.android.modules.bugreport.dumpsys_battery_daily - INFO - The DumpsysBatteryDaily module produced no detections!
+2026-04-24 11:24:28,766 - mvt.android.modules.bugreport.dumpsys_battery_history - INFO - Running module DumpsysBatteryHistory...
+2026-04-24 11:24:28,860 - mvt.android.modules.bugreport.dumpsys_battery_history - INFO - Extracted a total of 39 battery history records
+2026-04-24 11:24:28,868 - mvt.android.modules.bugreport.dumpsys_battery_history - INFO - The DumpsysBatteryHistory module produced no detections!
+2026-04-24 11:24:28,869 - mvt.android.modules.bugreport.dumpsys_dbinfo - INFO - Running module DumpsysDBInfo...
+2026-04-24 11:24:28,971 - mvt.android.modules.bugreport.dumpsys_dbinfo - INFO - Extracted a total of 340 database connection pool records
+2026-04-24 11:24:29,274 - mvt.android.modules.bugreport.dumpsys_dbinfo - INFO - The DumpsysDBInfo module produced no detections!
+2026-04-24 11:24:29,276 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - Running module DumpsysGetProp...
+2026-04-24 11:24:29,449 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - Extracted 699 Android system properties
+2026-04-24 11:24:29,452 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - gsm.sim.operator.alpha: T-Mobile
+2026-04-24 11:24:29,453 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - gsm.sim.operator.iso-country: us
+2026-04-24 11:24:29,454 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - persist.sys.timezone: GMT
+2026-04-24 11:24:29,454 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.boot.serialno: EMULATOR36X5X10X0
+2026-04-24 11:24:29,455 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.build.version.sdk: 30
+2026-04-24 11:24:29,456 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.build.version.security_patch: 2021-08-05
+2026-04-24 11:24:29,456 - mvt.android.modules.bugreport.dumpsys_getprop - WARNING - This phone has not received security updates for more than six months (last update: 2021-08-05)
+2026-04-24 11:24:29,457 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.product.cpu.abi: x86_64
+2026-04-24 11:24:29,458 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.product.locale: en-US
+2026-04-24 11:24:29,458 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.product.vendor.manufacturer: unknown
+2026-04-24 11:24:29,459 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.product.vendor.model: Android SDK built for x86_64
+2026-04-24 11:24:29,459 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - ro.product.vendor.name: sdk_phone_x86_64
+2026-04-24 11:24:29,468 - mvt.android.modules.bugreport.dumpsys_getprop - INFO - The DumpsysGetProp module produced no detections!
+2026-04-24 11:24:29,471 - mvt.android.modules.bugreport.dumpsys_packages - INFO - Running module DumpsysPackages...
+2026-04-24 11:24:29,566 - mvt.android.modules.bugreport.dumpsys_packages - INFO - Found package "android" requested 20 potentially dangerous permissions
+2026-04-24 11:24:29,567 - mvt.android.modules.bugreport.dumpsys_packages - INFO - Found package "com.android.dialer" requested 10 potentially dangerous permissions
+2026-04-24 11:24:29,568 - mvt.android.modules.bugreport.dumpsys_packages - INFO - Extracted details on 164 packages
+2026-04-24 11:24:29,594 - mvt.android.modules.bugreport.dumpsys_packages - INFO - The DumpsysPackages module produced no detections!
+2026-04-24 11:24:29,603 - mvt.android.modules.bugreport.dumpsys_platform_compat - INFO - Running module DumpsysPlatformCompat...
+2026-04-24 11:24:29,689 - mvt.android.modules.bugreport.dumpsys_platform_compat - INFO - Found 0 uninstalled apps
+2026-04-24 11:24:29,690 - mvt.android.modules.bugreport.dumpsys_platform_compat - INFO - The DumpsysPlatformCompat module produced no detections!
+2026-04-24 11:24:29,691 - mvt.android.modules.bugreport.dumpsys_receivers - INFO - Running module DumpsysReceivers...
+2026-04-24 11:24:29,783 - mvt.android.modules.bugreport.dumpsys_receivers - INFO - Extracted receivers for 137 intents
+2026-04-24 11:24:29,811 - mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.AbortSmsReceiver"
+2026-04-24 11:24:29,812 - mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.SmsReceiver"
+2026-04-24 11:24:29,819 - mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver monitoring outgoing calls: "com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"
+2026-04-24 11:24:29,821 - mvt.android.modules.bugreport.dumpsys_receivers - INFO - The DumpsysReceivers module produced no detections!
+2026-04-24 11:24:29,823 - mvt.android.modules.bugreport.dumpsys_adb_state - INFO - Running module DumpsysADBState...
+2026-04-24 11:24:29,889 - mvt.android.modules.bugreport.dumpsys_adb_state - INFO - Identified a total of 6 trusted ADB keys
+2026-04-24 11:24:29,890 - mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'santl@88UACE' with fingerprint 'E6:E0:7A:34:8C:73:84:72:D6:00:29:28:82:74:B5:26'
+2026-04-24 11:24:29,890 - mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'android-eng@google.com' with fingerprint ''
+2026-04-24 11:24:29,890 - mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'version='1.0' encoding='utf-8' standalone='yes' ?>' with fingerprint ''
+2026-04-24 11:24:29,890 - mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'version="1">' with fingerprint '7F:B6:CB:8D:54:D2:69:03:4E:61:D9:78:1E:DD:F7:5A'
+2026-04-24 11:24:29,890 - mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'key="QAAAADPanNcFT/6MMXTyuTXHCT7fW9OCL6yAUOTBpfcLthpxEJw7FrKheNwgvHlxfyzapjsmtPMo9KKIJyLtiB/TWToeoF4c9TcqAV7WP9zcSZdfcpoHrBEu98dBfb9Gr/3AqG/HHD4otueSCSDsirNUCR3Oq8AkIk3P3+KIMyAD0bYu+PvH1UPuUuZIVQtQb7VRMOwjCgde1u3Y7KgHJJX86eeGUGSlMaIf7X+vs8286u3rrxWDQmKqfe4pxBXbW+M250LANILrTt0TKSrOCQg2TBq8UuQVcnwcLj2dEzo8JlsCfdt0TTVzHQmcCMvMMqDBw/TT+ACC00l9+uSxoAcEYgDdZhquN6r5nVMn4eUUt7eH4PyQ/296II8J+6Simn0Ln6bKTZyMr653EHGHgFFzZBkOIzTDVTAg++GNKUDpvDkwQaQBTgv0w9R3YNIAfjbyTZayOtlz71JhdAqhS3ebO41cwu2nRI5uu/bst/fZZeOYpa6zL2Gk7kQlLopZMDN1bFtx5MizlbkRD/OkebLYDLkep7ILedBa5FhFcAcGtXbFQpC97WMPRXpLppBCjwwQKUfg5CVIaZHLgs2+cx7vm5xeaPA/qYOeO8MihkMRgXRZCvLuZDV9RljnKP1UlzCc3hPx+mCpHOFUUJNX1F9sDoPMelpKxUdUv3tPJ0k81ozRvNuRoQEAAQA= santl@88UACE" lastConnection="1777044775336" />' with fingerprint ''
+2026-04-24 11:24:29,890 - mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user '' with fingerprint ''
+2026-04-24 11:24:29,891 - mvt.android.modules.bugreport.dumpsys_adb_state - INFO - The DumpsysADBState module produced no detections!
+2026-04-24 11:24:29,892 - mvt.android.modules.bugreport.fs_timestamps - INFO - Running module BugReportTimestamps...
+2026-04-24 11:24:29,893 - mvt.android.modules.bugreport.fs_timestamps - INFO - Extracted a total of 146 filesystem timestamps from bugreport.
+2026-04-24 11:24:29,894 - mvt.android.modules.bugreport.fs_timestamps - INFO - The BugReportTimestamps module does not support checking for indicators
+2026-04-24 11:24:29,896 - mvt.android.modules.bugreport.tombstones - INFO - Running module Tombstones...
+2026-04-24 11:24:29,897 - mvt.android.modules.bugreport.tombstones - ERROR - Unable to find any tombstone files. Did you provide a valid bugreport archive?
+2026-04-24 11:24:29,897 - mvt.android.modules.bugreport.tombstones - INFO - The Tombstones module produced no detections!
+2026-04-24 11:24:29,899 - mvt.android.modules.backup.sms - INFO - Running module SMS...
+2026-04-24 11:24:29,900 - mvt.android.modules.backup.sms - INFO - Extracted a total of 0 SMS & MMS messages
+2026-04-24 11:24:29,900 - mvt.android.modules.backup.sms - INFO - The SMS module produced no detections!
+2026-04-24 11:24:30,224 - mvt.android.cmd_check_androidqf - INFO - Please disable Developer Options and ADB (Android Debug Bridge) on the device once finished with the acquisition. ADB is a powerful tool which can allow unauthorized access to the device.
+2026-04-24 11:24:30,226 - mvt.android.cmd_check_androidqf - WARNING - [bold]NOTE: Detected indicators of compromise[/bold]. Only expert review can confirm if the detected indicators are signs of an attack.
+
+Please seek reputable expert help if you have serious concerns about a possible spyware attack. Such support is available to human rights defenders and civil society through Amnesty International's Security Lab at https://securitylab.amnesty.org/get-help/?c=mvt
+2026-04-24 11:24:30,227 - mvt - WARNING - The analysis of the AndroidQF acquisition produced 2 detections!

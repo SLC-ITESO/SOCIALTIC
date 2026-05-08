@@ -1,0 +1,38 @@
+[
+    {
+        "connected_to_adb": "true",
+        "user_keys": [
+            {
+                "user": "santl@88UACE",
+                "fingerprint": "E6:E0:7A:34:8C:73:84:72:D6:00:29:28:82:74:B5:26",
+                "key": "QAAAADPanNcFT/6MMXTyuTXHCT7fW9OCL6yAUOTBpfcLthpxEJw7FrKheNwgvHlxfyzapjsmtPMo9KKIJyLtiB/TWToeoF4c9TcqAV7WP9zcSZdfcpoHrBEu98dBfb9Gr/3AqG/HHD4otueSCSDsirNUCR3Oq8AkIk3P3+KIMyAD0bYu+PvH1UPuUuZIVQtQb7VRMOwjCgde1u3Y7KgHJJX86eeGUGSlMaIf7X+vs8286u3rrxWDQmKqfe4pxBXbW+M250LANILrTt0TKSrOCQg2TBq8UuQVcnwcLj2dEzo8JlsCfdt0TTVzHQmcCMvMMqDBw/TT+ACC00l9+uSxoAcEYgDdZhquN6r5nVMn4eUUt7eH4PyQ/296II8J+6Simn0Ln6bKTZyMr653EHGHgFFzZBkOIzTDVTAg++GNKUDpvDkwQaQBTgv0w9R3YNIAfjbyTZayOtlz71JhdAqhS3ebO41cwu2nRI5uu/bst/fZZeOYpa6zL2Gk7kQlLopZMDN1bFtx5MizlbkRD/OkebLYDLkep7ILedBa5FhFcAcGtXbFQpC97WMPRXpLppBCjwwQKUfg5CVIaZHLgs2+cx7vm5xeaPA/qYOeO8MihkMRgXRZCvLuZDV9RljnKP1UlzCc3hPx+mCpHOFUUJNX1F9sDoPMelpKxUdUv3tPJ0k81ozRvNuRoQEAAQA="
+            },
+            {
+                "user": "android-eng@google.com",
+                "fingerprint": "",
+                "key": "system_keys=QAAAAEVmKZ9zQ8evll+kMlmMdqjWE58Cm77hxfa3nkUlBoBaBGxAVA45ZZAl6rXEqSukPpCMtn0s+O7ETH2LNXlUGcSKHcAl+3nb1Fsr5wVDnQY9vftq+gBJXfflCusTrZDoc1Qk7ajtnDMXZl+1PqhMgTgfm+6KiDzOdqOtM89/KQdTavsHcOV1IrljhW2v7ervTDcO1L03G4PMLt4g8O+EOQnSqHf4IRtAHUD9rJRtZzYLFLqRooboqHe34Rk6ZzObVa+ymS28T0ELJet9SgZdbih00NodNzJ6fA4889+0X7PdX6nHmoBquAGXo20iHnrTQtXxTtDIOSaESQ4GTqaZpqJrlLDJY3xLMdyhArhpfzVvBbR7KqHUhsHhcTrPtSelbr6aRKtpGHST4kUBOEZL9b7fq83+rJkOi6YOwV10MGjb1OBeYkh3eVtXRvjewbqdE81YA5YymbEZOBFwEZD8zUd4V1sFGq12wUQXHvMHIR1DPQmS4V+VgMOSnqfLt4+pZXwt8/btIffp5LZkSY0qARM5zY0lgELObnx8cdKifYAQ+xC13hk7JVfs73FG3TjvgJ3iCbTYVi57bmzVnu77122wtiDYb9RAdI3mjL4fEbpnYonu2flUR3d0N1saTrFL7ukvECs2haig9C4mn68bbkvfmXpLPv4kyYyPyFsNM7TQYaYYcQEAAQA="
+            },
+            {
+                "user": "version='1.0' encoding='utf-8' standalone='yes' ?>",
+                "fingerprint": "",
+                "key": "keystore=<?xml"
+            },
+            {
+                "user": "version=\"1\">",
+                "fingerprint": "7F:B6:CB:8D:54:D2:69:03:4E:61:D9:78:1E:DD:F7:5A",
+                "key": "<keyStore"
+            },
+            {
+                "user": "key=\"QAAAADPanNcFT/6MMXTyuTXHCT7fW9OCL6yAUOTBpfcLthpxEJw7FrKheNwgvHlxfyzapjsmtPMo9KKIJyLtiB/TWToeoF4c9TcqAV7WP9zcSZdfcpoHrBEu98dBfb9Gr/3AqG/HHD4otueSCSDsirNUCR3Oq8AkIk3P3+KIMyAD0bYu+PvH1UPuUuZIVQtQb7VRMOwjCgde1u3Y7KgHJJX86eeGUGSlMaIf7X+vs8286u3rrxWDQmKqfe4pxBXbW+M250LANILrTt0TKSrOCQg2TBq8UuQVcnwcLj2dEzo8JlsCfdt0TTVzHQmcCMvMMqDBw/TT+ACC00l9+uSxoAcEYgDdZhquN6r5nVMn4eUUt7eH4PyQ/296II8J+6Simn0Ln6bKTZyMr653EHGHgFFzZBkOIzTDVTAg++GNKUDpvDkwQaQBTgv0w9R3YNIAfjbyTZayOtlz71JhdAqhS3ebO41cwu2nRI5uu/bst/fZZeOYpa6zL2Gk7kQlLopZMDN1bFtx5MizlbkRD/OkebLYDLkep7ILedBa5FhFcAcGtXbFQpC97WMPRXpLppBCjwwQKUfg5CVIaZHLgs2+cx7vm5xeaPA/qYOeO8MihkMRgXRZCvLuZDV9RljnKP1UlzCc3hPx+mCpHOFUUJNX1F9sDoPMelpKxUdUv3tPJ0k81ozRvNuRoQEAAQA= santl@88UACE\" lastConnection=\"1777044775336\" />",
+                "fingerprint": "",
+                "key": "<adbKey"
+            },
+            {
+                "user": "",
+                "fingerprint": "",
+                "key": "</keyStore>"
+            }
+        ],
+        "keystore": null
+    }
+]

@@ -1,0 +1,1662 @@
+[
+    {
+        "name": "build.version.extensions.r",
+        "value": "0"
+    },
+    {
+        "name": "cache_key.bluetooth.get_bond_state",
+        "value": "306633349577877784"
+    },
+    {
+        "name": "cache_key.bluetooth.get_profile_connection_state",
+        "value": "306633349577877787"
+    },
+    {
+        "name": "cache_key.bluetooth.get_state",
+        "value": "306633349577877788"
+    },
+    {
+        "name": "cache_key.bluetooth.is_offloaded_filtering_supported",
+        "value": "306633349577877783"
+    },
+    {
+        "name": "cache_key.display_info",
+        "value": "2516983647995446171"
+    },
+    {
+        "name": "cache_key.has_system_feature",
+        "value": "2516983647995446153"
+    },
+    {
+        "name": "cache_key.is_compat_change_enabled",
+        "value": "2516983647995446155"
+    },
+    {
+        "name": "cache_key.is_interactive",
+        "value": "2516983647995446144"
+    },
+    {
+        "name": "cache_key.is_power_save_mode",
+        "value": "2516983647995446162"
+    },
+    {
+        "name": "cache_key.is_user_unlocked",
+        "value": "2516983647995446173"
+    },
+    {
+        "name": "cache_key.location_enabled",
+        "value": "2516983647995446165"
+    },
+    {
+        "name": "cache_key.package_info",
+        "value": "2516983647995446174"
+    },
+    {
+        "name": "cache_key.telephony.get_active_data_sub_id",
+        "value": "-581029942642233198"
+    },
+    {
+        "name": "cache_key.telephony.get_default_data_sub_id",
+        "value": "-581029942642233207"
+    },
+    {
+        "name": "cache_key.telephony.get_default_sms_sub_id",
+        "value": "-581029942642233201"
+    },
+    {
+        "name": "cache_key.telephony.get_default_sub_id",
+        "value": "-581029942642233203"
+    },
+    {
+        "name": "cache_key.telephony.get_slot_index",
+        "value": "-581029942642233202"
+    },
+    {
+        "name": "dalvik.vm.appimageformat",
+        "value": "lz4"
+    },
+    {
+        "name": "dalvik.vm.dex2oat-Xms",
+        "value": "64m"
+    },
+    {
+        "name": "dalvik.vm.dex2oat-Xmx",
+        "value": "512m"
+    },
+    {
+        "name": "dalvik.vm.dex2oat-max-image-block-size",
+        "value": "524288"
+    },
+    {
+        "name": "dalvik.vm.dex2oat-minidebuginfo",
+        "value": "true"
+    },
+    {
+        "name": "dalvik.vm.dex2oat-resolve-startup-strings",
+        "value": "true"
+    },
+    {
+        "name": "dalvik.vm.dex2oat-updatable-bcp-packages-file",
+        "value": "/system/etc/updatable-bcp-packages.txt"
+    },
+    {
+        "name": "dalvik.vm.dexopt.secondary",
+        "value": "true"
+    },
+    {
+        "name": "dalvik.vm.heapgrowthlimit",
+        "value": "192m"
+    },
+    {
+        "name": "dalvik.vm.heapmaxfree",
+        "value": "8m"
+    },
+    {
+        "name": "dalvik.vm.heapminfree",
+        "value": "512k"
+    },
+    {
+        "name": "dalvik.vm.heapsize",
+        "value": "512m"
+    },
+    {
+        "name": "dalvik.vm.heapstartsize",
+        "value": "8m"
+    },
+    {
+        "name": "dalvik.vm.heaptargetutilization",
+        "value": "0.75"
+    },
+    {
+        "name": "dalvik.vm.image-dex2oat-Xms",
+        "value": "64m"
+    },
+    {
+        "name": "dalvik.vm.image-dex2oat-Xmx",
+        "value": "64m"
+    },
+    {
+        "name": "dalvik.vm.isa.x86.features",
+        "value": "default"
+    },
+    {
+        "name": "dalvik.vm.isa.x86.variant",
+        "value": "x86_64"
+    },
+    {
+        "name": "dalvik.vm.isa.x86_64.features",
+        "value": "default"
+    },
+    {
+        "name": "dalvik.vm.isa.x86_64.variant",
+        "value": "x86_64"
+    },
+    {
+        "name": "dalvik.vm.lockprof.threshold",
+        "value": "500"
+    },
+    {
+        "name": "dalvik.vm.minidebuginfo",
+        "value": "true"
+    },
+    {
+        "name": "dalvik.vm.usejit",
+        "value": "true"
+    },
+    {
+        "name": "dalvik.vm.usejitprofiles",
+        "value": "true"
+    },
+    {
+        "name": "debug.atrace.tags.enableflags",
+        "value": "0"
+    },
+    {
+        "name": "debug.force_rtl",
+        "value": "false"
+    },
+    {
+        "name": "debug.hwui.renderer",
+        "value": "opengl"
+    },
+    {
+        "name": "debug.sf.vsync_reactor",
+        "value": "0"
+    },
+    {
+        "name": "debug.stagefright.ccodec",
+        "value": "0"
+    },
+    {
+        "name": "debug.tracing.screen_brightness",
+        "value": "0.39763778"
+    },
+    {
+        "name": "dev.bootcomplete",
+        "value": "1"
+    },
+    {
+        "name": "dev.mnt.blk.data",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.data.user.0",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.data_mirror.cur_profiles",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.data_mirror.data_ce.null",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.data_mirror.data_ce.null.0",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.data_mirror.data_de.null",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.androidwritable.0.emulated.0.Android.data",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.androidwritable.0.emulated.0.Android.obb",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.installer.0.emulated.0.Android.data",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.installer.0.emulated.0.Android.obb",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.pass_through.0.emulated",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.user.0.emulated.0.Android.data",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.mnt.user.0.emulated.0.Android.obb",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.product",
+        "value": "dm-2"
+    },
+    {
+        "name": "dev.mnt.blk.root",
+        "value": "dm-4"
+    },
+    {
+        "name": "dev.mnt.blk.storage.emulated.0.Android.data",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.storage.emulated.0.Android.obb",
+        "value": "dm-5"
+    },
+    {
+        "name": "dev.mnt.blk.system_ext",
+        "value": "dm-1"
+    },
+    {
+        "name": "dev.mnt.blk.vendor",
+        "value": "dm-3"
+    },
+    {
+        "name": "gsm.current.phone-type",
+        "value": "1"
+    },
+    {
+        "name": "gsm.network.type",
+        "value": "LTE"
+    },
+    {
+        "name": "gsm.operator.alpha",
+        "value": "Android"
+    },
+    {
+        "name": "gsm.operator.iso-country",
+        "value": "us"
+    },
+    {
+        "name": "gsm.operator.isroaming",
+        "value": "false"
+    },
+    {
+        "name": "gsm.operator.numeric",
+        "value": "310260"
+    },
+    {
+        "name": "gsm.sim.operator.alpha",
+        "value": "T-Mobile"
+    },
+    {
+        "name": "gsm.sim.operator.iso-country",
+        "value": "us"
+    },
+    {
+        "name": "gsm.sim.operator.numeric",
+        "value": "310260"
+    },
+    {
+        "name": "gsm.sim.state",
+        "value": "LOADED"
+    },
+    {
+        "name": "gsm.version.baseband",
+        "value": "1.0.0.0"
+    },
+    {
+        "name": "gsm.version.ril-impl",
+        "value": "android reference-ril 1.0"
+    },
+    {
+        "name": "hwservicemanager.ready",
+        "value": "true"
+    },
+    {
+        "name": "init.svc.adbd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.apexd",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.apexd-bootstrap",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.apexd-snapshotde",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.audioserver",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.bootanim",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.boringssl_self_test32",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.boringssl_self_test32_vendor",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.boringssl_self_test64",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.boringssl_self_test64_vendor",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.boringssl_self_test_apex32",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.boringssl_self_test_apex64",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.bpfloader",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.cameraserver",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.console",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.create_router_ns",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.credstore",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.derive_sdk",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.dhcpclient_rtr",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.drm",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.emu_hostapd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.gatekeeperd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.goldfish-logcat",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.gpu",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.health-hal-2-1",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.heapprofd",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.hidl_memory",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.hwservicemanager",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.idmap2d",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.incidentd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.installd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.iorapd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.keystore",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.llkd-1",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.lmkd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.logd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.logd-auditctl",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.logd-reinit",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.mdnsd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.media",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.media.swcodec",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.mediadrm",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.mediaextractor",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.mediametrics",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.netd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.netmgr",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.neuralnetworks_hal_service_sample_all",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.neuralnetworks_hal_service_sample_float_fast",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.neuralnetworks_hal_service_sample_float_slow",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.neuralnetworks_hal_service_sample_minimal",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.neuralnetworks_hal_service_sample_quant",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.qemu-props",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.ranchu-net",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.ranchu-setup",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.servicemanager",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.statsd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.storaged",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.surfaceflinger",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.system_suspend",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.tombstoned",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.traced",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.traced_perf",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.traced_probes",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.ueventd",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.update_verifier_nonencrypted",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.usbd",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.vold",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.wait_for_keymaster",
+        "value": "stopped"
+    },
+    {
+        "name": "init.svc.wifi_forwarder",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.wificond",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.wpa_supplicant",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.zygote",
+        "value": "running"
+    },
+    {
+        "name": "init.svc.zygote_secondary",
+        "value": "running"
+    },
+    {
+        "name": "log.tag.APM_AudioPolicyManager",
+        "value": "D"
+    },
+    {
+        "name": "log.tag.stats_log",
+        "value": "I"
+    },
+    {
+        "name": "logd.logpersistd.enable",
+        "value": "true"
+    },
+    {
+        "name": "net.bt.name",
+        "value": "Android"
+    },
+    {
+        "name": "net.qtaguid_enabled",
+        "value": "1"
+    },
+    {
+        "name": "net.tcp.default_init_rwnd",
+        "value": "60"
+    },
+    {
+        "name": "persist.debug.dalvik.vm.core_platform_api_policy",
+        "value": "just-warn"
+    },
+    {
+        "name": "persist.sys.dalvik.vm.lib.2",
+        "value": "libart.so"
+    },
+    {
+        "name": "persist.sys.device_provisioned",
+        "value": "1"
+    },
+    {
+        "name": "persist.sys.disable_rescue",
+        "value": "true"
+    },
+    {
+        "name": "persist.sys.displayinset.top",
+        "value": "0"
+    },
+    {
+        "name": "persist.sys.fuse",
+        "value": "true"
+    },
+    {
+        "name": "persist.sys.gps.lpp",
+        "value": "2"
+    },
+    {
+        "name": "persist.sys.isolated_storage",
+        "value": "true"
+    },
+    {
+        "name": "persist.sys.lmk.reportkills",
+        "value": "true"
+    },
+    {
+        "name": "persist.sys.timezone",
+        "value": "GMT"
+    },
+    {
+        "name": "persist.sys.usb.config",
+        "value": "adb"
+    },
+    {
+        "name": "persist.sys.zram_enabled",
+        "value": "1"
+    },
+    {
+        "name": "persist.traced.enable",
+        "value": "1"
+    },
+    {
+        "name": "pm.dexopt.ab-ota",
+        "value": "speed-profile"
+    },
+    {
+        "name": "pm.dexopt.bg-dexopt",
+        "value": "speed-profile"
+    },
+    {
+        "name": "pm.dexopt.boot",
+        "value": "verify"
+    },
+    {
+        "name": "pm.dexopt.first-boot",
+        "value": "quicken"
+    },
+    {
+        "name": "pm.dexopt.inactive",
+        "value": "verify"
+    },
+    {
+        "name": "pm.dexopt.install",
+        "value": "speed-profile"
+    },
+    {
+        "name": "pm.dexopt.shared",
+        "value": "speed"
+    },
+    {
+        "name": "qemu.adb.secure",
+        "value": "1"
+    },
+    {
+        "name": "qemu.hw.mainkeys",
+        "value": "0"
+    },
+    {
+        "name": "qemu.logcat",
+        "value": "start"
+    },
+    {
+        "name": "qemu.networknamespace",
+        "value": "ready"
+    },
+    {
+        "name": "qemu.sf.fake_camera",
+        "value": "front"
+    },
+    {
+        "name": "qemu.sf.lcd_density",
+        "value": "560"
+    },
+    {
+        "name": "qemu.timezone",
+        "value": "Unknown/Unknown"
+    },
+    {
+        "name": "ro.actionable_compatible_property.enabled",
+        "value": "true"
+    },
+    {
+        "name": "ro.adb.secure",
+        "value": "0"
+    },
+    {
+        "name": "ro.allow.mock.location",
+        "value": "0"
+    },
+    {
+        "name": "ro.apex.updatable",
+        "value": "true"
+    },
+    {
+        "name": "ro.baseband",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.boot.avb_version",
+        "value": "1.1"
+    },
+    {
+        "name": "ro.boot.boot_devices",
+        "value": "pci0000:00/0000:00:03.0"
+    },
+    {
+        "name": "ro.boot.bootreason",
+        "value": "reboot"
+    },
+    {
+        "name": "ro.boot.dynamic_partitions",
+        "value": "true"
+    },
+    {
+        "name": "ro.boot.hardware",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.boot.hardware.vulkan",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.boot.serialno",
+        "value": "EMULATOR36X5X10X0"
+    },
+    {
+        "name": "ro.boot.vbmeta.digest",
+        "value": "aa516f360594014de86105695b13f1df5e00b81539011aafdd58e68e859134a1"
+    },
+    {
+        "name": "ro.boot.vbmeta.hash_alg",
+        "value": "sha256"
+    },
+    {
+        "name": "ro.boot.vbmeta.size",
+        "value": "6144"
+    },
+    {
+        "name": "ro.bootimage.build.date",
+        "value": "Thu May 4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.bootimage.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.bootimage.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.bootloader",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.bootmode",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.build.characteristics",
+        "value": "emulator"
+    },
+    {
+        "name": "ro.build.date",
+        "value": "Thu May  4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.build.description",
+        "value": "sdk_phone_x86_64-userdebug 11 RSR1.210722.013.A2 10067904 test-keys"
+    },
+    {
+        "name": "ro.build.display.id",
+        "value": "sdk_phone_x86_64-userdebug 11 RSR1.210722.013.A2 10067904 test-keys"
+    },
+    {
+        "name": "ro.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.build.flavor",
+        "value": "sdk_phone_x86_64-userdebug"
+    },
+    {
+        "name": "ro.build.host",
+        "value": "abfarm-2004-0383"
+    },
+    {
+        "name": "ro.build.id",
+        "value": "RSR1.210722.013.A2"
+    },
+    {
+        "name": "ro.build.product",
+        "value": "generic_x86_64"
+    },
+    {
+        "name": "ro.build.tags",
+        "value": "test-keys"
+    },
+    {
+        "name": "ro.build.type",
+        "value": "userdebug"
+    },
+    {
+        "name": "ro.build.user",
+        "value": "android-build"
+    },
+    {
+        "name": "ro.build.version.all_codenames",
+        "value": "REL"
+    },
+    {
+        "name": "ro.build.version.codename",
+        "value": "REL"
+    },
+    {
+        "name": "ro.build.version.incremental",
+        "value": "10067904"
+    },
+    {
+        "name": "ro.build.version.min_supported_target_sdk",
+        "value": "23"
+    },
+    {
+        "name": "ro.build.version.preview_sdk",
+        "value": "0"
+    },
+    {
+        "name": "ro.build.version.preview_sdk_fingerprint",
+        "value": "REL"
+    },
+    {
+        "name": "ro.build.version.release",
+        "value": "11"
+    },
+    {
+        "name": "ro.build.version.release_or_codename",
+        "value": "11"
+    },
+    {
+        "name": "ro.build.version.sdk",
+        "value": "30"
+    },
+    {
+        "name": "ro.build.version.security_patch",
+        "value": "2021-08-05"
+    },
+    {
+        "name": "ro.carrier",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.com.android.dataroaming",
+        "value": "true"
+    },
+    {
+        "name": "ro.com.google.locationfeatures",
+        "value": "1"
+    },
+    {
+        "name": "ro.config.alarm_alert",
+        "value": "Alarm_Classic.ogg"
+    },
+    {
+        "name": "ro.config.notification_sound",
+        "value": "pixiedust.ogg"
+    },
+    {
+        "name": "ro.config.ringtone",
+        "value": "Ring_Synth_04.ogg"
+    },
+    {
+        "name": "ro.control_privapp_permissions",
+        "value": "enforce"
+    },
+    {
+        "name": "ro.cp_system_other_odex",
+        "value": "0"
+    },
+    {
+        "name": "ro.crypto.dm_default_key.options_format.version",
+        "value": "2"
+    },
+    {
+        "name": "ro.crypto.metadata.enabled",
+        "value": "true"
+    },
+    {
+        "name": "ro.crypto.state",
+        "value": "encrypted"
+    },
+    {
+        "name": "ro.crypto.type",
+        "value": "file"
+    },
+    {
+        "name": "ro.crypto.uses_fs_ioc_add_encryption_key",
+        "value": "true"
+    },
+    {
+        "name": "ro.crypto.volume.filenames_mode",
+        "value": "aes-256-cts"
+    },
+    {
+        "name": "ro.dalvik.vm.native.bridge",
+        "value": "0"
+    },
+    {
+        "name": "ro.debuggable",
+        "value": "1"
+    },
+    {
+        "name": "ro.hardware",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.hardware.audio.primary",
+        "value": "goldfish"
+    },
+    {
+        "name": "ro.hardware.egl",
+        "value": "emulation"
+    },
+    {
+        "name": "ro.hardware.power",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.hardware.vulkan",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.iorapd.enable",
+        "value": "true"
+    },
+    {
+        "name": "ro.kernel.8250.nr_uarts",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.android.qemud",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.androidboot.boot_devices",
+        "value": "pci0000:00/0000:00:03.0"
+    },
+    {
+        "name": "ro.kernel.androidboot.hardware",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.kernel.androidboot.hardware.vulkan",
+        "value": "ranchu"
+    },
+    {
+        "name": "ro.kernel.androidboot.serialno",
+        "value": "EMULATOR36X5X10X0"
+    },
+    {
+        "name": "ro.kernel.androidboot.vbmeta.digest",
+        "value": "aa516f360594014de86105695b13f1df5e00b81539011aafdd58e68e859134a1"
+    },
+    {
+        "name": "ro.kernel.androidboot.vbmeta.hash_alg",
+        "value": "sha256"
+    },
+    {
+        "name": "ro.kernel.androidboot.vbmeta.size",
+        "value": "6144"
+    },
+    {
+        "name": "ro.kernel.clocksource",
+        "value": "pit"
+    },
+    {
+        "name": "ro.kernel.console",
+        "value": "0"
+    },
+    {
+        "name": "ro.kernel.loop.max_part",
+        "value": "7"
+    },
+    {
+        "name": "ro.kernel.mac80211_hwsim.channels",
+        "value": "2"
+    },
+    {
+        "name": "ro.kernel.mac80211_hwsim.radios",
+        "value": "0"
+    },
+    {
+        "name": "ro.kernel.memmap",
+        "value": "0x10000$0xff018000"
+    },
+    {
+        "name": "ro.kernel.printk.devkmsg",
+        "value": "on"
+    },
+    {
+        "name": "ro.kernel.qemu",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.qemu.avd_name",
+        "value": "CVE"
+    },
+    {
+        "name": "ro.kernel.qemu.camera_hq_edge_processing",
+        "value": "0"
+    },
+    {
+        "name": "ro.kernel.qemu.camera_protocol_ver",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.qemu.dalvik.vm.heapsize",
+        "value": "512m"
+    },
+    {
+        "name": "ro.kernel.qemu.encrypt",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.qemu.gles",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.qemu.gltransport",
+        "value": "pipe"
+    },
+    {
+        "name": "ro.kernel.qemu.gltransport.drawFlushInterval",
+        "value": "800"
+    },
+    {
+        "name": "ro.kernel.qemu.hwcodec.avcdec",
+        "value": "2"
+    },
+    {
+        "name": "ro.kernel.qemu.hwcodec.hevcdec",
+        "value": "2"
+    },
+    {
+        "name": "ro.kernel.qemu.hwcodec.vpxdec",
+        "value": "2"
+    },
+    {
+        "name": "ro.kernel.qemu.opengles.version",
+        "value": "131072"
+    },
+    {
+        "name": "ro.kernel.qemu.settings.system.screen_off_timeout",
+        "value": "2147483647"
+    },
+    {
+        "name": "ro.kernel.qemu.skin",
+        "value": "pixel_3_xl"
+    },
+    {
+        "name": "ro.kernel.qemu.vsync",
+        "value": "60"
+    },
+    {
+        "name": "ro.kernel.qemu.wifi",
+        "value": "1"
+    },
+    {
+        "name": "ro.kernel.ramoops.mem_address",
+        "value": "0xff018000"
+    },
+    {
+        "name": "ro.kernel.ramoops.mem_size",
+        "value": "0x10000"
+    },
+    {
+        "name": "ro.lmk.kill_timeout_ms",
+        "value": "100"
+    },
+    {
+        "name": "ro.lockscreen.disable.default",
+        "value": "1"
+    },
+    {
+        "name": "ro.logd.size",
+        "value": "1M"
+    },
+    {
+        "name": "ro.logd.size.stats",
+        "value": "64K"
+    },
+    {
+        "name": "ro.monkey",
+        "value": "1"
+    },
+    {
+        "name": "ro.nnapi.extensions.deny_on_product",
+        "value": "true"
+    },
+    {
+        "name": "ro.odm.build.date",
+        "value": "Thu May  4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.odm.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.odm.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.odm.build.version.incremental",
+        "value": "10067904"
+    },
+    {
+        "name": "ro.opengles.version",
+        "value": "131072"
+    },
+    {
+        "name": "ro.organization_owned",
+        "value": "false"
+    },
+    {
+        "name": "ro.postinstall.fstab.prefix",
+        "value": "/system"
+    },
+    {
+        "name": "ro.product.board",
+        "value": "goldfish_x86_64"
+    },
+    {
+        "name": "ro.product.brand",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.build.date",
+        "value": "Thu May  4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.product.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.product.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.product.build.id",
+        "value": "RSR1.210722.013.A2"
+    },
+    {
+        "name": "ro.product.build.tags",
+        "value": "test-keys"
+    },
+    {
+        "name": "ro.product.build.type",
+        "value": "userdebug"
+    },
+    {
+        "name": "ro.product.build.version.incremental",
+        "value": "10067904"
+    },
+    {
+        "name": "ro.product.build.version.release",
+        "value": "11"
+    },
+    {
+        "name": "ro.product.build.version.release_or_codename",
+        "value": "11"
+    },
+    {
+        "name": "ro.product.build.version.sdk",
+        "value": "30"
+    },
+    {
+        "name": "ro.product.cpu.abi",
+        "value": "x86_64"
+    },
+    {
+        "name": "ro.product.cpu.abilist",
+        "value": "x86_64,x86"
+    },
+    {
+        "name": "ro.product.cpu.abilist32",
+        "value": "x86"
+    },
+    {
+        "name": "ro.product.cpu.abilist64",
+        "value": "x86_64"
+    },
+    {
+        "name": "ro.product.device",
+        "value": "generic_x86_64"
+    },
+    {
+        "name": "ro.product.first_api_level",
+        "value": "30"
+    },
+    {
+        "name": "ro.product.locale",
+        "value": "en-US"
+    },
+    {
+        "name": "ro.product.manufacturer",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.product.model",
+        "value": "Android SDK built for x86_64"
+    },
+    {
+        "name": "ro.product.name",
+        "value": "sdk_phone_x86_64"
+    },
+    {
+        "name": "ro.product.odm.brand",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.odm.device",
+        "value": "generic_x86_64"
+    },
+    {
+        "name": "ro.product.odm.manufacturer",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.product.odm.model",
+        "value": "Android SDK built for x86_64"
+    },
+    {
+        "name": "ro.product.odm.name",
+        "value": "sdk_phone_x86_64"
+    },
+    {
+        "name": "ro.product.product.brand",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.product.device",
+        "value": "generic_x86_64"
+    },
+    {
+        "name": "ro.product.product.manufacturer",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.product.product.model",
+        "value": "Android SDK built for x86_64"
+    },
+    {
+        "name": "ro.product.product.name",
+        "value": "sdk_phone_x86_64"
+    },
+    {
+        "name": "ro.product.system.brand",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.system.device",
+        "value": "generic"
+    },
+    {
+        "name": "ro.product.system.manufacturer",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.system.model",
+        "value": "mainline"
+    },
+    {
+        "name": "ro.product.system.name",
+        "value": "mainline"
+    },
+    {
+        "name": "ro.product.system_ext.brand",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.system_ext.device",
+        "value": "generic_x86_64"
+    },
+    {
+        "name": "ro.product.system_ext.manufacturer",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.product.system_ext.model",
+        "value": "Android SDK built for x86_64"
+    },
+    {
+        "name": "ro.product.system_ext.name",
+        "value": "sdk_phone_x86_64"
+    },
+    {
+        "name": "ro.product.vendor.brand",
+        "value": "Android"
+    },
+    {
+        "name": "ro.product.vendor.device",
+        "value": "generic_x86_64"
+    },
+    {
+        "name": "ro.product.vendor.manufacturer",
+        "value": "unknown"
+    },
+    {
+        "name": "ro.product.vendor.model",
+        "value": "Android SDK built for x86_64"
+    },
+    {
+        "name": "ro.product.vendor.name",
+        "value": "sdk_phone_x86_64"
+    },
+    {
+        "name": "ro.product.vndk.version",
+        "value": "30"
+    },
+    {
+        "name": "ro.property_service.version",
+        "value": "2"
+    },
+    {
+        "name": "ro.revision",
+        "value": "0"
+    },
+    {
+        "name": "ro.secure",
+        "value": "1"
+    },
+    {
+        "name": "ro.serialno",
+        "value": "EMULATOR36X5X10X0"
+    },
+    {
+        "name": "ro.setupwizard.mode",
+        "value": "DISABLED"
+    },
+    {
+        "name": "ro.system.build.date",
+        "value": "Thu May  4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.system.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.system.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.system.build.id",
+        "value": "RSR1.210722.013.A2"
+    },
+    {
+        "name": "ro.system.build.tags",
+        "value": "test-keys"
+    },
+    {
+        "name": "ro.system.build.type",
+        "value": "userdebug"
+    },
+    {
+        "name": "ro.system.build.version.incremental",
+        "value": "10067904"
+    },
+    {
+        "name": "ro.system.build.version.release",
+        "value": "11"
+    },
+    {
+        "name": "ro.system.build.version.release_or_codename",
+        "value": "11"
+    },
+    {
+        "name": "ro.system.build.version.sdk",
+        "value": "30"
+    },
+    {
+        "name": "ro.system_ext.build.date",
+        "value": "Thu May  4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.system_ext.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.system_ext.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.system_ext.build.id",
+        "value": "RSR1.210722.013.A2"
+    },
+    {
+        "name": "ro.system_ext.build.tags",
+        "value": "test-keys"
+    },
+    {
+        "name": "ro.system_ext.build.type",
+        "value": "userdebug"
+    },
+    {
+        "name": "ro.system_ext.build.version.incremental",
+        "value": "10067904"
+    },
+    {
+        "name": "ro.system_ext.build.version.release",
+        "value": "11"
+    },
+    {
+        "name": "ro.system_ext.build.version.release_or_codename",
+        "value": "11"
+    },
+    {
+        "name": "ro.system_ext.build.version.sdk",
+        "value": "30"
+    },
+    {
+        "name": "ro.test_harness",
+        "value": "1"
+    },
+    {
+        "name": "ro.treble.enabled",
+        "value": "true"
+    },
+    {
+        "name": "ro.vendor.build.date",
+        "value": "Thu May  4 15:17:11 UTC 2023"
+    },
+    {
+        "name": "ro.vendor.build.date.utc",
+        "value": "1683213431"
+    },
+    {
+        "name": "ro.vendor.build.fingerprint",
+        "value": "Android/sdk_phone_x86_64/generic_x86_64:11/RSR1.210722.013.A2/10067904:userdebug/test-keys"
+    },
+    {
+        "name": "ro.vendor.build.version.incremental",
+        "value": "10067904"
+    },
+    {
+        "name": "ro.vendor.build.version.sdk",
+        "value": "30"
+    },
+    {
+        "name": "ro.vndk.version",
+        "value": "30"
+    },
+    {
+        "name": "ro.zygote",
+        "value": "zygote64_32"
+    },
+    {
+        "name": "ro.zygote.disable_gl_preload",
+        "value": "1"
+    },
+    {
+        "name": "security.perf_harden",
+        "value": "1"
+    },
+    {
+        "name": "selinux.restorecon_recursive",
+        "value": "/data/misc_ce/0"
+    },
+    {
+        "name": "service.bootanim.exit",
+        "value": "1"
+    },
+    {
+        "name": "service.sf.present_timestamp",
+        "value": "1"
+    },
+    {
+        "name": "sys.boot.reason",
+        "value": "reboot"
+    },
+    {
+        "name": "sys.boot.reason.last",
+        "value": "reboot"
+    },
+    {
+        "name": "sys.boot_completed",
+        "value": "1"
+    },
+    {
+        "name": "sys.bootstat.first_boot_completed",
+        "value": "1"
+    },
+    {
+        "name": "sys.init.perf_lsm_hooks",
+        "value": "1"
+    },
+    {
+        "name": "sys.isolated_storage_snapshot",
+        "value": "true"
+    },
+    {
+        "name": "sys.rescue_boot_count",
+        "value": "1"
+    },
+    {
+        "name": "sys.retaildemo.enabled",
+        "value": "0"
+    },
+    {
+        "name": "sys.sysctl.extra_free_kbytes",
+        "value": "49950"
+    },
+    {
+        "name": "sys.sysctl.tcp_def_init_rwnd",
+        "value": "60"
+    },
+    {
+        "name": "sys.system_server.start_count",
+        "value": "1"
+    },
+    {
+        "name": "sys.system_server.start_elapsed",
+        "value": "15019"
+    },
+    {
+        "name": "sys.system_server.start_uptime",
+        "value": "15019"
+    },
+    {
+        "name": "sys.usb.config",
+        "value": "adb"
+    },
+    {
+        "name": "sys.usb.configfs",
+        "value": "0"
+    },
+    {
+        "name": "sys.usb.controller",
+        "value": "dummy_udc.0"
+    },
+    {
+        "name": "sys.usb.state",
+        "value": "adb"
+    },
+    {
+        "name": "sys.use_memfd",
+        "value": "false"
+    },
+    {
+        "name": "sys.user.0.ce_available",
+        "value": "true"
+    },
+    {
+        "name": "sys.wifitracing.started",
+        "value": "1"
+    },
+    {
+        "name": "tombstoned.max_tombstone_count",
+        "value": "50"
+    },
+    {
+        "name": "vendor.qemu.dev.bootcomplete",
+        "value": "1"
+    },
+    {
+        "name": "vold.has_adoptable",
+        "value": "1"
+    },
+    {
+        "name": "vold.has_quota",
+        "value": "1"
+    },
+    {
+        "name": "vold.has_reserved",
+        "value": "1"
+    },
+    {
+        "name": "vold.post_fs_data_done",
+        "value": "1"
+    },
+    {
+        "name": "wifi.direct.interface",
+        "value": "p2p-dev-wlan0"
+    },
+    {
+        "name": "wifi.interface",
+        "value": "wlan0"
+    }
+]
