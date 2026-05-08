@@ -447,19 +447,21 @@ siguiente fue lo más interesante que se encontró dentro del archivo.
 mvt.android.modules.androidqf.aqf_packages - WARNING - Found a non-system package installed via adb or another method: "com.android.chrome"
 ```
 
-En ambos archivos se encuentra la instalación de chrome por adb. En el presente caso, se instaló la versión antigua de Chrome
-, si se encontrara otro de paquetes instalados por adb sin que lo reconozca la víctima, se trataría de un indicador de
-compromiso importante.
+En ambos archivos puede observarse la instalación de Chrome mediante ADB. En este caso, se instaló deliberadamente una 
+versión antigua de Chrome para fines de análisis. Sin embargo, si se identificaran otros paquetes instalados por ADB que 
+no fueran reconocidos por la víctima, esto podría considerarse un indicador de compromiso relevante.
 
-Otro warning informa que no cuenta con parches de seguridad recientes. De ser un celular regular, sería prioritario actualizarlo
-y sospechar de una infección.
+Otro warning indica que el dispositivo no cuenta con parches de seguridad recientes. En un entorno de uso cotidiano, esta 
+situación debería tratarse como prioritaria, ya que la ausencia de actualizaciones incrementa el riesgo de explotación y 
+podría justificar una revisión más profunda ante una posible infección.
 
 ```bash
 mvt.android.modules.androidqf.aqf_getprop - INFO - ro.build.version.security_patch: 2021-08-05
 mvt.android.modules.androidqf.aqf_getprop - WARNING - This phone has not received security updates for more than six months (last update: 2021-08-05)
 ```
-Lo siguiente es de esperar al utilizar un emulador, pero si se enucnetra otro tipo de aplicaciones, es importante investigar más
-del tema.
+Lo siguiente es esperable al utilizar un emulador. Sin embargo, si se identifican otro tipo de aplicaciones o procesos 
+no habituales, sería importante investigarlos con mayor profundidad.
+
 
 ```bash
 mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.SmsReceiver"
