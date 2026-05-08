@@ -9,6 +9,20 @@ Mayo x, 2026
 
 Supervisor: Paúl Aguilar
 
+# Índice
+
+- [Introducción](#introducción)
+- [Cadenas de Ataque](#cadenas-de-ataque)
+  - [Impacto en la Ciudadanía](#impacto-en-la-ciudadanía)
+- [Ejemplo de Cadena de Ataque](#ejemplo-de-cadena-de-ataque)
+  - [Primer Paso - CVE-2023-4863 "LibWebP Buffer Overflow"](#primer-paso---cve-2023-4863-libwebp-buffer-overflow)
+  - [Segundo Paso - CVE-2023-6345 "SKIA INTEGER OVERFLOW"](#segundo-paso---cve-2023-6345-skia-integer-overflow)
+- [Análisis Forense](#análisis-forense)
+  - [Command.log](#commandlog)
+  - [Archivos generados por MVT](#archivos-generados-por-mvt)
+- [Conclusiones](#conclusiones)
+- [Referencias](#referencias)
+
 # Introducción
 
 En la presente era digital, tener un dispositivo movil se ha vuelto indispensable. Nos han facilitado varios aspectos de 
@@ -392,32 +406,29 @@ SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior ../../src/gpu/ganesh/ops
 
 # Análisis Forense
 
-Primero, se volvió a crear un entorno en blanco para lograr observar los efectos, esto se hace debido a que el anterior
-dispositivo fue parte del desarrollo del PoC y, por lo tanto, tuvo varios errores que pueden afectar un análisis de la
-prueba final.
-![img_1.png](imgs/sigsys31.png)
+Primero, se preparó nuevamente un entorno limpio con el objetivo de observar de manera más precisa los efectos del análisis. 
+Esto fue necesario debido a que el dispositivo utilizado anteriormente formó parte del desarrollo de la PoC, por lo que 
+presentaba distintos errores y configuraciones residuales que podían influir en los resultados de la prueba final.
 
-Después, se instaló el apk del Chrome vulnerable. Se obtuvo del sitio APKmirror, la versión exacta fue 116.0.5845.114.
-Una vez con el apk, se le instaló directamente al dispositivo con
+Posteriormente, se instaló la versión vulnerable de Chrome en formato APK. El archivo se obtuvo desde el sitio APKMirror, 
+utilizando específicamente la versión 116.0.5845.114. Una vez descargado el APK, este se instaló directamente en el 
+dispositivo con:
 
 ```bash
 adb install chrome_vulnerable.apk
 ```
-La extracción se creó en base al _how-to_ publicado por [SocialTIC](https://forensics.socialtic.org/how-tos/04-how-to-extract-with-androidqf/index.html).
-Con Chrome instalado, se descargaron los binarios directamente del repositorio de la herramienta [AndroidQF](https://github.com/mvt-project/androidqf/)
+La extracción se realizó tomando como referencia el _how-to_ publicado por [SocialTIC](https://forensics.socialtic.org/how-tos/04-how-to-extract-with-androidqf/index.html).
+Con Chrome ya instalado en el dispositivo, se descargaron los binarios directamente desde el repositorio oficial de [AndroidQF](https://github.com/mvt-project/androidqf/)
 
-Se ejecutó luego esta aplicación. Como es un dispositivo virtual, y hasta cierto punto “desechable”, se optó por no 
-realizar una copia de seguridad, sin embargo, se recomienda hacerlo cuando se trate de un dispositivo real.
+Posteriormente, se ejecutó la aplicación para iniciar el proceso de extracción. Debido a que el análisis se realizó 
+sobre un dispositivo virtual y hasta cierto punto desechable, se decidió no generar una copia de seguridad previa. 
+Sin embargo, cuando se trabaja con dispositivos reales, es recomendable realizar un respaldo antes de efectuar cualquier 
+procedimiento forense.
 
 ![androidqf.png](imgs/androidqf.png)
 
-Se siguió el proceso de verificación, asegurando que los errores se mantengan a eventos no relevantes en command.log. 
-Luego, se pasó al archivo aquisition.json y se confirmó que su contenido sea adecuado
 
-![aquisitionjson.png](imgs/aquisitionjson.png)
-
-
-Por último, se comprobó la creación de todos los archivos esperados:
+Por último, se verificó la correcta creación de todos los archivos esperados como resultado del proceso de extracción:
 ![comparison.png](imgs/comparison.png)
 *A la izquierda, archivos y carpetas esperados, derecha los generados.*
 
@@ -427,7 +438,7 @@ Al hacer la comparación y que estén igual, se pone en marcha la cadena.
 
 *Crash de CVE-2023-4863*
 
-Una vez finalizado, se repite el mismo proceso para realizar la extracción ahora del emulador atacado.
+Una vez finalizado el procedimiento, se repitió el mismo proceso para realizar la extracción del emulador comprometido
 
 ![result.png](imgs/result.png)
 
@@ -457,9 +468,9 @@ podría justificar una revisión más profunda ante una posible infección.
 mvt.android.modules.androidqf.aqf_getprop - INFO - ro.build.version.security_patch: 2021-08-05
 mvt.android.modules.androidqf.aqf_getprop - WARNING - This phone has not received security updates for more than six months (last update: 2021-08-05)
 ```
-Lo siguiente es esperable al utilizar un emulador. Sin embargo, si se identifican otro tipo de aplicaciones o procesos 
-no habituales, sería importante investigarlos con mayor profundidad.
-
+Los siguientes resultados son esperables al trabajar con un emulador. Sin embargo, si se identifican aplicaciones o 
+procesos fuera de lo habitual, sería importante analizarlos con mayor profundidad para descartar comportamientos 
+sospechosos.
 
 ```bash
 mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to intercept incoming SMS messages: "com.android.messaging/.receiver.SmsReceiver"
@@ -467,8 +478,11 @@ mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver to int
 mvt.android.modules.bugreport.dumpsys_receivers - INFO - Found a receiver monitoring outgoing calls: "com.android.dialer/.interactions.UndemoteOutgoingCallReceiver"
 ```
 
-Lo siguiente también se espera por utilizar la plataforma de Android Studio, sin embargo, un dispositivo movil que cuente
-con multimples llaves adb es preocupante y se debe de asumir una infección.
+Los siguientes hallazgos también son esperables al trabajar sobre la plataforma de Android Studio y dispositivos emulados, 
+ya que es común encontrar llaves ADB asociadas al entorno de desarrollo. Sin embargo, en un dispositivo móvil real, la 
+presencia de múltiples llaves ADB confiables o registros inusuales relacionados con depuración podría representar un 
+IoC. En estos casos, se debe asumir la posibilidad de una infección o acceso no autorizado hasta 
+realizar un análisis más profundo
 
 ```bash
 mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'xxxxx' with fingerprint 'E6:E0:7A:34:8C:73:84:72:D6:00:29:28:82:74:B5:26'
@@ -479,9 +493,10 @@ mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key 
 mvt.android.modules.bugreport.dumpsys_adb_state - DEBUG - Found trusted ADB key for user 'android-eng@google.com' with fingerprint ''
 ```
 
-Los tombstones son archivos generados al ocurrir un crash. Los crashes pueden ocurrir por varisos motivos, pero también llegan
-a ser indicadores de compromiso. Se deben analizar para determinar si son consecuencia de un ataque, o simplemente fallos
-reales de aplicaciones.
+Los *tombstones* son archivos generados cuando ocurre un *crash* dentro del sistema o de una aplicación. Estos fallos pueden 
+producirse por diferentes motivos; sin embargo, en algunos casos también pueden funcionar como IoCs. 
+Por ello, es importante analizarlos para determinar si fueron provocados por actividades maliciosas o si corresponden 
+únicamente a errores legítimos de las aplicaciones.
 
 ```bash
 mvt.android.modules.bugreport.tombstones - INFO - Running module Tombstones...
@@ -489,8 +504,8 @@ mvt.android.modules.bugreport.tombstones - INFO - Extracted a total of 3 tombsto
 mvt.android.modules.bugreport.tombstones - INFO - The Tombstones module produced no detections!
 ```
 
-Los SMS pueden ser la puerta de entrada al ataque, siendo el primer paso al la víctima entrar a un hipervínculo desconocido
-
+Los mensajes SMS pueden representar el punto de entrada inicial de un ataque, especialmente cuando la víctima accede a 
+enlaces desconocidos o maliciosos enviados a través de este medio.
 ```bash
 mvt.android.modules.backup.sms - INFO - Extracted a total of 2 SMS & MMS messages
 ```
@@ -498,7 +513,9 @@ mvt.android.modules.backup.sms - INFO - Extracted a total of 2 SMS & MMS message
 
 ### AQF Packages detected
 Este archivo contiene las aplicaciones adicionales instaladas en el sistema. Como se mencionó anteriormente, la única aplicación presente es Chrome.
-Es importante prestar atención a las últimas líneas: `"system:false"` indica que la aplicación no cuenta con privilegios de sistema. Si una aplicación de terceros (*third party*) tuviera este valor marcado como `true`, podría considerarse un indicador relevante para el análisis.
+Es importante prestar atención a las últimas líneas: `"system:false"` indica que la aplicación no cuenta con privilegios 
+de sistema. Si una aplicación de terceros (*third party*) tuviera este valor marcado como `true`, podría considerarse un 
+indicador relevante para el análisis.
 
 ```json
     {
@@ -612,9 +629,10 @@ un numero “10” con un texto que intenta inducir al usuario a acceder a un en
 }
 ```
 ### Tombstones
-Este registra los *crashes* de las aplicaciones, generalmente por una señal de sistema. En este contexto, se trata de 
-una falla en el binario de Chrome. El error se trata de un "SIGSYS 31", que se genera cuando un proceso intenta
-ejecutar una llamada al sistema no permitida.
+Este registro documenta los crashes de las aplicaciones, los cuales generalmente son provocados por una señal del sistema. 
+En este caso, se observa una falla en el binario de Chrome. El error corresponde a un SIGSYS 31, el cual se genera 
+cuando un proceso intenta ejecutar una llamada al sistema que no está permitida
+
 ```json
 {
  "file_name": "tombstone_02",
@@ -651,7 +669,38 @@ La victima accede al enlace
 ### 2026-04-24 15:54:10.000000 - Crash por CVE-2023-4863
 La vulnerabilidad crashea el navegador movil
 
-# Conclusiones
+
+## IoCs (Indicators of Compromise)
+
+| Tipo | Elemento                      | Evidencia / Descripción | Interpretación |
+|------|-------------------------------|-------------------------|----------------|
+| IOC | SMS malicioso                 | `https://web-safe.link/NmlunV_digital_sign.vbs` enviado en SMS | Posible intento de phishing vía SMS (smishing) como vector inicial |
+| IOC | Mensaje SMS engañoso          | “Apareciste en esta noticia como infiel!” | Ingeniería social para inducir al usuario a hacer clic en el enlace |
+| IOC | Dominio sus                   | `web-safe.link` / `login.c1ic.link` | Infraestructura potencialmente maliciosa |
+| IOC | Crash de Chrome               | `SIGSYS 31 - seccomp prevented call` | Comportamiento anómalo tras posible explotación del navegador |
+| IOC | Tombstone generado            | `tombstone_02` asociado a Chrome | Evidencia de fallo crítico posterior a la ejecución |
+| IOC | ej Binario su (root)          | `/system/xbin/su` detectado | Indica dispositivo con root o privilegios elevados |
+| IOC | ej ADB trusted keys múltiples | Varias llaves ADB confiables registradas | Posible abuso del entorno de depuración en dispositivo real |
+| IOC | ej APK instalado por ADB      | `com.android.chrome` instalado manualmente | Instalación fuera del flujo normal del sistema |
+| IOC | Falta de parches              | Security patch: `2021-08-05` | Sistema vulnerable a exploits conocidos |
+
+---
+
+## TTPs (Tactics, Techniques and Procedures)
+
+| Tipo | Técnica   | Descripción | Relación en el caso |
+|------|-----------|-------------|---------------------|
+| TTP | T1566.001 | Phishing vía SMS (smishing) | Uso de SMS con enlace malicioso como vector inicial |
+| TTP | T1204.001 | User Execution via Link | El usuario ejecuta la acción al abrir el enlace |
+| TTP | T1203     | Exploitation for Client Execution | Posible explotación de vulnerabilidad en el navegador |
+| TTP | T1059     | Execution via system/browser process | Ejecución indirecta de código a través de Chrome |
+| TTP | ej T1548  | Abuse of privilege/root context | Uso de binario `su` indica posible elevación de privilegios |
+| TTP | ej T1105  | Ingress Tool Transfer | Instalación de APK mediante ADB |
+| TTP | T1070     | Indicator Removal / System Artifacts | Presencia de logs/tombstones tras ejecución del ataque |
+
+
+## Conclusión
+
 
 Gracias a este Proyecto de Aplicación Profesional, me desarrollé en varios aspectos de mi persona. De lo técnico, utilicé 
 y mejoré los conocimientos adquiridos en las clases de Ética y Vulnerabilidad de Sistemas I y II e Informática Forense, 
