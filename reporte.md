@@ -390,9 +390,8 @@ Lo que regresa el siguiente resultado:
 SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior ../../src/gpu/ganesh/ops/DrawMeshOp.cpp:1225:18 in
 ```
 
-## Tercer Paso - CVE -
 
-# Análisis Forense
+# Resultados y Análisis Forense
 
 Primero, se volvió a crear un entorno en blanco para lograr observar los efectos, esto se hace debido a que el anterior
 dispositivo fue parte del desarrollo del PoC y, por lo tanto, tuvo varios errores que pueden afectar un análisis de la
@@ -497,9 +496,12 @@ mvt.android.modules.backup.sms - INFO - Extracted a total of 2 SMS & MMS message
 ## Archivos generados por MVT
 
 ### AQF Packages detected
-Este archivo contiene cualquier aplicación extra al sistema. Como visto anteriormente, el único instalado es Chrome. Es
-de importancia notar las últimas lineas. "system:false" muestra que no cuenta con privilegios de sistema. De tenerlos, y 
-que siga siendo de un *third party* sería un indicador.
+
+Este archivo contiene las aplicaciones adicionales al sistema instaladas en el dispositivo. Como se observó anteriormente, 
+la única aplicación detectada es Chrome. También es importante prestar atención a las últimas líneas del archivo. El 
+campo "system:false" indica que la aplicación no cuenta con privilegios de sistema. Si una aplicación de terceros tuviera 
+este valor como verdadero, podría representar un indicador relevante dentro del análisis, ya que tendría acceso a 
+privilegios más elevados de lo normal.
 ```json
     {
         "name": "com.android.chrome",
@@ -537,9 +539,11 @@ que siga siendo de un *third party* sería un indicador.
 ```
 ### Dumpsys Packages
 
-Otro archivo a revisar sería *dumpsys_packages.json*. En este se describen todas las aplicaciones en los dispositivos
-y los permisos con los que cuentan. Es importante revisarlo por si se encuentra una aplicación con un número de permisos
-otorgados sospechosos. En este caso, no se encontró software maligno. Se comparte el formato del documento:
+Otro archivo importante para el análisis es dumpsys_packages.json. En este archivo se muestra información sobre las 
+aplicaciones instaladas en el dispositivo y los permisos que tiene cada una. Revisarlo ayuda a identificar aplicaciones 
+con permisos excesivos o poco comunes, ya que esto puede ser un indicio de comportamiento sospechoso o de software 
+malicioso. En este caso, después de revisar el archivo, no se encontraron aplicaciones maliciosas ni permisos que 
+mostraran actividad sospechosa. A continuación, se muestra el formato general del documento:
 ```json
     {
  "package_name": "com.android.printservice.recommendation",
@@ -649,6 +653,15 @@ La vulnerabilidad crashea el navegador movil
 
 # Conclusiones
 
+## Prevenciones y Recomendaciones
+### Mantener el telefono actualizado
+
+### Usuarios de IOS - modo *LOCKDOWN*
+
+### No abrir links sospechosos
+
+
+
 ## "Lo bueno"
 Gracias a este Proyecto de Aplicación Profesional, me desarrollé en varios aspectos de mi persona. De lo técnico, utilicé 
 y mejoré los conocimientos adquiridos en las clases de Ética y Vulnerabilidad de Sistemas I y II e Informática Forense, 
@@ -659,11 +672,11 @@ Al ser honesto, se desarrolló la confianza. Añadiendo a lo anterior, me ayudó
 beneficio social dentro de cualquier trabajo en el futuro, priorizando mi ética sobre las decisiones que tomo.
 
 ## "Lo no tan bueno"
-Surgieron múltiples problemas en el desarrollo de este proyecto. Uno de los más grandes fue la selección de las vulnerabilidades.
-Aceptando mi error, debí de haber investigado no solo si existían las pruebas de concepto, pero que fueran aplicables a 
-dispositivos moviles, ya que prácticamente todos los que escogí solo funcionaban en una versión desktop de Linux. Encontrar
-la manera en la que funcionaran en el emulador tardó más tiempo del que esperaba, aunque no fue en vano, ya que aprendí varios
-aspectos de los ataques de Buffer Overflow.
+Surgieron varios problemas durante el desarrollo de este proyecto, y uno de los principales fue la selección de las vulnerabilidades.
+Reconozco que debí de haber investigado no solo si existían las pruebas de concepto, pero que fueran aplicables a 
+dispositivos moviles, ya que la mayoría de los que escogí solo funcionaban en una versión desktop de Linux. Encontrar la
+la forma en adaptarlas al emulador tardó más tiempo del que esperaba; sin embargo, el esfuerzo no fue en vano, ya que me 
+permitió comprender varios aspectos de los ataques de Buffer Overflow, en el caso de la vuln de LibWebP.
 
 ### Tombstones y Cambio de Error
 El ataque inicial de libwebp funcionó, ocasionando un SIGSEGV 11 que era posible ver en el logcat, sin embargo, mostraba un gran
