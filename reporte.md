@@ -390,8 +390,6 @@ Lo que regresa el siguiente resultado:
 SUMMARY: UndefinedBehaviorSanitizer: undefined-behavior ../../src/gpu/ganesh/ops/DrawMeshOp.cpp:1225:18 in
 ```
 
-## Tercer Paso - CVE -
-
 # Análisis Forense
 
 Primero, se volvió a crear un entorno en blanco para lograr observar los efectos, esto se hace debido a que el anterior
