@@ -693,6 +693,7 @@ A pesar de los cambios, el comportamiento esperado no se reprodujo de la misma m
 lugar del crash  típico (SIGSEGV 11), se observó SIGSYS 31. Además, no mostraba información completa del fallo
 
 ![sigsys31](imgs/sigsys31.png)
+
 Para evitar que el sandbox de Chrome limite la visibilidad, se configuró la aplicación para ejecutarse bajo un wrapper de logging.
 ``` bash
 adb shell setprop wrap.com.android.chrome "logwrapper"
