@@ -441,7 +441,7 @@ se utilizó la herramienta de MVT.
 ## Command.log
 
 Command.log es un archivo que se genera después de que mvt termine de analizar los archivos en manera de resumen. Lo 
-siguiente fue lo más interesante que se encontró dentro del archivo *command.log*
+siguiente fue lo más interesante que se encontró dentro del archivo.
 
 ```bash
 mvt.android.modules.androidqf.aqf_packages - WARNING - Found a non-system package installed via adb or another method: "com.android.chrome"
@@ -497,9 +497,9 @@ mvt.android.modules.backup.sms - INFO - Extracted a total of 2 SMS & MMS message
 ## Archivos generados por MVT
 
 ### AQF Packages detected
-Este archivo contiene cualquier aplicación extra al sistema. Como visto anteriormente, el único instalado es Chrome. Es
-de importancia notar las últimas lineas. "system:false" muestra que no cuenta con privilegios de sistema. De tenerlos, y 
-que siga siendo de un *third party* sería un indicador.
+Este archivo contiene las aplicaciones adicionales instaladas en el sistema. Como se mencionó anteriormente, la única aplicación presente es Chrome.
+Es importante prestar atención a las últimas líneas: `"system:false"` indica que la aplicación no cuenta con privilegios de sistema. Si una aplicación de terceros (*third party*) tuviera este valor marcado como `true`, podría considerarse un indicador relevante para el análisis.
+
 ```json
     {
         "name": "com.android.chrome",
@@ -537,9 +537,13 @@ que siga siendo de un *third party* sería un indicador.
 ```
 ### Dumpsys Packages
 
-Otro archivo a revisar sería *dumpsys_packages.json*. En este se describen todas las aplicaciones en los dispositivos
-y los permisos con los que cuentan. Es importante revisarlo por si se encuentra una aplicación con un número de permisos
-otorgados sospechosos. En este caso, no se encontró software maligno. Se comparte el formato del documento:
+Otro archivo relevante para revisar es *dumpsys_packages.json*. Este contiene información sobre todas las aplicaciones 
+presentes en el dispositivo, así como los permisos asignados a cada una.
+
+Su análisis es importante para identificar aplicaciones con una cantidad de permisos inusualmente alta o permisos que no 
+correspondan, ya que esto podría representar un comportamiento sospechoso. En este caso, no se identificó software 
+malicioso. A continuación, se muestra el formato del documento:
+
 ```json
     {
  "package_name": "com.android.printservice.recommendation",
