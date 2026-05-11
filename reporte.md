@@ -660,29 +660,71 @@ cuando un proceso intenta ejecutar una llamada al sistema que no está permitida
 }
 ```
 
-## Timeline de los hechos
-### 2026-04-24 15:53:29.854000 - Llega el mensaje a la victima
-"Apareciste en esta noticia como infiel!
-https://web-safe.link/NmlunV_digital_sign.vbs"
+# Timeline de los hechos
 
-La victima accede al enlace
-### 2026-04-24 15:54:10.000000 - Crash por CVE-2023-4863
-La vulnerabilidad crashea el navegador movil
+## 2026-04-24 15:53:29.854000 - Llega el mensaje a la víctima
 
+**Evento:**  
+Recepción de mensaje de texto (SMS/Push Notification) detectado mediante el análisis de la base de datos de mensajería en la extracción MVT.
+
+**Contenido del mensaje:**
+> "Apareciste en esta noticia como infiel! https://web-safe.link/NmlunV_digital_sign.vbs"
+
+**Observaciones:**  
+El mensaje utiliza una técnica de ingeniería social.  
+
+---
+
+## 2026-04-24 15:53:45.000000 - Interacción del usuario
+
+**Evento:**  
+La víctima accede al enlace.
+
+**Acción:**  
+Se registra la apertura del navegador (Chrome/WebView) y la petición de red hacia el dominio malicioso `web-safe.link`.  
+
+---
+
+## 2026-04-24 15:54:10.000000 - Crash por CVE-2023-4863
+
+**Evento:**  
+Fallo crítico del proceso del navegador (*Crash*).
+
+**Vulnerabilidad:**  
+CVE-2023-4863 (Desbordamiento de búfer en la librería `libwebp`).
+
+### Análisis Técnico
+
+- La vulnerabilidad crashea el navegador móvil al procesar la imagen maliciosa que explota la codificación Huffman.
+- Se detecta un error de tipo `SIGSYS (Bad System Call)`.
+- **Implicación:**  
+  El exploit intentó realizar una llamada al sistema no permitida por el filtro `Seccomp (Secure Computing)`, indicando 
+un intento de ejecutar código fuera de los límites de seguridad del navegador.
+
+---
+
+## 2026-04-24 15:54:12.000000 - Generación de _Tombstones_
+
+**Evento:**  
+El sistema registra un archivo *tombstone* en `/data/tombstones/`.
+
+**Detalle:**  
+El _memory dump_ confirma que el proceso `com.android.chrome` finalizó abruptamente debido a la 
+violación de la política de llamadas al sistema durante la ejecución del exploit.
 
 ## IoCs (Indicators of Compromise)
 
-| Tipo | Elemento                      | Evidencia / Descripción | Interpretación |
-|------|-------------------------------|-------------------------|----------------|
-| IOC | SMS malicioso                 | `https://web-safe.link/NmlunV_digital_sign.vbs` enviado en SMS | Posible intento de phishing vía SMS (smishing) como vector inicial |
-| IOC | Mensaje SMS engañoso          | “Apareciste en esta noticia como infiel!” | Ingeniería social para inducir al usuario a hacer clic en el enlace |
-| IOC | Dominio sus                   | `web-safe.link` / `login.c1ic.link` | Infraestructura potencialmente maliciosa |
-| IOC | Crash de Chrome               | `SIGSYS 31 - seccomp prevented call` | Comportamiento anómalo tras posible explotación del navegador |
-| IOC | Tombstone generado            | `tombstone_02` asociado a Chrome | Evidencia de fallo crítico posterior a la ejecución |
-| IOC | ej Binario su (root)          | `/system/xbin/su` detectado | Indica dispositivo con root o privilegios elevados |
-| IOC | ej ADB trusted keys múltiples | Varias llaves ADB confiables registradas | Posible abuso del entorno de depuración en dispositivo real |
-| IOC | ej APK instalado por ADB      | `com.android.chrome` instalado manualmente | Instalación fuera del flujo normal del sistema |
-| IOC | Falta de parches              | Security patch: `2021-08-05` | Sistema vulnerable a exploits conocidos |
+| Elemento                      | Evidencia / Descripción | Interpretación |
+|-------------------------------|-------------------------|----------------|
+ | SMS malicioso                 | `https://web-safe.link/NmlunV_digital_sign.vbs` enviado en SMS | Posible intento de phishing vía SMS (smishing) como vector inicial |
+| Mensaje SMS engañoso          | “Apareciste en esta noticia como infiel!” | Ingeniería social para inducir al usuario a hacer clic en el enlace |
+| Dominio sus                   | `web-safe.link` / `login.c1ic.link` | Infraestructura potencialmente maliciosa |
+ | Crash de Chrome               | `SIGSYS 31 - seccomp prevented call` | Comportamiento anómalo tras posible explotación del navegador |
+ | Tombstone generado            | `tombstone_02` asociado a Chrome | Evidencia de fallo crítico posterior a la ejecución |
+ | ej Binario su (root)          | `/system/xbin/su` detectado | Indica dispositivo con root o privilegios elevados |
+ | ej ADB trusted keys múltiples | Varias llaves ADB confiables registradas | Posible abuso del entorno de depuración en dispositivo real |
+ | ej APK instalado por ADB      | `com.android.chrome` instalado manualmente | Instalación fuera del flujo normal del sistema |
+ | Falta de parches              | Security patch: `2021-08-05` | Sistema vulnerable a exploits conocidos |
 
 ## TTPs (Tactics, Techniques and Procedures)
 
