@@ -5,7 +5,7 @@ Autor: Santiago I. López
 
 Contacto: ismael.lopez@iteso.mx
 
-Mayo x, 2026
+Mayo 8, 2026
 
 Supervisor: Paúl Aguilar
 
